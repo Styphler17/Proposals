@@ -52,6 +52,20 @@ const PROPOSAL_TEMPLATES = [
     title: 'School Management System',
     category: 'EdTech & Campus Portals',
     icon: '<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path>'
+  },
+  {
+    json: 'church-ministry.json',
+    url: 'church-ministry.html',
+    title: 'Churches & Ministries',
+    category: 'Giving & Congregation App',
+    icon: '<path d="m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2"></path><path d="M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4"></path><path d="M18 22V5l-6-3-6 3v17"></path><path d="M12 7v5"></path><path d="M10 9h4"></path>'
+  },
+  {
+    json: 'hotel-hospitality.json',
+    url: 'hotel-hospitality.html',
+    title: 'Hotels & Hospitality',
+    category: 'Direct Bookings & Concierge',
+    icon: '<path d="M10 22v-6.57"></path><path d="M12 11h.01"></path><path d="M12 7h.01"></path><path d="M14 15.43V22"></path><path d="M15 11h.01"></path><path d="M15 7h.01"></path><path d="M16 16h3a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"></path><path d="M18 10h.01"></path><path d="M6 10h.01"></path><path d="M6 14h.01"></path><path d="M8 22v-6.57"></path><path d="M9 11h.01"></path><path d="M9 7h.01"></path><rect x="4" y="2" width="16" height="20" rx="2"></rect>'
   }
 ];
 

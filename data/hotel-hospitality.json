@@ -1,0 +1,423 @@
+{
+    "meta": {
+        "title": "Hotels & Luxury Hospitality Direct Booking & Concierge App Proposal | Web-App",
+        "description": "Commission-free direct booking engine, 3D room virtual tours, and mobile guest concierge platform built for Ghanaian hotels, boutique resorts, and serviced apartments."
+    },
+    "scrollTarget": "main-packages",
+    "scrollLabel": "View hotel packages",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Hospitality tech · Direct Bookings & Guest Experience",
+        "eyebrow": "Hotel & Resort Direct Booking Proposal",
+        "headline": "Eliminate 20% OTA commissions, maximize direct bookings, and delight guests.",
+        "subheading": "A high-converting direct booking engine, calendar channel sync, and mobile guest concierge designed for Ghanaian hotels, guesthouses, and luxury resorts.",
+        "preparedFor": "[Hotel / Resort / Guest House Name]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The direct booking opportunity",
+            "subheading": "Recapturing guest revenue lost to online travel agencies and manual phone reservation chaos.",
+            "clientName": "[Hotel / Resort / Guest House Name]",
+            "introSuffix": "delivers unforgettable hospitality experiences. However, relying solely on phone inquiries or paying 15% to 25% commissions to Booking.com and Expedia severely cuts into operating margins.",
+            "outcomes": [
+                {
+                    "title": "0% Commission Direct Revenue",
+                    "desc": "Keep 100% of guest room revenue with an intuitive direct booking engine accepting instant MoMo and Card deposit payments."
+                },
+                {
+                    "title": "2-Way Calendar Channel Sync",
+                    "desc": "Eliminate double-bookings by automatically synchronizing room availability across your website, Booking.com, Expedia, and Airbnb via iCal."
+                },
+                {
+                    "title": "Elevated In-Stay Guest Experience",
+                    "desc": "QR-code digital room service menus, 1-tap WhatsApp concierge service, and automated airport transfer booking."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Complimentary hotel revenue audit",
+            "subheading": "Two actionable resources provided to hotel management before committing to any digital redesign.",
+            "cards": [
+                {
+                    "tag": "Zero-Obligation Revenue Review",
+                    "title": "Hotel OTA Commission & Direct Leak Audit",
+                    "price": "GH₵0",
+                    "desc": "A detailed assessment calculating exactly how much revenue your property pays out in third-party commissions each month.",
+                    "items": [
+                        "Analysis of current booking friction for mobile visitors and international guests",
+                        "Audit of Google Hotel Center Free Booking Links visibility for your property name",
+                        "Review of direct Mobile Money and international credit card payment options",
+                        "3 strategic tactics to convert OTA guests into repeat direct bookers"
+                    ]
+                },
+                {
+                    "tag": "Management Presentation",
+                    "title": "30-Min General Manager Interactive Demo",
+                    "price": "GH₵0",
+                    "desc": "A live interactive walkthrough for the General Manager, Revenue Manager, and Front Office Supervisor.",
+                    "items": [
+                        "Live demonstration of the guest booking engine on mobile and desktop",
+                        "Walkthrough of the reservation management backend and rate calendar",
+                        "Explanation of automated WhatsApp booking confirmations and digital receipts",
+                        "Open Q&A for hotel directors and front desk supervisors"
+                    ]
+                }
+            ],
+            "footer": "Free assessments are provided to registered hotels, boutique guesthouses, and serviced apartments across Ghana."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your hotel digital package",
+            "subheading": "Flexible hospitality packages tailored for boutique guesthouses, luxury city hotels, and beachfront resorts.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Direct Booking Engine",
+                    "title": "Hotel Direct Booking Web",
+                    "price": "GH₵6,800",
+                    "desc": "A conversion-focused hotel website with an integrated direct room booking engine and Mobile Money payment processing.",
+                    "items": [
+                        "High-converting hotel website (Home, Rooms & Suites, Dining, Amenities, Gallery, Location, Contact)",
+                        "Custom Direct Booking Engine with interactive room availability calendar",
+                        "Room categories showcase with photo galleries, amenities list, and max occupancy tags",
+                        "Instant payment processing via MTN MoMo, Telecel Cash, and Visa/Mastercard (Paystack/Hubtel)",
+                        "Automated email and SMS booking vouchers sent to guest and front desk instantly",
+                        "2-way iCal synchronization with Booking.com and Airbnb to eliminate double-bookings",
+                        "Google Maps interactive location pin and airport directions guide",
+                        "Multi-currency pricing display (GH₵ and USD currency converter)",
+                        "30 days post-launch warranty and front desk staff training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Ideal for boutique lodges, serviced apartments, and guesthouses looking to start taking direct online deposits."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for 3–5 star hotels & luxury resorts",
+                    "kicker": "Package 02 · Full Hospitality Experience",
+                    "title": "Hospitality Pro & Guest App",
+                    "price": "GH₵14,500",
+                    "desc": "The complete guest journey: premium direct booking website PLUS a branded Mobile Guest App and QR Room Service platform.",
+                    "items": [
+                        "Everything in Hotel Direct Booking Web package",
+                        "Branded Mobile Guest Concierge App (iOS App Store & Android APK ready)",
+                        "In-Room QR Code Digital Room Service ordering menu (Kitchen & Bar order dispatch)",
+                        "Instant 1-tap WhatsApp Concierge button for front desk requests (towels, housekeeping, late checkout)",
+                        "Airport transfer and chauffeur ride booking request module",
+                        "Promotional promo code & corporate negotiated rate engine (e.g., 10% discount codes)",
+                        "TripAdvisor and Google Review collection prompt sent to guests at checkout",
+                        "Comprehensive Front Office Admin Dashboard with room night occupancy analytics",
+                        "Full 60 days post-launch support and on-site front desk training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "4–5 weeks"
+                        }
+                    ],
+                    "footNote": "Engineered to drastically cut third-party commissions while increasing on-property food, beverage, and spa spend."
+                }
+            ],
+            "enterprise": {
+                "heading": "Multi-Property Resort Group & Hotel Chain",
+                "body": "For hospitality groups managing multiple hotel properties, safari lodges, or serviced apartment buildings. Features centralized reservations management, multi-property inventory routing, corporate master accounts, and PMS integration.",
+                "cta": "Custom Quote · From GH₵28,000"
+            },
+            "smallNote": "All hospitality packages are 100% commission-free. All guest reservation funds are settled immediately into the hotel's verified bank account."
+        },
+        {
+            "id": "hotel-upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Hospitality revenue upgrades",
+            "subheading": "High-yield modules to capture corporate event revenue and boost dining room orders.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Events & Banqueting",
+                    "title": "Conference & Banquet Hall Booking Portal",
+                    "price": "+GH₵3,500",
+                    "desc": "Capture corporate meetings, wedding receptions, and executive retreats with an interactive venue quotation tool.",
+                    "items": [
+                        "Dedicated Conference & Events showcase page with hall seating capacities (Banquet, U-Shape, Theater)",
+                        "Interactive Event Cost Estimator (hall rental + audio/visual + tea break + buffet buffet selection)",
+                        "Automated corporate PDF quotation generation emailed instantly to meeting planners",
+                        "Event calendar showing hall availability to avoid conflicting company bookings",
+                        "Lead capture form routed directly to the hotel Sales & Banqueting Manager"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "1 week"
+                        }
+                    ],
+                    "footNote": "Secures lucrative corporate seminar and wedding reception bookings before competitors."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "F&B Revenue Multiplier",
+                    "title": "In-Room QR Code Digital Dining & Spa Menu",
+                    "price": "+GH₵2,800",
+                    "desc": "Place branded acrylic QR stands in guest rooms allowing visitors to order food, drinks, and spa treatments from their smartphone.",
+                    "items": [
+                        "Mobile-friendly digital food & beverage menu with high-resolution dish photography",
+                        "Room number auto-detection when guest scans the bedside QR code",
+                        "Real-time order notification sent to Kitchen printer / WhatsApp dispatch line",
+                        "Room charge billing option or instant Mobile Money payment",
+                        "Custom printable QR code table tent graphic designs included"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "3–5 days"
+                        }
+                    ],
+                    "footNote": "Increases room service revenue by 35% by eliminating outdated paper menus and busy telephone lines."
+                }
+            ],
+            "smallNote": "Upgrades can be selected alongside your primary package or added during upcoming operational quarters."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Detailed package comparison",
+            "subheading": "A comprehensive feature breakdown to guide your hotel's investment decision.",
+            "headers": [
+                "Hospitality Capability",
+                "Hotel Direct Web",
+                "Hospitality Pro & App",
+                "Multi-Property Chain"
+            ],
+            "rows": [
+                [
+                    "Responsive Luxury Hotel Website",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Direct Room Booking Engine (0% Commission)",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "MoMo (MTN, Telecel) & Card Deposit Payments",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "2-Way iCal Sync (Booking.com & Airbnb)",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Instant SMS & Email Booking Confirmations",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Multi-Currency Display (GH₵ & USD)",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Branded Mobile Guest Concierge App",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "In-Room QR Digital Dining & Bar Menu",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "1-Tap WhatsApp Front Desk Concierge",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Airport Pickup & Chauffeur Request Engine",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Promo Code & Corporate Discount Engine",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Multi-Property Central Inventory Routing",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Front Desk PMS Integration Assistance",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Post-Launch Support & Staff Training",
+                    "30 Days",
+                    "60 Days",
+                    "90 Days"
+                ]
+            ],
+            "footnote": "The hotel retains 100% of room reservation proceeds. Zero commission fees are deducted by Web-App on any direct reservation."
+        },
+        {
+            "id": "growth-services",
+            "num": "06",
+            "type": "addons",
+            "heading": "Hospitality marketing & visibility",
+            "subheading": "Strategic digital growth services to position your hotel ahead of regional competitors.",
+            "items": [
+                {
+                    "title": "Architectural & 360° Suite Photography",
+                    "body": "Professional on-location photoshoot capturing your executive suites, swimming pool, restaurant, and exterior evening lighting."
+                },
+                {
+                    "title": "Google Hotel Center Free Booking Links",
+                    "body": "List your official direct website rates on Google Search and Google Maps so travelers can book directly without going through OTAs."
+                },
+                {
+                    "title": "OTA Channel Manager Setup & Optimization",
+                    "body": "Integration with modern Channel Managers (Cloudbeds, SiteMinder, or Beds24) to manage rates and availability across all channels in one place."
+                },
+                {
+                    "title": "TripAdvisor & Google Review Growth Campaign",
+                    "body": "Automated post-checkout WhatsApp messages inviting satisfied guests to leave 5-star reviews on TripAdvisor and Google Maps."
+                }
+            ],
+            "footer": "Marketing and photography services can be contracted separately or bundled with your primary development proposal."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Four-step launch process",
+            "subheading": "A seamless onboarding process designed to protect ongoing hotel operations and eliminate downtime.",
+            "steps": [
+                {
+                    "num": "01",
+                    "title": "Room Inventory & Rate Setup",
+                    "desc": "We document your room types, seasonal rate tiers, cancellation policies, and configure your direct Mobile Money merchant account."
+                },
+                {
+                    "num": "02",
+                    "title": "Website Design & Booking Engine",
+                    "desc": "Our team develops the luxury responsive website, tests the booking engine, and connects 2-way iCal synchronization with OTAs."
+                },
+                {
+                    "num": "03",
+                    "title": "Front Desk & Reservations Training",
+                    "desc": "We train your front office team and reservation agents on viewing new bookings, handling guest modifications, and generating invoices."
+                },
+                {
+                    "num": "04",
+                    "title": "Go-Live & Direct Campaign",
+                    "desc": "We launch the live website, activate Google Hotel direct links, and position the property to capture high-margin direct reservations immediately."
+                }
+            ]
+        },
+        {
+            "id": "commercial-terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Investment & commercial terms",
+            "subheading": "Clear milestones, guaranteed 0% commission, and full intellectual property ownership.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront commitment to initiate development and merchant integration, 30% upon approval of the booking engine staging preview, and 20% prior to final public launch and staff handover."
+                },
+                {
+                    "title": "0% Commission Guarantee",
+                    "body": "Web-App charges zero ongoing commissions on your room bookings. Every cedi and dollar collected from direct reservations belongs entirely to the hotel."
+                },
+                {
+                    "title": "Hotel Content & Room Photography",
+                    "body": "The hotel provides high-resolution room photos, accurate room descriptions, amenity checklists, and current seasonal rate cards."
+                },
+                {
+                    "title": "Ongoing Technical Care & Warranty",
+                    "body": "Includes 60 days of complimentary technical support, server security maintenance, and front desk troubleshooting following live deployment."
+                }
+            ],
+            "callout": {
+                "label": "Commission Comparison Notice:",
+                "body": "For a hotel generating GH₵80,000 in monthly bookings through third-party OTAs at an average 18% commission, you pay GH₵14,400 every single month to external platforms. Our one-time solution pays for itself in less than two months."
+            }
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Next steps to recapture your hotel revenue",
+            "subheading": "Partner with Web-App to build a world-class digital storefront that commands direct guest loyalty.",
+            "paragraphs": [
+                "We recommend the Hospitality Pro & Guest App package at GH₵14,500 for established hotels and resorts looking to maximize direct bookings while unlocking in-room dining and concierge revenue. For boutique guesthouses seeking immediate commission relief, the Hotel Direct Booking Web package at GH₵6,800 delivers immediate return on investment.",
+                "To get started, simply reply to confirm your preferred package or schedule a complimentary 30-minute demonstration for your General Manager."
+            ],
+            "signature": {
+                "name": "PRINCE KYEI",
+                "title": "Lead Hospitality Solutions Architect, Web-App Proposals",
+                "phone": "+233247380924",
+                "email": "prince.kyei010@gmail.com"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Hotel & Hospitality Direct Booking Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "hotel-gm-pitch",
+            "name": "Outreach to General Manager / Revenue Lead",
+            "subject": "Cutting 20% OTA commissions & boosting direct bookings for [Client Name]",
+            "body": "Dear General Manager & Hospitality Team at [Client Name],\n\nI hope your week is off to an excellent start.\n\nWhile reviewing leading accommodations in your destination, [Client Name]'s property and guest reviews stood out. However, many premier Ghanaian hotels and lodges are losing 15% to 25% of their hard-earned room revenue to Booking.com, Expedia, and Airbnb commissions simply because guests lack an effortless direct booking experience on their phones.\n\nWe build high-converting Hotel Direct Booking Platforms that enable:\n• 100% Commission-Free Direct Bookings with instant MoMo & Card deposits\n• 2-Way iCal Calendar Sync with Booking.com to eliminate double-bookings\n• In-Room QR Code Food & Drink Ordering to increase on-property dining spend\n• Direct payout immediately into [Client Name]'s verified bank account\n\nI have assembled an interactive proposal tailored specifically for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nWould you be open to a 15-minute live preview this Thursday or Friday to see how much commission [Client Name] can save this quarter?\n\nWarm regards,\n\nPRINCE KYEI\nLead Hospitality Consultant, Web-App Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "hotel-board-delivery",
+            "name": "Board / Owner Proposal Delivery",
+            "subject": "Direct Booking Engine & Hospitality App Proposal for [Client Name] - Web-App",
+            "body": "Dear Board of Directors & Managing Ownership,\n\nThank you for the opportunity to present our hospitality technology solutions for [Client Name]. Following our initial discussion, I have prepared our full interactive Direct Booking Engine & Guest Concierge proposal.\n\n🔗 Access the Interactive Proposal:\n[Proposal Link]\n\nInside this proposal, ownership will find:\n1. Detailed module breakdown (Direct Booking Engine, 2-Way Sync, In-Room QR Menus)\n2. Side-by-side package comparison (Direct Web vs. Hospitality Pro App)\n3. 4-step seamless onboarding plan with zero front-office disruption\n4. Transparent investment terms with a guaranteed 0% ongoing commission policy\n\nFor a property of your caliber, replacing just 8–10 OTA bookings a month with direct website reservations pays for this entire system within weeks.\n\nPlease share this document with your financial controller and executive committee. I am available to answer questions or walk through the interactive prototype at your convenience.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "hotel-commission-audit",
+            "name": "Complimentary OTA Commission & Direct Leak Audit",
+            "subject": "Complimentary OTA commission savings audit for [Client Name] (GH₵0)",
+            "body": "Dear Hotel General Manager / Operations Director,\n\nBefore setting your property's sales and marketing budget for the upcoming season, we invite [Client Name] to receive a complimentary OTA Commission & Direct Booking Audit at GH₵0.\n\nDuring this evaluation, we calculate:\n• Estimated revenue lost each month to 15%–25% third-party OTA commissions\n• Direct booking conversion leaks on your current mobile website\n• Opportunities to capture direct corporate and expatriate reservations\n\nYou can review our proposal and claim your complimentary audit here:\n👉 [Proposal Link]\n\nSimply reply to this email or send a WhatsApp message to +233247380924 to select a convenient date.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Hospitality Solutions"
+        }
+    ]
+}

@@ -1,0 +1,424 @@
+{
+    "meta": {
+        "title": "Church Management, Online Giving & Ministry App Proposal | Web-App",
+        "description": "Modern digital church platform, mobile congregation app, MoMo tithing portal, and livestream integration for Ghanaian ministries and diaspora branches."
+    },
+    "scrollTarget": "main-packages",
+    "scrollLabel": "View church packages",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital ministry · Online Giving & Congregation Apps",
+        "eyebrow": "Church Management & Mobile Ministry Proposal",
+        "headline": "Inspire your congregation, streamline tithes & offerings, and reach the diaspora.",
+        "subheading": "A modern church website, dedicated mobile congregation app, and automated Mobile Money giving system built specifically for forward-looking Ghanaian churches.",
+        "preparedFor": "[Church / Ministry Name]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The digital ministry opportunity",
+            "subheading": "Connecting with your congregation throughout the week, beyond Sunday morning service.",
+            "clientName": "[Church / Ministry Name]",
+            "introSuffix": "is called to reach people wherever they are. A purpose-built digital platform removes geographic boundaries, allowing members in Ghana and across the diaspora to give, worship, and grow.",
+            "outcomes": [
+                {
+                    "title": "Multi-Currency Online Giving",
+                    "desc": "Enable instant Tithes, Offerings, and Project Pledges via MTN MoMo, Telecel Cash, and Visa/Mastercard with automated SMS/email receipts."
+                },
+                {
+                    "title": "24/7 Sermon & Livestream Reach",
+                    "desc": "Direct 1-tap Sunday livestream broadcasting, categorized sermon audio podcast archive, and downloadable PDF study devotionals."
+                },
+                {
+                    "title": "Active Member Care & Cell Groups",
+                    "desc": "Digital cell/fellowship locator, prayer request submissions, automated birthday greetings, and push notification announcements."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Complimentary ministry tech evaluation",
+            "subheading": "Two zero-risk resources provided to church leadership before making any financial commitment.",
+            "cards": [
+                {
+                    "tag": "Zero-Obligation Ministry Audit",
+                    "title": "Church Digital Giving & Media Review",
+                    "price": "GH₵0",
+                    "desc": "A comprehensive assessment of your church's current online presence, diaspora donation drop-offs, and social media reach.",
+                    "items": [
+                        "Review of current tithe and donation options for local and overseas members",
+                        "Livestream audio/video distribution audit for Facebook, YouTube, and mobile",
+                        "Search visibility check on Google Maps for branch and service location queries",
+                        "3 high-impact recommendations to improve youth and diaspora engagement"
+                    ]
+                },
+                {
+                    "tag": "Leadership Presentation",
+                    "title": "30-Min Council & Pastor Walkthrough",
+                    "price": "GH₵0",
+                    "desc": "An interactive screen presentation for the Senior Pastor, Church Administrator, and Finance Committee.",
+                    "items": [
+                        "Live demo of the Mobile Congregation App (iOS & Android test build)",
+                        "Walkthrough of the Pastor & Finance Dashboard (real-time donation reports)",
+                        "Explanation of MoMo merchant settlement directly into the church bank account",
+                        "Open Q&A for church leadership, elders, and trustees"
+                    ]
+                }
+            ],
+            "footer": "Free assessments are provided to registered church bodies and Christian ministries across Ghana and the diaspora."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your ministry digital package",
+            "subheading": "Scalable digital solutions tailored for growing branch churches, vibrant city ministries, and international headquarters.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Digital Sanctuary",
+                    "title": "Church Web & Online Giving",
+                    "price": "GH₵5,800",
+                    "desc": "A high-impact, welcoming church website with embedded MoMo giving, weekly sermon archives, and ministry departmental pages.",
+                    "items": [
+                        "Modern responsive church website (Home, About Us, Ministries, Sermons, Events, Giving, Contact)",
+                        "Integrated Mobile Money (MTN, Telecel) & Card giving portal via Paystack/Hubtel",
+                        "Separate giving categories (Tithe, Welfare, Building Fund, Missions, Thanksgiving)",
+                        "Weekly Sunday livestream embed player (YouTube/Facebook Live)",
+                        "Categorized audio sermon archive with player and MP3 download options",
+                        "Upcoming church conferences and weekly events calendar with registration",
+                        "Online Prayer Request and Counseling inquiry forms",
+                        "Google Maps location pins and service schedule display for all branches",
+                        "30 days post-launch warranty and administrator training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Ideal for churches seeking professional digital presence and seamless local and diaspora tithe collection."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for active ministries & multi-branch churches",
+                    "kicker": "Package 02 · Full Congregation Platform",
+                    "title": "Church Pro & Mobile App",
+                    "price": "GH₵12,500",
+                    "desc": "The complete digital ministry ecosystem: high-converting church website PLUS a branded iOS & Android Congregation App for everyday fellowship.",
+                    "items": [
+                        "Everything in Church Web & Online Giving package",
+                        "Branded Mobile Congregation App (Android APK & iOS App Store ready)",
+                        "Instant 1-tap giving in the app with saved member payment details and automated receipts",
+                        "Push notifications for morning devotionals, urgent announcements, and service reminders",
+                        "Daily Devotional & Bible Reading Plan reader built into the app",
+                        "Member Directory and Home Cell / Fellowship Group locator by neighborhood",
+                        "Offline audio sermon downloading for members with limited mobile data",
+                        "Volunteer and Usher department duty roster management",
+                        "Finance Committee Dashboard with exportable Excel giving reports",
+                        "Comprehensive 60 days post-launch support and full leadership training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "4–5 weeks"
+                        }
+                    ],
+                    "footNote": "Built to maximize member retention, empower diaspora giving, and foster daily spiritual connection."
+                }
+            ],
+            "enterprise": {
+                "heading": "Multi-Campus Mega-Ministry & International Headquarters",
+                "body": "For ministries with multiple regional branches or overseas fellowships. Features unified headquarters financial oversight, multi-branch sermon broadcasting, centralized pastoral counseling tickets, and multi-currency international giving.",
+                "cta": "Custom Quote · From GH₵22,000"
+            },
+            "smallNote": "All web and mobile app packages include full source code transfer, direct payment settlement into the church official account, and complete data ownership."
+        },
+        {
+            "id": "ministry-upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Ministry expansion upgrades",
+            "subheading": "Optional add-ons to further automate communication and church operations.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Congregation Engagement Engine",
+                    "title": "Automated SMS & WhatsApp Broadcast System",
+                    "price": "+GH₵2,500",
+                    "desc": "Send instant bulk SMS and WhatsApp updates to your entire congregation or specific fellowships.",
+                    "items": [
+                        "Direct API integration with Ghanaian bulk SMS gateways (custom Sender ID: e.g., YOURCHURCH)",
+                        "Automated birthday and wedding anniversary blessing SMS sent to members at 6:00 AM",
+                        "Departmental broadcast lists (Youth Ministry, Men Fellowship, Choir, Ushers)",
+                        "One-click Sunday service reminder SMS with YouTube livestream links",
+                        "Initial bundle of 5,000 SMS credits included"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "3–5 days"
+                        }
+                    ],
+                    "footNote": "Eliminates manual WhatsApp group spam and ensures 98% open rates for important church notices."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Conferences & Kingdom Gatherings",
+                    "title": "Convention & Event Ticketing Portal",
+                    "price": "+GH₵3,200",
+                    "desc": "Manage paid or free registration for annual conventions, camp meetings, and leadership seminars.",
+                    "items": [
+                        "Custom event registration landing page with speaker bios and program schedule",
+                        "Automated digital badge and QR code ticket generation sent via email & WhatsApp",
+                        "On-site registration check-in scanner using any smartphone camera",
+                        "Accommodation and meal preference tracking for camp attendees",
+                        "Real-time attendee attendance reporting for conference organizers"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "1 week"
+                        }
+                    ],
+                    "footNote": "Perfect for annual conventions, youth camps, marriage seminars, and international conferences."
+                }
+            ],
+            "smallNote": "Upgrades can be selected alongside any base package or implemented as future expansion phases."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Detailed package comparison",
+            "subheading": "A side-by-side feature matrix to help your Church Board make the right investment.",
+            "headers": [
+                "Ministry Capability",
+                "Church Web Giving",
+                "Church Pro & Mobile App",
+                "Multi-Campus Mega-Ministry"
+            ],
+            "rows": [
+                [
+                    "Responsive Modern Church Website",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "MoMo (MTN, Telecel) & Card Giving",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Category Giving (Tithe, Welfare, Building)",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Weekly Livestream Player Embed",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Audio Sermon Archive & MP3 Player",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Dedicated iOS & Android Congregation App",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Instant 1-Tap App Giving with Saved Details",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Daily Devotional & Bible Reading Plan",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Push Notifications for Urgent Alerts",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Home Cell / Fellowship Locator",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Offline Sermon Downloads on Phone",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Multi-Branch Headquarters Financial Dashboard",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Custom Branch Sub-Sites & Calendars",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Post-Launch Support & Pastoral Training",
+                    "30 Days",
+                    "60 Days",
+                    "90 Days"
+                ]
+            ],
+            "footnote": "Payment gateways are configured directly with the church official bank account (Paystack, Hubtel, or Flutterwave) ensuring zero third-party handling of funds."
+        },
+        {
+            "id": "growth-services",
+            "num": "06",
+            "type": "addons",
+            "heading": "Media & outreach services",
+            "subheading": "High-impact creative and digital visibility services to help your ministry grow its reach.",
+            "items": [
+                {
+                    "title": "Livestream Media & Lower Thirds Branding",
+                    "body": "Professional broadcast graphics package including sermon title lower thirds, giving banner overlays, and countdown intro videos."
+                },
+                {
+                    "title": "Google Maps & Local Church SEO",
+                    "body": "Optimize your church Google Business profile to rank #1 when believers search 'churches near me', 'Sunday service in [City]', or 'Christian fellowship'."
+                },
+                {
+                    "title": "Official Church Emails & Cloud Setup",
+                    "body": "Professional ministry email addresses (e.g., pastor@churchdomain.org, admin@churchdomain.org) with Google Workspace or Microsoft 365 setup."
+                },
+                {
+                    "title": "Sermon Podcast Distribution (Spotify & Apple)",
+                    "body": "Automatically syndicate your Sunday audio messages to Spotify, Apple Podcasts, and Google Podcasts so members can listen during commute."
+                }
+            ],
+            "footer": "Media services can be requested as one-time setup packages or bundled with your primary website and mobile app contract."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Four-step launch process",
+            "subheading": "A structured, prayerful, and collaborative development roadmap designed to respect your church calendar.",
+            "steps": [
+                {
+                    "num": "01",
+                    "title": "Discovery & Giving Setup",
+                    "desc": "We review your church departments, brand colors, leadership bios, and assist in configuring your verified MoMo merchant giving gateway."
+                },
+                {
+                    "num": "02",
+                    "title": "Design & App Development",
+                    "desc": "Our team crafts the church website, builds the Android and iOS apps, imports sermon archives, and tests payment gateways under live test modes."
+                },
+                {
+                    "num": "03",
+                    "title": "Pastoral Walkthrough & Training",
+                    "desc": "We conduct hands-on training sessions for church administrators, media team, and finance staff on uploading sermons and tracking tithe receipts."
+                },
+                {
+                    "num": "04",
+                    "title": "Sunday Service Launch",
+                    "desc": "We prepare Sunday projector announcement slides and bulletin inserts to introduce the congregation to the new website and mobile giving app."
+                }
+            ]
+        },
+        {
+            "id": "commercial-terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Investment & commercial terms",
+            "subheading": "Clear milestones, complete financial transparency, and strict member data privacy guarantees.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront commitment to initiate development and merchant integration, 30% upon approval of the website and mobile app preview, and 20% prior to final Sunday launch and app store publishing."
+                },
+                {
+                    "title": "100% Financial & Data Ownership",
+                    "body": "The church maintains exclusive ownership of all tithe, member, and financial records. Giving funds are settled directly by the telecom/bank into the church account with zero intermediary deductions."
+                },
+                {
+                    "title": "Church Media & Content Provision",
+                    "body": "The church provides logo artwork, pastor bios, service times, and high-resolution photos of worship services and departmental leadership."
+                },
+                {
+                    "title": "Ongoing Technical Care & Warranty",
+                    "body": "Includes 60 days of complimentary technical support, server security maintenance, and staff troubleshooting following public launch."
+                }
+            ],
+            "callout": {
+                "label": "Financial Transparency Notice:",
+                "body": "Development quotes are fixed investments. Payment gateway processing fees (typically 1.0% to 1.95% for Mobile Money and Card) are deducted standardly by the telecom networks directly into the church verified account."
+            }
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Next steps to transform your digital ministry",
+            "subheading": "We are ready to partner with your church to build a digital presence worthy of the message you carry.",
+            "paragraphs": [
+                "We recommend the Church Pro & Mobile App package at GH₵12,500 for active churches seeking to engage both local members and diaspora supporters with dedicated smartphone apps. For branch sanctuaries starting their digital journey, the Church Web & Online Giving package at GH₵5,800 delivers immediate online presence and Mobile Money donations.",
+                "To get started, simply reply to confirm your preferred package or schedule a complimentary 30-minute demonstration for your pastoral board."
+            ],
+            "signature": {
+                "name": "PRINCE KYEI",
+                "title": "Lead Digital Architect, Web-App Proposals",
+                "phone": "+233247380924",
+                "email": "prince.kyei010@gmail.com"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Church & Ministry Digital Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "church-pastor-pitch",
+            "name": "Outreach to Senior Pastor / Administrator",
+            "subject": "Empowering [Client Name] congregation with mobile giving & sermon reach",
+            "body": "Dear Pastor & Leadership Team at [Client Name],\n\nGrace and peace to you.\n\nI have been following the impactful ministry of [Client Name] in our community. In speaking with church administrators across Ghana, many share the same challenges: members missing tithes when travelling, overseas/diaspora members unable to give easily via Mobile Money, and youth needing a mobile app to stay spiritually connected throughout the week.\n\nWe have designed a modern Church Digital Platform and Mobile Congregation App that enables:\n• Instant 1-tap Tithes, Offerings & Pledges via MTN MoMo, Telecel Cash & Cards\n• Weekly Sunday Livestream player & categorized Audio Sermon podcast archive\n• Branded iOS & Android Congregation App with daily devotionals and push alerts\n• Direct payout into [Client Name]'s official bank account with zero middleman\n\nI have prepared a custom proposal specifically for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nWould church leadership be open to a 20-minute live demonstration this week to preview the mobile app on a smartphone?\n\nIn Christ's service,\n\nPRINCE KYEI\nLead Consultant, Web-App Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "church-board-delivery",
+            "name": "Church Board / Council Proposal Delivery",
+            "subject": "Digital Ministry & Congregation App Proposal for [Client Name] - Web-App",
+            "body": "Dear Church Board & Finance Committee,\n\nThank you for the opportunity to present our digital ministry solutions for [Client Name]. Following our preliminary discussion, I have prepared our full interactive Church Management & Mobile App proposal.\n\n🔗 Access the Interactive Proposal:\n[Proposal Link]\n\nInside this proposal, the board will find:\n1. Detailed feature specifications (Online Giving, Sermon Archives, Mobile App, Cell Groups)\n2. Side-by-side package comparison (Web Giving vs. Church Pro Mobile App)\n3. 4-step implementation roadmap with zero disruption to Sunday services\n4. Transparent investment milestones and data privacy commitments\n\nAll giving integrations are configured with the church's registered bank merchant account, ensuring total financial integrity and immediate deposit.\n\nPlease share this proposal with the pastoral council and trustees. I am available to answer questions or deliver a live walkthrough at your convenience.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "church-giving-audit",
+            "name": "Complimentary Ministry Tech & Giving Audit",
+            "subject": "Complimentary digital giving & media audit for [Client Name] (GH₵0)",
+            "body": "Dear Church Administrator / Pastor,\n\nBefore your church council sets its media and technology budget for the upcoming quarter, we invite [Client Name] to receive a complimentary Ministry Digital Giving & Media Audit at GH₵0.\n\nDuring this brief review, we analyze:\n• Current giving friction for local Mobile Money and diaspora card donors\n• Livestream broadcast quality and social media distribution efficiency\n• Ways to eliminate paper announcement bulletins with automated mobile push notifications\n\nYou can review our proposal and claim your complimentary audit here:\n👉 [Proposal Link]\n\nSimply reply to this email or send a WhatsApp message to +233247380924 with the church office contact to schedule.\n\nBlessings,\n\nPRINCE KYEI\nWeb-App Ministry Solutions"
+        }
+    ]
+}
