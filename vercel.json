@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/save.php",
+      "destination": "/api/save"
+    }
+  ]
+}
