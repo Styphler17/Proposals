@@ -10,12 +10,27 @@
 </head>
 <body>
 
-  <div class="toolbar">
+    <div class="toolbar">
     <a href="index.html" class="nav-link" title="Back to Proposals Hub">
       <svg class="lucide-icon nav-arrow nav-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
-      <span>All Proposals</span>
+      <span>Proposals</span>
     </a>
     <div id="template-switcher-slot"></div>
+    <div id="email-template-slot"></div>
+    <span id="save-status" class="save-status"></span>
+    <button id="save-btn" class="secondary" onclick="saveChanges()" title="Save edits to server" disabled>
+      <svg class="lucide-icon btn-icon" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path><path d="M7 3v4a1 1 0 0 0 1 1h7"></path></svg>
+      <span class="btn-text">Save</span>
+    </button>
+    <button class="secondary" onclick="window.print()" title="Print or Save as PDF">
+      <svg class="lucide-icon btn-icon" viewBox="0 0 24 24"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect width="12" height="8" x="6" y="14"></rect></svg>
+      <span>PDF</span>
+    </button>
+    <button id="scroll-btn" title="Jump to packages">
+      <svg class="lucide-icon btn-icon" viewBox="0 0 24 24"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg>
+      <span class="btn-text">Packages</span>
+    </button>
+  </div>
     <div id="email-template-slot"></div>
     <span id="save-status" class="save-status"></span>
     <button id="save-btn" class="secondary" onclick="saveChanges()" disabled>

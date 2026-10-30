@@ -143,7 +143,7 @@ function renderToolbarSwitcher() {
     <div class="template-dropdown" id="template-dropdown">
       <button type="button" class="dropdown-toggle" id="template-dropdown-btn" aria-haspopup="true" aria-expanded="false" title="Switch between all ${PROPOSAL_TEMPLATES.length} proposal templates">
         <svg class="lucide-icon nav-icon" viewBox="0 0 24 24">${currentTpl.icon}</svg>
-        <span>Switch Template</span>
+        <span>Templates</span>
         <span class="tpl-count">${PROPOSAL_TEMPLATES.length}</span>
         <svg class="lucide-icon chevron-icon" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
       </button>
@@ -182,7 +182,7 @@ function renderToolbarEmailBtn() {
   container.innerHTML = `
     <button type="button" class="toolbar-email-btn" id="toolbar-email-btn" title="View & edit lead outreach email templates for this proposal">
       <svg class="lucide-icon nav-icon" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-      <span>Lead Emails</span>
+      <span>Leads</span>
       <span class="email-count-badge">${count}</span>
     </button>`;
 
@@ -471,7 +471,8 @@ function render() {
   const scrollBtn = document.getElementById('scroll-btn');
   if (scrollBtn) {
     const targetId = proposalData.scrollTarget || 'next-steps';
-    const label = proposalData.scrollLabel || 'Go to next steps';
+    const label = proposalData.scrollShortLabel || 'Packages';
+    scrollBtn.title = proposalData.scrollLabel || 'Jump to packages';
     setButtonText(scrollBtn, label);
     scrollBtn.onclick = () => {
       const el = document.getElementById(targetId);

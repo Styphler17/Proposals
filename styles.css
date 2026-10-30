@@ -59,37 +59,64 @@ body{margin:0;background:#e9eef3;color:var(--ink);font-family:Arial,Helvetica,sa
   vertical-align:-2px;
 }
 
-.toolbar{max-width:1080px;margin:18px auto 0;display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:0 18px}
-.save-status{font-size:12px;color:var(--muted);margin-right:4px}
-.toolbar button{
+.toolbar{max-width:1080px;margin:16px auto 0;display:flex;justify-content:flex-end;align-items:center;gap:8px;padding:0 18px;white-space:nowrap}
+.save-status{font-size:12px;color:var(--muted);margin-right:4px;white-space:nowrap}
+.toolbar button,
+.toolbar .nav-link,
+.toolbar .dropdown-toggle,
+.toolbar .toolbar-email-btn{
   display:inline-flex;
   align-items:center;
-  border:0;
-  border-radius:9px;
-  padding:10px 16px;
-  font-weight:700;
-  font-size:13px;
+  gap:6px;
+  height:36px;
+  padding:0 12px;
+  font-size:12.5px;
+  font-weight:600;
+  border-radius:8px;
   cursor:pointer;
+  white-space:nowrap;
+  flex-shrink:0;
+  box-sizing:border-box;
+  text-decoration:none;
+  line-height:1;
+  transition:all .18s ease;
+}
+.toolbar button{
+  border:0;
   background:var(--navy);
   color:white;
-  transition:all .18s ease;
 }
 .toolbar button:hover{
   background:var(--navy2);
 }
-.toolbar button.secondary{
-  background:white;
-  color:var(--navy);
-  border:1px solid #c8d5e2;
+.toolbar button.secondary,
+.toolbar .toolbar-email-btn,
+.toolbar .nav-link,
+.toolbar .dropdown-toggle{
+  background:#fff!important;
+  color:var(--navy)!important;
+  border:1px solid #c8d5e2!important;
   box-shadow:0 1px 3px rgba(16,36,58,.04);
 }
-.toolbar button.secondary:hover{
-  background:var(--wash);
-  border-color:var(--line);
+.toolbar button.secondary:hover,
+.toolbar .toolbar-email-btn:hover,
+.toolbar .nav-link:hover,
+.toolbar .dropdown-toggle:hover{
+  background:var(--wash)!important;
+  border-color:var(--gold)!important;
+  color:var(--navy2)!important;
+  box-shadow:0 3px 10px rgba(216,168,78,.18);
 }
 .toolbar button:disabled{
-  opacity:.55;
+  opacity:.5;
   cursor:not-allowed;
+}
+.toolbar .btn-icon,
+.toolbar .nav-icon{
+  width:14px;
+  height:14px;
+  margin-right:0;
+  flex-shrink:0;
 }
 .proposal{max-width:1080px;margin:14px auto 36px;background:var(--paper);box-shadow:0 18px 55px rgba(16,36,58,.12);overflow:hidden}
 .hero{padding:54px 58px 48px;background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;position:relative;overflow:hidden}
@@ -212,32 +239,9 @@ th{background:var(--navy);color:white;font-size:11px}tr:last-child td{border-bot
   vertical-align:-1.5px;
 }
 .nav-link{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  font-size:13px;
-  font-weight:700;
-  color:var(--navy);
-  text-decoration:none;
-  padding:10px 16px;
-  border-radius:9px;
-  background:#fff;
-  border:1px solid #c8d5e2;
-  box-shadow:0 2px 6px rgba(16,36,58,.06);
-  margin-right:auto;
-  transition:all .18s ease;
-}
-.toolbar:has(.secondary-nav) .nav-link:first-child{
   margin-right:0;
 }
-.nav-link.secondary-nav{
-  margin-right:auto;
-}
 .nav-link:hover{
-  background:var(--wash);
-  border-color:var(--gold);
-  color:var(--navy2);
-  box-shadow:0 4px 12px rgba(216,168,78,.22);
   transform:translateY(-1px);
 }
 .nav-link:active{
@@ -245,25 +249,22 @@ th{background:var(--navy);color:white;font-size:11px}tr:last-child td{border-bot
 }
 .nav-link .nav-icon{
   color:var(--gold);
-  width:16px;
-  height:16px;
+  width:15px;
+  height:15px;
   stroke-width:2.2;
 }
 .nav-link .nav-arrow{
   color:var(--gold);
-  width:14px;
-  height:14px;
+  width:13px;
+  height:13px;
   stroke-width:2.5;
   transition:transform .18s ease;
 }
 .nav-link:hover .nav-arrow{
-  transform:translateX(3px);
+  transform:translateX(2px);
 }
 .nav-link:hover .nav-arrow-left{
-  transform:translateX(-3px);
-}
-.nav-link.secondary-nav{
-  margin-right:auto;
+  transform:translateX(-2px);
 }
 
 /* ── Template Switcher Dropdown in Toolbar ────────────────────────────── */
@@ -275,34 +276,16 @@ th{background:var(--navy);color:white;font-size:11px}tr:last-child td{border-bot
   display:inline-block;
 }
 .template-dropdown .dropdown-toggle{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  font-size:13px;
-  font-weight:700;
-  color:var(--navy);
-  background:#fff;
-  border:1px solid #c8d5e2;
-  box-shadow:0 2px 6px rgba(16,36,58,.06);
-  padding:10px 16px;
-  border-radius:9px;
   cursor:pointer;
-  transition:all .18s ease;
-}
-.template-dropdown .dropdown-toggle:hover,
-.template-dropdown.open .dropdown-toggle{
-  background:var(--wash);
-  border-color:var(--gold);
-  color:var(--navy2);
-  box-shadow:0 4px 12px rgba(216,168,78,.22);
 }
 .template-dropdown .tpl-count{
   background:#edf2f6;
   color:var(--navy);
-  font-size:11px;
+  font-size:10px;
   font-weight:800;
-  padding:2px 7px;
+  padding:2px 6px;
   border-radius:10px;
+  line-height:1.2;
 }
 .template-dropdown .chevron-icon{
   width:14px;
@@ -689,32 +672,6 @@ footer{padding:22px 58px;background:#f6f8fa;border-top:1px solid var(--line);dis
 }
 
 /* ── Lead Email Templates Toolbar Button ─────────────────────────────── */
-.toolbar-email-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: #ffffff;
-  color: var(--navy);
-  border: 1px solid #c8d5e2;
-  border-radius: 9px;
-  padding: 8px 14px;
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(16, 36, 58, 0.05);
-  transition: all 0.18s ease;
-  white-space: nowrap;
-}
-.toolbar-email-btn:hover {
-  background: var(--wash);
-  border-color: var(--navy);
-  color: var(--navy2);
-}
-.toolbar-email-btn .nav-icon {
-  width: 14px;
-  height: 14px;
-  color: var(--navy);
-}
 .email-count-badge {
   background: #e8f1fa;
   color: var(--navy);
