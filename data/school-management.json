@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "title": "School Management System & Campus Portal Proposal | Web-App",
+    "description": "Comprehensive school management system, student admissions, fee tracking, parent communication portal, and report card automation proposal."
+  },
+  "scrollTarget": "contact",
+  "scrollLabel": "Get in touch",
+  "hero": {
+    "brand": { "main": "web", "accent": "-app" },
+    "tagline": "Digital products · EdTech & Campus Portals",
+    "eyebrow": "School Management & Digital Campus Proposal",
+    "headline": "Modernize student admissions, fee collection, and parent communication.",
+    "subheading": "An all-in-one school management system and portal built for Ghanaian private schools, academies, and international colleges.",
+    "preparedFor": "[School / Academy Name]",
+    "preparedBy": "PRINCE KYEI",
+    "dateValidity": "[Proposal Date] · Valid for 14 days"
+  },
+  "sections": [
+    {
+      "id": "opportunity",
+      "num": "01",
+      "type": "outcomes",
+      "heading": "The modern school administration opportunity",
+      "subheading": "Parents expect instant communication, transparent grades, and cashless fee payments.",
+      "clientName": "[Proprietor / Head of School / Board of Directors]",
+      "introSuffix": "thank you for considering Web-App. We propose an intuitive, cloud-based School Management System that eliminates paperwork, automates terminal report cards, secures fee payments via MoMo/Bank, and keeps parents informed in real-time.",
+      "outcomes": [
+        { "title": "Paperless Admissions & Enrollment", "body": "Digital student registration, bio-data collection, document uploads, and automated admission letter generation." },
+        { "title": "Automated Terminal Report Cards", "body": "Teachers enter scores once; the system computes cumulative GPA, class rankings, grade remarks, and generates printable PDF report cards." },
+        { "title": "Real-Time Fee Tracking & MoMo Payments", "body": "Parents pay tuition via Mobile Money or Card with instant automated receipts, eliminating reconciliation headaches and uncollected fees." }
+      ]
+    },
+    {
+      "id": "free-offers",
+      "num": "02",
+      "type": "freeOffers",
+      "heading": "Start with a free campus needs audit & demo",
+      "subheading": "Experience how the system works before committing your school budget.",
+      "cards": [
+        {
+          "tag": "Free · No obligation",
+          "title": "Campus Technology Audit",
+          "price": "GH₵0",
+          "body": "An on-site or virtual review of your school's current record-keeping, fee collection workflow, and parent communication channels.",
+          "items": [
+            "Assessment of existing spreadsheets, paper files, or legacy software",
+            "Identification of fee leakage points and delayed tuition payments",
+            "Review of school website and online admission visibility",
+            "30-minute tailored presentation for administrators and school board"
+          ]
+        },
+        {
+          "tag": "Free · Interactive preview",
+          "title": "Live Interactive Portal Demo",
+          "price": "GH₵0",
+          "body": "A hands-on test drive of the administrator, teacher, and parent portals pre-loaded with sample school data.",
+          "items": [
+            "Test terminal report card generation with custom school crest",
+            "Try parent SMS notification dispatch and fee receipt generation",
+            "Explore teacher gradebook and attendance tracking interface",
+            "No software installation or long-term commitment required"
+          ]
+        }
+      ],
+      "footer": "Free audits and demo walkthroughs are provided to accredited primary, secondary, and tertiary schools. They do not include server hosting or third-party SMS bundles."
+    },
+    {
+      "id": "main-packages",
+      "num": "03",
+      "type": "tiers",
+      "heading": "Choose your school management package",
+      "subheading": "Scalable systems built to fit both growing private academies and established multi-stream institutions.",
+      "tiers": [
+        {
+          "kicker": "Package 01 · Essential Portal",
+          "title": "Core School Portal",
+          "price": "GH₵6,500",
+          "desc": "Built for primary & junior high schools looking to replace manual registers and spreadsheet grading with a secure cloud system.",
+          "recommended": false,
+          "items": [
+            "Complete Student Information System (Bio-data, Guardian info, Medicals)",
+            "Teacher gradebook & terminal report card generator with school logo",
+            "Tuition fee balance tracking & printable payment vouchers",
+            "Daily student & staff attendance tracking",
+            "Online student application & admission form",
+            "Role-based access (Administrator, Accountant, Headmaster, Teachers)",
+            "Comprehensive staff training session & PDF administrator manuals",
+            "30 days post-launch technical support and data onboarding"
+          ],
+          "footItems": [
+            { "label": "Estimated delivery:", "text": "2–3 weeks" },
+            { "label": "Includes:", "text": "Initial upload allowance of up to 300 student records" }
+          ]
+        },
+        {
+          "kicker": "Package 02 · Full Digital Campus",
+          "title": "Campus Pro & Parent App",
+          "price": "GH₵11,800",
+          "desc": "For established private schools and international colleges wanting full parent portal access, instant MoMo fee payments, and automated SMS alerts.",
+          "recommended": true,
+          "recommendLabel": "Recommended for competitive private schools",
+          "items": [
+            "Everything in Core School Portal package",
+            "Parent Self-Service Portal & mobile-responsive web app",
+            "Instant Mobile Money & Card tuition checkout (Paystack integration)",
+            "Automated bulk SMS & WhatsApp notifications (fees, events, emergency alerts)",
+            "Class timetable & teacher subject allocation scheduler",
+            "Cumulative continuous assessment (30% class score + 70% exam score calculation)",
+            "Student transcript generator & alumni record repository",
+            "Academic calendar, school event management & notice board",
+            "Up to 1,000 student records migration and setup",
+            "60 days dedicated post-launch support and live term-start standby"
+          ],
+          "footItems": [
+            { "label": "Estimated delivery:", "text": "3–4 weeks" },
+            { "label": "Bonus:", "text": "Branded school website homepage redesign included" }
+          ]
+        }
+      ],
+      "enterprise": {
+        "heading": "Multi-Campus & Boarding School Module",
+        "body": "Need centralized administration across multiple campuses, dormitory room allocations, cafeteria meal ticketing, school clinic logbooks, or library RFID tracking? Ask about our Enterprise Multi-Campus Suite.",
+        "cta": "Enterprise Suite +GH₵6,500"
+      }
+    },
+    {
+      "id": "upgrades",
+      "num": "04",
+      "type": "tiers",
+      "heading": "Optional EdTech & campus upgrades",
+      "subheading": "Extend your school system with specialized modules as your enrollment grows.",
+      "tiers": [
+        {
+          "recommended": false,
+          "kicker": "E-Learning · Examination Module",
+          "title": "CBT Online Exam & Quiz Portal",
+          "price": "+GH₵3,800",
+          "desc": "Conduct mid-term tests and mock examinations digitally with instant auto-grading, randomized questions, and exam timer limits.",
+          "items": [
+            "Multiple-choice, true/false, and short answer question formats",
+            "Instant score calculation synced directly into teacher gradebooks",
+            "Anti-cheat browser lockdown detection and timed submissions",
+            "Past question bank & student revision study portal"
+          ],
+          "footItems": [
+            { "label": "Upgrade fee:", "text": "+GH₵3,800 added to Package 01 or 02" }
+          ]
+        },
+        {
+          "recommended": false,
+          "kicker": "Hardware Integration · Campus Safety",
+          "title": "Biometric / RFID Attendance",
+          "price": "+GH₵4,200",
+          "desc": "Real-time gate and classroom attendance using RFID cards or fingerprint readers with instant arrival SMS alerts sent to parents.",
+          "items": [
+            "Hardware API integration with standard biometric scanners",
+            "Instant WhatsApp/SMS notification to parent when student taps in",
+            "Late coming and absenteeism automatic flag reports for administration",
+            "Teacher biometric clock-in and payroll hours calculation"
+          ],
+          "footItems": [
+            { "label": "Upgrade fee:", "text": "+GH₵4,200 (excludes biometric physical scanners)" }
+          ]
+        }
+      ],
+      "footer": "Domain registration, cloud server hosting fees, and SMS credit bundles (via Hubtel/mNotify) are billed at direct provider costs with zero markup."
+    },
+    {
+      "id": "comparison",
+      "num": "05",
+      "type": "comparison",
+      "heading": "School system feature comparison",
+      "subheading": "Full breakdown of modules included across each school tier.",
+      "headers": [
+        "Feature",
+        "Core School Portal\nGH₵6,500",
+        "Campus Pro & Parent App\nGH₵11,800"
+      ],
+      "rows": [
+        [
+          "Student Information & Bio-data records",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Terminal PDF report cards with school crest",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Teacher score entry & cumulative grading",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Fee invoice generation & balance tracking",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Class registers & daily attendance",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Online admission & application form",
+          { "v": "Included", "c": "yes" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Parent self-service web portal login",
+          { "v": "Not included", "c": "dash" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Direct MoMo & Card tuition checkout",
+          { "v": "Not included", "c": "dash" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Automated SMS fee reminders & alerts",
+          { "v": "Not included", "c": "dash" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "Class timetable & lesson scheduler",
+          { "v": "Not included", "c": "dash" },
+          { "v": "Included", "c": "yes" }
+        ],
+        [
+          "CBT online quizzes & digital exams",
+          { "v": "CBT upgrade", "c": "dash" },
+          { "v": "CBT upgrade", "c": "dash" }
+        ],
+        [
+          "Biometric gate attendance & parent SMS",
+          { "v": "Hardware upgrade", "c": "dash" },
+          { "v": "Hardware upgrade", "c": "dash" }
+        ]
+      ],
+      "footnote": "All school packages include an administrative dashboard with multi-level role security (Principal, Accountant, Teacher, Parent). Student data is encrypted and backed up daily."
+    },
+    {
+      "id": "growth-services",
+      "num": "06",
+      "type": "addons",
+      "heading": "Enrollment growth & school brand services",
+      "subheading": "Attract more parents and increase term admissions with modern school marketing.",
+      "items": [
+        {
+          "title": "Admissions Campaign Landing Page",
+          "body": "A high-converting admission page with video virtual tours, parent testimonials, and 1-click WhatsApp inquiry buttons to drive term enrollments."
+        },
+        {
+          "title": "Google Local Search Domination",
+          "body": "Rank your school #1 when parents search 'best private schools near me' or 'international primary school' in your municipality."
+        },
+        {
+          "title": "Digital Prospectus & Fee Brochure",
+          "body": "A beautifully formatted interactive digital prospectus with downloadable PDF fee structures and curriculum outlines for prospective parents."
+        },
+        {
+          "title": "School Social Media Setup & Branding",
+          "body": "Professional Facebook, Instagram, and LinkedIn page optimization showcasing school achievements, graduation highlights, and sports events."
+        }
+      ],
+      "footer": "Marketing campaigns can be scheduled to coincide with critical admission periods (Term 1 re-opening and mid-year transfer windows)."
+    },
+    {
+      "id": "process",
+      "num": "07",
+      "type": "steps",
+      "heading": "Implementation & teacher training timeline",
+      "subheading": "A seamless 4-week onboarding process designed to cause zero disruption to academic schedules.",
+      "steps": [
+        { "title": "1. Campus Discovery & Setup", "body": "Configure grading scales, tuition fee breakdown, classes, streams, and administrative user roles." },
+        { "title": "2. Data Import & Migration", "body": "Clean and import existing student lists, parent contact numbers, and opening fee balances into the database." },
+        { "title": "3. Staff & Teacher Workshops", "body": "Hands-on training sessions for teachers on score entry, and for accountants on receipting and reporting." },
+        { "title": "4. Go-Live & Parent Onboarding", "body": "Launch portal access, send parent login credentials via SMS, and provide dedicated term-start standby support." }
+      ]
+    },
+    {
+      "id": "commercial-terms",
+      "num": "08",
+      "type": "terms",
+      "heading": "Investment & commercial terms",
+      "subheading": "Transparent milestones, complete data ownership, and strict student privacy guarantees.",
+      "terms": [
+        {
+          "title": "Milestone payments",
+          "body": "50% upfront deposit to initiate development and server setup, 30% upon approval of teacher gradebook and parent portal, and 20% prior to final live launch and staff training."
+        },
+        {
+          "title": "Data ownership & privacy",
+          "body": "Your institution maintains 100% ownership of all student, parent, and financial data. We implement strict SSL encryption and GDPR/Ghana Data Protection compliance."
+        },
+        {
+          "title": "School materials & student lists",
+          "body": "The school provides existing student rosters (Excel), academic fee schedules, grading rubric scales, and logo artwork."
+        },
+        {
+          "title": "Ongoing warranty & support",
+          "body": "Includes 60 days of complimentary bug fixes, software updates, and telephone support for headteachers and administrative staff."
+        }
+      ],
+      "callout": {
+        "label": "Important:",
+        "body": "Development fees are fixed quotes for the approved module scope. Domain registration, cloud server hosting, and bulk SMS bundles are confirmed transparently in writing before setup."
+      }
+    },
+    {
+      "id": "contact",
+      "num": "09",
+      "type": "reClosing",
+      "heading": "Ready to modernize your school operations?",
+      "subheading": "Let's streamline administration, accelerate tuition collections, and delight parents.",
+      "paragraphs": [
+        "We recommend the Campus Pro & Parent App package at GH₵11,800 for forward-thinking private schools seeking automated fee payments, paperless report cards, and parent convenience. For growing academies modernizing basic records and report cards, the Core School Portal at GH₵6,500 delivers immediate operational efficiency.",
+        "Reply with your preferred package or request the free Campus Technology Audit to begin."
+      ],
+      "signature": {
+        "senderName": "PRINCE KYEI",
+        "senderEmail": "prince.kyei010@gmail.com",
+        "senderPhone": "+233247380924",
+        "clientLabel": "School administrative contact",
+        "clientName": "[Proprietor / Head of School]",
+        "clientLocation": "Accra / Kumasi, Ghana"
+      }
+    }
+  ],
+  "footer": {
+    "left": "Web-App · School Management System Proposal",
+    "right": "Prepared for discussion · Valid for 14 days"
+  },
+  "emailTemplates": [
+    {
+      "id": "school-cold-pitch",
+      "name": "Cold Outreach to School Head",
+      "subject": "Modernizing student report cards & fee collection for [Client Name]",
+      "body": "Dear [Client Name] Leadership,\n\nI hope this email finds you well.\n\nWhile reviewing private schools in your area, I was impressed by [Client Name]'s academic dedication. However, many schools still struggle with tedious manual report card preparation, delayed tuition fees, and repetitive paper registers.\n\nWe have designed an all-in-one School Management System that automates terminal report cards, enables instant parent MoMo tuition payments, and sends real-time SMS attendance alerts.\n\nI have prepared a custom proposal specifically for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nKey Highlights for [Client Name]:\n• Automatic PDF Report Cards with school crest & teacher remarks\n• Instant Mobile Money & Card tuition fee payments with zero paperwork\n• Parent Portal and WhatsApp/SMS notification system\n• Full teacher training and data onboarding included\n\nWould you be open to a 15-minute live demo this Thursday or Friday to see how it works?\n\nWarm regards,\n\nPRINCE KYEI\nLead Consultant, Web-App Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+    },
+    {
+      "id": "school-followup",
+      "name": "Board / Proprietor Proposal Delivery",
+      "subject": "School Management System Proposal for [Client Name] - Web-App",
+      "body": "Dear [Client Name] Administration,\n\nThank you for the opportunity to present our EdTech solutions for [Client Name]. Following our conversation, I have assembled our comprehensive School Management System & Campus Portal proposal.\n\n🔗 Access the Proposal Here:\n[Proposal Link]\n\nInside the proposal, you will find:\n1. Detailed module breakdown (Admissions, Gradebook, Fees, Attendance)\n2. Side-by-side package comparison (Core Portal vs. Campus Pro)\n3. 4-week zero-disruption onboarding and teacher training roadmap\n4. Transparent milestone payment schedule and data privacy guarantees\n\nPlease share this with the Board of Directors and Accounts department. I am available to answer questions or walk through the interactive preview with your team.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+    },
+    {
+      "id": "school-free-audit",
+      "name": "Free Campus Tech Audit Offer",
+      "subject": "Complimentary campus tech audit & interactive demo for [Client Name]",
+      "body": "Dear Head of School / Administrator,\n\nBefore allocating your term IT budget, we would like to invite [Client Name] to take advantage of our complimentary Campus Technology Audit and Live Interactive Demo at GH₵0.\n\nWe will review:\n• How much staff time can be saved on terminal report card compilation\n• Ways to eliminate delayed tuition fee payments via automated SMS reminders\n• Parent communication readiness and online enrollment visibility\n\nYou can review our proposal and schedule your free demo here:\n👉 [Proposal Link]\n\nSimply reply to this email or send a WhatsApp message to +233247380924 with your preferred date.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App EdTech Solutions"
+    }
+  ]
+}

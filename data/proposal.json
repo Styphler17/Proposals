@@ -1,0 +1,315 @@
+{
+    "meta": {
+        "title": "Website & Mobile App Development Proposal | Web-App",
+        "description": "Web-App mobile application development and website to mobile app proposal."
+    },
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · Mobile applications",
+        "eyebrow": "Project proposal",
+        "headline": "Mobile applications built around your business.",
+        "subheading": "A clear route from reviewing your existing website or idea to defining the right scope, investment, and delivery plan for a mobile app.",
+        "preparedFor": "[Client / Business Name]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The opportunity",
+            "subheading": "Choose a solution based on business needs, not technology for its own sake.",
+            "clientName": "[Client Name]",
+            "introSuffix": "thank you for considering Web-App. We propose helping you assess the best route to a mobile app: either extending a suitable existing website into an app experience or building a new application around your customers' and team's needs.",
+            "outcomes": [
+                {
+                    "title": "Serve customers better",
+                    "body": "Make key services, information, and customer journeys easier to access."
+                },
+                {
+                    "title": "Improve operations",
+                    "body": "Support the business workflows that matter, with features scoped to your needs."
+                },
+                {
+                    "title": "Plan with confidence",
+                    "body": "Review requirements first, then agree on deliverables, timeline, and final investment."
+                }
+            ]
+        },
+        {
+            "id": "discovery",
+            "num": "02",
+            "type": "discovery",
+            "heading": "Start with a discovery phase",
+            "subheading": "A paid review before the final development scope and price are confirmed.",
+            "highlightCard": {
+                "tag": "Recommended first step",
+                "title": "Website & Requirements Discovery",
+                "price": "GH₵1,200",
+                "note": "One-time discovery fee · Fixed fee for the agreed website review and discovery session.",
+                "body": "For clients who already have a website or an existing digital service, Web-App reviews the current experience with you before preparing the final development scope.",
+                "items": [
+                    "Review of the existing website and key customer journeys",
+                    "Discussion with the client to understand goals and pain points",
+                    "Assessment of what can be reused and what may need to be built",
+                    "Prioritized feature and integration requirements",
+                    "Recommended delivery approach and key dependencies",
+                    "Written scope outline, estimated timeline, and final project quotation"
+                ]
+            },
+            "softCard": {
+                "kicker": "Discovery outcome",
+                "title": "Know what you are committing to",
+                "body": "The discovery phase is intended to reduce uncertainty before development starts. It helps both sides agree on the problem to solve, what is included, and how success will be assessed.",
+                "items": [
+                    "Clear list of proposed features and exclusions",
+                    "Known assumptions and third-party dependencies",
+                    "Milestones and realistic delivery estimate",
+                    "Basis for the final fixed-scope quotation"
+                ],
+                "calloutLabel": "Important:",
+                "calloutBody": "the discovery fee covers assessment and scope definition only. Development, redesign, production code, and implementation are not included unless separately agreed in writing."
+            },
+            "footer": "If you do not yet have a website, discovery can focus on business goals, users, workflows, and requirements instead. The exact discovery activities will be confirmed before the session."
+        },
+        {
+            "id": "development-routes",
+            "num": "03",
+            "type": "routes",
+            "heading": "Choose the right development route",
+            "subheading": "Indicative one-time development fees, subject to the discovery findings and agreed scope.",
+            "cards": [
+                {
+                    "kicker": "Route A · Existing website",
+                    "title": "Website to Mobile App",
+                    "price": "GH₵1,500–12,000+",
+                    "note": "Typical timeline: 1–8+ weeks, depending on features and review requirements.",
+                    "body": "Suitable when the existing website is mobile-friendly and can support the intended app experience.",
+                    "items": [
+                        "App shell, icon, and splash screen",
+                        "Navigation and back-button handling",
+                        "Website login and link handling where suitable",
+                        "Optional notifications, deep links, and device features",
+                        "Testing and release preparation as scoped"
+                    ],
+                    "rangeNoteLabel": "Package ranges:",
+                    "rangeNoteBody": "Starter GH₵1,500–2,500 · Plus GH₵3,000–6,000 · Advanced GH₵6,000–12,000+"
+                },
+                {
+                    "kicker": "Route B · New application",
+                    "title": "Custom Mobile App",
+                    "price": "GH₵8,000–60,000+",
+                    "note": "Typical timeline: 3–16+ weeks, depending on complexity. MVP: 3–5 weeks; Standard Business App: 6–9 weeks; Advanced Platform: 10–16+ weeks.",
+                    "body": "Suitable when the business needs new customer journeys, staff workflows, or functionality beyond the current website.",
+                    "items": [
+                        "Purpose-built screens and navigation",
+                        "Accounts and roles where required",
+                        "Backend or API integration as scoped",
+                        "Notifications and third-party services where included",
+                        "Testing, handover, and release support as scoped"
+                    ],
+                    "rangeNoteLabel": "Package ranges:",
+                    "rangeNoteBody": "MVP GH₵8,000–15,000 · Standard Business App GH₵18,000–30,000 · Advanced Platform GH₵35,000–60,000+"
+                }
+            ],
+            "calloutLabel": "Pricing approach:",
+            "calloutBody": "these ranges help with early budgeting. The final price will be based on the confirmed features, integrations, content, design complexity, security needs, and release requirements after discovery."
+        },
+        {
+            "id": "package-guide",
+            "num": "04",
+            "type": "table",
+            "heading": "Package guide",
+            "subheading": "Examples of what the budget ranges generally represent. Final inclusions are agreed in the quotation.",
+            "headers": [
+                "Package",
+                "Indicative fee",
+                "Typical fit",
+                "Scope examples",
+                "Timeframe"
+            ],
+            "rows": [
+                [
+                    "Website to Mobile App Starter",
+                    "GH₵1,500–2,500",
+                    "Existing responsive website",
+                    "App shell, branding, navigation, basic testing",
+                    "1–3 weeks"
+                ],
+                [
+                    "Website to Mobile App Plus",
+                    "GH₵3,000–6,000",
+                    "Website needing added convenience",
+                    "Starter features plus selected notifications, deep links, or sharing",
+                    "3–5 weeks"
+                ],
+                [
+                    "Website to Mobile App Advanced",
+                    "GH₵6,000–12,000+",
+                    "Website needing custom mobile features",
+                    "Selected native screens, device features, or extra integrations",
+                    "5–8+ weeks"
+                ],
+                [
+                    "Mobile App MVP",
+                    "GH₵8,000–15,000",
+                    "Focused first release",
+                    "3–5 static screens, basic login, no complex backend",
+                    "3–5 weeks"
+                ],
+                [
+                    "Standard Business App",
+                    "GH₵18,000–30,000",
+                    "App solving a specific business problem",
+                    "User profiles, push notifications, search/filtering, and connection to an existing database or API",
+                    "6–9 weeks"
+                ],
+                [
+                    "Advanced Platform",
+                    "GH₵35,000–60,000+",
+                    "Complex, fully featured platform",
+                    "Advanced security, real-time GPS tracking, payment integrations (Paystack/Flutterwave), and custom admin dashboards",
+                    "10–16+ weeks"
+                ]
+            ],
+            "footer": "The same budget can deliver different outcomes depending on the requirements. No package includes unlimited features, revisions, or integrations."
+        },
+        {
+            "id": "delivery",
+            "num": "05",
+            "type": "steps",
+            "heading": "Delivery process",
+            "subheading": "A transparent sequence from first review through launch.",
+            "steps": [
+                {
+                    "title": "1. Discover",
+                    "body": "Review the existing website or idea, meet with the client, and clarify goals and requirements."
+                },
+                {
+                    "title": "2. Define & quote",
+                    "body": "Agree on features, exclusions, acceptance criteria, milestones, and the final price."
+                },
+                {
+                    "title": "3. Design & build",
+                    "body": "Approve the user experience and develop the agreed functionality."
+                },
+                {
+                    "title": "4. Test & review",
+                    "body": "Test the agreed flows and review the app against acceptance criteria."
+                },
+                {
+                    "title": "5. Handover",
+                    "body": "Prepare release, provide agreed documentation, and complete handover."
+                },
+                {
+                    "title": "6. Support",
+                    "body": "Arrange optional maintenance and ongoing improvements if required."
+                }
+            ]
+        },
+        {
+            "id": "support",
+            "num": "06",
+            "type": "support",
+            "heading": "Optional support and recurring costs",
+            "subheading": "Only included if selected and listed in the final quotation.",
+            "cards": [
+                {
+                    "title": "Basic maintenance",
+                    "price": "GH₵300–600",
+                    "priceUnit": "/ month",
+                    "body": "Agreed upkeep, compatibility checks, and limited support. Exact service limits will be stated in the maintenance plan."
+                },
+                {
+                    "title": "Active maintenance",
+                    "price": "GH₵700–1,500+",
+                    "priceUnit": "/ month",
+                    "body": "For active products needing more regular technical support and a defined allowance for small improvements."
+                }
+            ],
+            "calloutLabel": "Third-party charges:",
+            "calloutBody": "hosting, domain registration, developer accounts, paid APIs, SMS, email, maps, payment processing fees, and other subscriptions are separate unless expressly included in the final quotation."
+        },
+        {
+            "id": "terms",
+            "num": "07",
+            "type": "terms",
+            "heading": "Commercial terms and assumptions",
+            "subheading": "Clear responsibilities and boundaries from the start.",
+            "terms": [
+                {
+                    "title": "Discovery fee",
+                    "body": "The GH₵1,200 discovery fee covers the agreed review and scope-definition activities only. Any credit toward later development fees must be explicitly agreed in writing."
+                },
+                {
+                    "title": "Development payment schedule",
+                    "body": "A typical schedule is 40% to begin, 30% at an agreed milestone, and 30% before final handover or release. The final schedule is confirmed in the quotation."
+                },
+                {
+                    "title": "Scope changes",
+                    "body": "Features or revisions outside the approved scope may affect cost and delivery dates. Work on changes starts after written approval."
+                },
+                {
+                    "title": "Client responsibilities",
+                    "body": "The client provides accurate content, brand assets, account access, feedback, and approvals within agreed timeframes."
+                },
+                {
+                    "title": "External approvals",
+                    "body": "Apple App Store and Google Play approval, third-party availability, and external platform decisions cannot be guaranteed by Web-App."
+                },
+                {
+                    "title": "Ownership and support",
+                    "body": "Source-code arrangements, licensing, warranty, support period, and ongoing maintenance will be stated in the final written agreement."
+                }
+            ],
+            "footer": "All prices are indicative and stated in Ghanaian cedis (GHS). Taxes, if applicable, will be stated separately. Final scope, milestones, and acceptance criteria will be confirmed before development begins."
+        },
+        {
+            "id": "next-steps",
+            "num": "08",
+            "type": "closing",
+            "heading": "Next steps",
+            "subheading": "Begin with a clear review, then decide on the right investment.",
+            "paragraphs": [
+                "We recommend starting with the Website & Requirements Discovery phase at GH₵1,200 when an existing website needs to be reviewed with you before the final scope and development price can be confirmed.",
+                "Following discovery, Web-App will provide a written scope outline, recommended approach, estimated timeline, and final project quotation. Development will begin only after the scope and commercial terms are approved."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderCompany": "Web-App",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientName": "[Client Name / Company]",
+                "clientDate": "[Preferred meeting date]"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Mobile Application Development Proposal",
+        "right": "Confidential · Proposal valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "web-cold-pitch",
+            "name": "Cold Web & App Pitch",
+            "subject": "Quick digital product concept for [Client Name]",
+            "body": "Dear [Client Name] Team,\n\nI hope this email finds you well.\n\nWhile reviewing [Client Name]'s current digital presence, I identified several high-impact opportunities to accelerate your digital growth, expand customer reach, and build dedicated iOS and Android mobile applications.\n\nWe put together a tailored digital proposal for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nInside, you will find:\n• Phased development approach starting with a low-risk Discovery session\n• Transparent pricing tiers (Website-to-App, Custom Flutter Native, and Platform tiers)\n• Milestone-based delivery guarantees and dedicated warranty support\n\nWould you have 10–15 minutes this week for a brief WhatsApp or phone call to discuss your roadmap?\n\nBest regards,\n\nPRINCE KYEI\nLead Developer, Web-App\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "web-followup",
+            "name": "Proposal Delivery Follow-up",
+            "subject": "Website & Mobile App Proposal for [Client Name] - Web-App",
+            "body": "Dear [Client Name],\n\nThank you for taking the time to discuss your technology goals. As promised, I have compiled our full interactive Website & Mobile Application proposal for [Client Name].\n\n🔗 Access the Full Proposal:\n[Proposal Link]\n\nKey Highlights for [Client Name]:\n1. Transparent scope breakdown & deliverable timeline\n2. Cost options from MVP launch to enterprise native mobile apps\n3. Dedicated post-launch warranty and administrator handoff\n\nPlease let me know if you have questions about the packages or if you would like to begin with the Discovery Phase.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "web-free-audit",
+            "name": "Free Discovery & Feasibility Review",
+            "subject": "Complimentary app feasibility check & website review for [Client Name]",
+            "body": "Hi [Client Name],\n\nBefore you invest in custom web or mobile software, we would like to offer [Client Name] a complimentary digital feasibility review at GH₵0.\n\nWe will assess:\n• Whether a fast Web-to-App shell or custom native Flutter app fits your current stage\n• Immediate performance & mobile conversion bottlenecks on your site\n• Recommended milestones and realistic development budgets\n\nExplore our proposal and package comparison here:\n👉 [Proposal Link]\n\nReply directly to this email or send a WhatsApp message to +233247380924 to book your free session.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App"
+        }
+    ]
+}

@@ -1,0 +1,458 @@
+{
+    "meta": {
+        "title": "Restaurant Website & Online Ordering Proposal | Web-App",
+        "description": "Website development, digital menu, table reservation, and online food ordering proposal."
+    },
+    "scrollTarget": "contact",
+    "scrollLabel": "Get in touch",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · Restaurant & Hospitality Solutions",
+        "eyebrow": "Hospitality & Online Ordering Proposal",
+        "headline": "Digital ordering and reservations built to grow your restaurant.",
+        "subheading": "A custom online presence designed to turn hungry diners into loyal customers with digital menus, direct online ordering, and table booking.",
+        "preparedFor": "[Restaurant / Hospitality Business]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The restaurant opportunity",
+            "subheading": "Take back control of your customer relationships and stop losing 20-30% on delivery commissions.",
+            "clientName": "[Restaurant Owner / Management]",
+            "introSuffix": "thank you for considering us. We propose a fast, mobile-friendly restaurant website and direct ordering platform that puts your brand first, makes ordering seamless for diners, and connects directly to your kitchen.",
+            "outcomes": [
+                {
+                    "title": "Zero Commission Orders",
+                    "body": "Keep 100% of your delivery and pickup sales instead of paying heavy third-party app margins."
+                },
+                {
+                    "title": "Direct Table Reservations",
+                    "body": "Allow customers to book tables 24/7 with instant confirmation and automated reminders."
+                },
+                {
+                    "title": "Interactive Digital Menu",
+                    "body": "Showcase high-resolution photos, dietary tags, daily specials, and QR-code dine-in menus."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Start with a free review",
+            "subheading": "A simple way to see where you can immediately increase direct orders before investing.",
+            "cards": [
+                {
+                    "tag": "Free · No obligation",
+                    "title": "Menu & Local Search Audit",
+                    "price": "GH₵0",
+                    "body": "A short review of your Google Business profile, existing menu discoverability, and local competitor ranking.",
+                    "items": [
+                        "Review of Google Maps ranking and customer review setup",
+                        "Speed and mobile menu readability check",
+                        "Three practical suggestions to drive direct WhatsApp and online orders",
+                        "15-minute walkthrough of findings"
+                    ]
+                },
+                {
+                    "tag": "Free · For qualified venues",
+                    "title": "Interactive QR Menu Preview",
+                    "price": "GH₵0",
+                    "body": "A working mobile concept of 5 of your signature dishes formatted for direct smartphone ordering.",
+                    "items": [
+                        "Custom-branded mobile menu page preview",
+                        "Includes 5 menu items with photos, prices, and options",
+                        "Demonstration of click-to-WhatsApp order flow",
+                        "No commitment to full development"
+                    ]
+                }
+            ],
+            "footer": "Free audits are provided subject to schedule availability. They do not include web hosting, domain setup, custom photography, or production software."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your restaurant website package",
+            "subheading": "Start with what fits your venue today, and easily add native mobile ordering apps or POS syncing later.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Showcase & Booking",
+                    "title": "Dine-In & Menu Presence",
+                    "price": "GH₵4,800",
+                    "desc": "Ideal for cafes, lounges, and fine-dining venues that want to showcase their atmosphere, menu, and book tables.",
+                    "items": [
+                        "Up to 5 custom-designed responsive pages",
+                        "Interactive digital food & drinks menu with categories",
+                        "Dine-in QR code generator for tables and counters",
+                        "Online table reservation request form with email alerts",
+                        "WhatsApp quick-order button for delivery inquiries",
+                        "Google Maps integration, hours of operation, and location info",
+                        "Instagram feed integration and customer photo gallery",
+                        "Basic on-page SEO and speed optimization",
+                        "14 days post-launch technical support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Menu items can be updated by your staff anytime without coding."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Most popular for food delivery",
+                    "kicker": "Package 02 · Full Direct Ordering",
+                    "title": "Online Food Ordering Hub",
+                    "price": "GH₵8,500",
+                    "desc": "A complete direct-to-kitchen ordering system with cart, payment gateway, and customer order alerts.",
+                    "items": [
+                        "Everything in Dine-In & Menu Presence",
+                        "Full digital ordering system with modifiers (toppings, sides, sizes)",
+                        "Integrated Mobile Money (MTN, Telecel, AT) and Card payments via Paystack",
+                        "Instant WhatsApp or sound notification to kitchen on new orders",
+                        "Delivery zone fee calculator and customer pickup selector",
+                        "Opening hours order cutoff (prevents orders when kitchen is closed)",
+                        "Staff order management dashboard (accept, prep, dispatch)",
+                        "Customer receipt generation and SMS / WhatsApp notifications",
+                        "30 days post-launch bug support and staff training session"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "3–4 weeks"
+                        }
+                    ]
+                }
+            ],
+            "enterprise": {
+                "heading": "Multiple branches or food franchise?",
+                "body": "We build multi-location platforms with branch routing, shared menu catalogs, centralized reporting, and custom staff roles.",
+                "cta": "Branch Quote"
+            }
+        },
+        {
+            "id": "upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Optional mobile app & system upgrades",
+            "subheading": "Take your food business to the next level with dedicated mobile apps and kitchen hardware.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Mobile App · iOS & Android",
+                    "title": "Branded Customer Ordering App",
+                    "price": "+GH₵4,500",
+                    "desc": "A native mobile app on Google Play and Apple App Store for your most loyal repeat customers.",
+                    "items": [
+                        "Custom Android & iOS customer ordering app",
+                        "Push notifications for daily meal specials and discounts",
+                        "1-tap reordering of favorite meals",
+                        "Customer loyalty stamps and reward points system",
+                        "Saved delivery addresses and payment methods",
+                        "Published under your restaurant's brand name",
+                        "45 days post-launch support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵4,500 added to Package 02"
+                        },
+                        {
+                            "label": "Estimated timeline:",
+                            "text": "Adds 2–3 weeks"
+                        }
+                    ]
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Hardware & POS · Kitchen Automation",
+                    "title": "Thermal Printer & POS Integration",
+                    "price": "+GH₵3,000",
+                    "desc": "Automatically print incoming website and app orders directly onto physical kitchen order tickets.",
+                    "items": [
+                        "Direct wireless thermal receipt printer connection",
+                        "Instant order ticket printout when order is placed",
+                        "Compatible POS or inventory synchronization setup",
+                        "Sound alert bell for loud kitchen environments",
+                        "Courier dispatch slip generation",
+                        "Onsite or remote hardware setup and staff training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵3,000 (hardware quoted separately if needed)"
+                        }
+                    ]
+                }
+            ],
+            "smallNote": "All prices exclude third-party costs such as hosting, domain, developer store licenses, and thermal hardware. Payment processing gateway rates (Paystack 1.95%) are handled directly by your account."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Restaurant package comparison",
+            "subheading": "Choose the platform level that aligns with your daily operations.",
+            "headers": [
+                "Feature",
+                "Dine-In Presence\nGH₵4,800",
+                "Food Ordering Hub\nGH₵8,500"
+            ],
+            "rows": [
+                [
+                    "Mobile-responsive restaurant website",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Interactive digital menu with photos & dietary tags",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Dine-in table QR codes",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Table reservation booking form",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Online cart, meal modifiers & toppings",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Mobile money & Card payments (Paystack)",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Kitchen alert dashboard & sound notifications",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Delivery zone pricing & pickup scheduling",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Customer SMS / WhatsApp order confirmations",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Dedicated iOS & Android customer mobile app",
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    }
+                ],
+                [
+                    "Thermal kitchen printer auto-printing",
+                    {
+                        "c": "dash",
+                        "v": "Hardware upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Hardware upgrade"
+                    }
+                ]
+            ],
+            "footer": "Menu updates, pricing changes, and specials can be managed directly by your restaurant staff using a straightforward admin dashboard."
+        },
+        {
+            "id": "addons",
+            "num": "06",
+            "type": "addons",
+            "heading": "Optional growth services for restaurants",
+            "subheading": "Additional creative and marketing support to boost your restaurant's order volume.",
+            "items": [
+                {
+                    "title": "Professional Food Photography",
+                    "body": "On-location photoshoot of your signature dishes, drinks, and venue ambiance to elevate your digital menu."
+                },
+                {
+                    "title": "Social Media Ad Campaigns",
+                    "body": "Targeted Instagram and Facebook ads focused on lunch specials and weekend dinner crowds in your delivery radius."
+                },
+                {
+                    "title": "Google Maps & Local SEO Optimization",
+                    "body": "Optimize your Google Business profile to rank #1 when diners search 'restaurants near me' or 'food delivery'."
+                },
+                {
+                    "title": "Monthly Menu & Specials Management",
+                    "body": "Ongoing monthly updating of seasonal dishes, price adjustments, and promotional banners by our team."
+                }
+            ],
+            "footer": "Add-ons can be selected now or added after launch based on your growth targets."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Project timeline & launch process",
+            "subheading": "A structured 4-step sequence from tasting your menu to accepting your first online order.",
+            "steps": [
+                {
+                    "title": "1. Menu & Setup",
+                    "body": "Collect your menu, dish photos, pricing, delivery zones, and payment account details."
+                },
+                {
+                    "title": "2. Design & Build",
+                    "body": "Build the custom storefront, configure ordering logic, toppings, and table reservation flows."
+                },
+                {
+                    "title": "3. Kitchen Testing",
+                    "body": "Test sample orders, notification sounds, mobile money payments, and train restaurant staff."
+                },
+                {
+                    "title": "4. Launch & Print",
+                    "body": "Connect domain, generate table QR codes, and go live to accept customer orders."
+                }
+            ]
+        },
+        {
+            "id": "terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Commercial terms & deliverables",
+            "subheading": "Clear responsibilities and transparent milestone payments.",
+            "terms": [
+                {
+                    "title": "Payment milestones",
+                    "body": "50% upfront to initiate design and development, 30% upon approval of menu and ordering flows, and 20% before final launch and staff handover."
+                },
+                {
+                    "title": "Domain & hosting",
+                    "body": "Web hosting, domain registration (.com or .gh), and third-party SMS packages are client accounts and confirmed before purchase."
+                },
+                {
+                    "title": "Content supply",
+                    "body": "Client provides accurate menu descriptions, pricing, allergy warnings, and high-resolution dish photos."
+                },
+                {
+                    "title": "Staff training",
+                    "body": "Includes live or virtual training for your floor managers and kitchen staff on processing orders and adjusting menu availability."
+                }
+            ],
+            "calloutLabel": "Important:",
+            "calloutBody": "Prices are one-time development fees for the scope stated. Payment processing fees (e.g. Paystack standard 1.95%) are deducted by the provider directly from customer payments."
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Ready to launch your restaurant's digital hub?",
+            "subheading": "Let's build a direct ordering channel that drives consistent revenue for your kitchen.",
+            "paragraphs": [
+                "We recommend the Online Food Ordering Hub at GH₵8,500 for restaurants and food brands that want to eliminate delivery app commissions and build a loyal direct customer base. If your focus is primarily reservations and showcase dining, the Dine-In Presence at GH₵4,800 is an immediate upgrade to your online reputation.",
+                "Reply with your chosen package or request the free Menu & Local Search Audit to get started."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Restaurant contact",
+                "clientName": "[Restaurant Name / Venue]",
+                "clientLocation": "Accra, Ghana"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Restaurant & Hospitality Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "rest-cold-pitch",
+            "name": "Cold Restaurant Pitch (Zero Commission)",
+            "subject": "Direct food ordering with zero commission cuts for [Client Name]",
+            "body": "Dear [Client Name] Management / Chef,\n\nThird-party food delivery apps charge between 20% and 30% on every customer order — eating into your restaurant's hard-earned margins.\n\nWe create branded online ordering websites for restaurants that let customers order directly from your kitchen via Mobile Money and WhatsApp, keeping 100% of your profits in-house.\n\nI have prepared a custom proposal for [Client Name]:\n🔗 View Restaurant Proposal: [Proposal Link]\n\nHighlights for [Client Name]:\n• Interactive visual digital menu with instant order-to-kitchen routing\n• Dine-in QR code table ordering (zero printing costs)\n• Direct MoMo payment integration with zero commission deductions\n\nCould we arrange a 10-minute demo this week to show you how much you could save on delivery fees?\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Hospitality Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "rest-followup",
+            "name": "Restaurant Proposal Delivery",
+            "subject": "Online Food Ordering & Website Proposal for [Client Name]",
+            "body": "Dear [Client Name] Team,\n\nThank you for discussing your food ordering goals with us. I have prepared our complete interactive proposal for [Client Name].\n\n🔗 View Your Proposal Here:\n[Proposal Link]\n\nPackage summary:\n• Dine-In Presence (GH₵4,800): Brand showcase, table reservations, and QR menu\n• Online Food Ordering Hub (GH₵8,500): Full direct ordering, delivery zone fees, and MoMo checkout\n\nPlease let me know if you would like to sample a demo order flow customized with your signature dishes.\n\nBest regards,\n\nPRINCE KYEI\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "rest-free-audit",
+            "name": "Free Menu Concept & Audit",
+            "subject": "Complimentary digital QR menu prototype for [Client Name]",
+            "body": "Hi [Client Name] Team,\n\nWe would love to design a complimentary visual QR menu prototype customized with [Client Name]'s branding and signature menu items at GH₵0.\n\nSee how easy it is for guests to browse, order, and pay from their smartphones:\n👉 [Proposal Link]\n\nReply directly or send a WhatsApp message to +233247380924 with your menu to preview your custom prototype.\n\nBest,\n\nPRINCE KYEI\nWeb-App"
+        }
+    ]
+}

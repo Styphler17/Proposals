@@ -1,0 +1,447 @@
+{
+    "meta": {
+        "title": "Medical & Clinic Practice Website Proposal | Web-App",
+        "description": "Healthcare website development, doctor profiles, online appointment booking, and patient intake portal proposal."
+    },
+    "scrollTarget": "contact",
+    "scrollLabel": "Get in touch",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · Healthcare & Medical Practice",
+        "eyebrow": "Medical Practice & Patient Portal Proposal",
+        "headline": "Modern patient portals and practice websites for healthcare providers.",
+        "subheading": "Streamline appointment booking, showcase doctor profiles, and offer confidential digital patient intake forms to reduce front-desk wait times.",
+        "preparedFor": "[Clinic / Medical Practice / Hospital]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The modern healthcare experience",
+            "subheading": "Patients expect seamless, respectful digital care from their very first appointment search.",
+            "clientName": "[Medical Director / Practice Administrator]",
+            "introSuffix": "thank you for considering Web-App as your technology partner. We propose a confidential, patient-first medical website that elevates your clinical reputation, reduces front-desk telephone load, and makes consultation booking seamless.",
+            "outcomes": [
+                {
+                    "title": "24/7 Online Patient Scheduling",
+                    "body": "Allow patients to book consultations by department, doctor, and date without phone delays."
+                },
+                {
+                    "title": "Credentialed Doctor Profiles",
+                    "body": "Highlight specialist qualifications, board certifications, consulting hours, and published expertise."
+                },
+                {
+                    "title": "Digital Patient Intake & Triage",
+                    "body": "Collect symptom questionnaires and contact details prior to arrival to reduce clinic waiting times."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Start with a complimentary practice review",
+            "subheading": "A quick evaluation of your practice's digital discoverability and patient booking journey.",
+            "cards": [
+                {
+                    "tag": "Free · No obligation",
+                    "title": "Patient Experience & Visibility Check",
+                    "price": "GH₵0",
+                    "body": "A thorough review of how easily prospective patients find your clinic, review opening hours, and book a specialist.",
+                    "items": [
+                        "Review of Google Business clinic profile and directions accuracy",
+                        "Speed, accessibility, and mobile readability evaluation",
+                        "Three practical ways to reduce appointment no-shows",
+                        "15-minute consultation review"
+                    ]
+                },
+                {
+                    "tag": "Free · For qualified practices",
+                    "title": "Doctor Profile & Booking Demo",
+                    "price": "GH₵0",
+                    "body": "A working concept of one of your specialist doctors with interactive consultation booking calendar.",
+                    "items": [
+                        "Sample specialist doctor bio with credentials and photo",
+                        "Interactive date/time booking slot selector demo",
+                        "SMS appointment confirmation layout",
+                        "No obligation to proceed"
+                    ]
+                }
+            ],
+            "footer": "Complimentary reviews are provided to licensed healthcare facilities and medical practices."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your practice platform level",
+            "subheading": "Designed to meet the privacy and operational needs of dental clinics, specialist practices, and multi-bed hospitals.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Trust & Scheduling",
+                    "title": "Clinic Presence & Doctor Profiles",
+                    "price": "GH₵5,500",
+                    "desc": "For medical practices that need an authoritative clinical presence, department showcases, and appointment request capture.",
+                    "items": [
+                        "Up to 8 custom clinical pages (Home, About, Departments, Doctors, Insurance, Location, Contact)",
+                        "Specialist physician directory with credentials and consulting hours",
+                        "Online appointment request form with department routing",
+                        "Insurance provider and corporate healthcare partner list",
+                        "Google Maps location integration with parking and pharmacy info",
+                        "Medical disclaimer, patient privacy, and emergency hotlines",
+                        "High-speed SSL secure encryption and mobile responsiveness",
+                        "14 days post-launch support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Doctor bios and consulting hours can be updated by clinic staff anytime."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for busy outpatient clinics",
+                    "kicker": "Package 02 · Full Patient Portal",
+                    "title": "Integrated Patient Booking & Intake",
+                    "price": "GH₵9,500",
+                    "desc": "Complete patient workflow with real-time calendar slots, automated SMS reminders, and digital pre-visit intake forms.",
+                    "items": [
+                        "Everything in Clinic Presence",
+                        "Real-time calendar booking with doctor availability sync",
+                        "Automated SMS & email appointment reminders to curb no-shows",
+                        "Digital pre-appointment patient intake & medical history form",
+                        "Diagnostic / Lab test booking and home-sample request flow",
+                        "Optional consultation fee prepayments via Mobile Money or Card",
+                        "Front-desk receptionist dashboard to manage daily patient lists",
+                        "Staff training and 30 days post-launch warranty support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "3–4 weeks"
+                        }
+                    ]
+                }
+            ],
+            "enterprise": {
+                "heading": "Hospital group or multi-specialty center?",
+                "body": "We engineer hospital enterprise platforms with electronic medical record (EMR) syncing, lab result downloads, and pharmacy order fulfillment.",
+                "cta": "Hospital Proposal"
+            }
+        },
+        {
+            "id": "upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Optional telehealth & mobile extensions",
+            "subheading": "Extend your patient care beyond the walls of your physical clinic.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Telemedicine · Video Consultation",
+                    "title": "Secure Telehealth Video Suite",
+                    "price": "+GH₵4,800",
+                    "desc": "Conduct virtual consultations with encrypted end-to-end video calls directly inside the patient's browser without software downloads.",
+                    "items": [
+                        "Integrated WebRTC encrypted video consultation room",
+                        "Virtual patient waiting room with audio alerts",
+                        "In-call doctor prescription notes & file sharing",
+                        "Pre-consultation automated fee billing via Paystack"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵4,800 added to Package 02"
+                        }
+                    ]
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Patient Mobile App · iOS & Android",
+                    "title": "Branded Patient Health App",
+                    "price": "+GH₵6,500",
+                    "desc": "A dedicated mobile app for your regular patients to view medical appointments, receive medication alerts, and access lab results.",
+                    "items": [
+                        "Native iOS and Android patient mobile application",
+                        "Push notifications for appointment reminders and lab status",
+                        "Secure patient profile with consultation history",
+                        "Emergency direct ambulance / clinic speed-dial"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵6,500"
+                        }
+                    ]
+                }
+            ],
+            "smallNote": "Hosting server infrastructure meets healthcare encryption standards (SSL/TLS, encrypted database fields). SMS bundles are billed at local carrier wholesale rates."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Healthcare package comparison",
+            "subheading": "Detailed breakdown of features across both clinical tiers.",
+            "headers": [
+                "Feature",
+                "Clinic Presence\nGH₵5,500",
+                "Patient Booking Hub\nGH₵9,500"
+            ],
+            "rows": [
+                [
+                    "SSL-encrypted mobile medical website",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Physician & specialist credentials directory",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Department & service breakdown pages",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Insurance & corporate health partner logos",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Real-time appointment slot booking calendar",
+                    {
+                        "c": "dash",
+                        "v": "Request only"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Automated SMS & email appointment reminders",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Digital pre-visit patient intake forms",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Consultation fee mobile money prepayments",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Front-desk daily appointment roster dashboard",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Encrypted telehealth video consultation suite",
+                    {
+                        "c": "dash",
+                        "v": "Telehealth upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Telehealth upgrade"
+                    }
+                ],
+                [
+                    "Branded iOS & Android patient health app",
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    }
+                ]
+            ],
+            "footer": "All medical content, disclaimers, and department lists can be effortlessly updated by practice staff through a secure management console."
+        },
+        {
+            "id": "addons",
+            "num": "06",
+            "type": "addons",
+            "heading": "Optional growth services for healthcare",
+            "subheading": "Maintain peak patient volume and establish clinical thought leadership.",
+            "items": [
+                {
+                    "title": "Google Local Medical SEO",
+                    "body": "Rank your clinic at the top when patients search 'pediatrician in Accra', 'best dental clinic', or 'gynecologist near me'."
+                },
+                {
+                    "title": "Clinical Photography & Virtual Tour",
+                    "body": "Professional photography of your consultation rooms, diagnostic suites, and welcoming reception area to reassure anxious patients."
+                },
+                {
+                    "title": "Health Education Blog & Articles",
+                    "body": "Monthly medically accurate health tips and patient awareness articles published under your doctors' bylines to build authority."
+                },
+                {
+                    "title": "Automated Patient Feedback Surveys",
+                    "body": "Post-visit SMS feedback links to monitor patient satisfaction scores and encourage 5-star Google reviews."
+                }
+            ],
+            "footer": "All marketing materials follow ethical healthcare advertising standards."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Clinical onboarding & launch sequence",
+            "subheading": "A collaborative 4-week timeline designed to fit around your doctors' busy clinic schedules.",
+            "steps": [
+                {
+                    "title": "1. Practice Profiling",
+                    "body": "Gather doctor bios, consulting hours, department lists, and acceptable insurance partners."
+                },
+                {
+                    "title": "2. Clinical Build",
+                    "body": "Develop secure pages, intake forms, scheduling logic, and verify SSL encryption."
+                },
+                {
+                    "title": "3. Reception Testing",
+                    "body": "Train front-desk staff on handling calendar bookings, test SMS alerts, and review flow."
+                },
+                {
+                    "title": "4. Patient Go-Live",
+                    "body": "Point official domain, announce online booking on social channels, and go live."
+                }
+            ]
+        },
+        {
+            "id": "terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Healthcare terms & standards",
+            "subheading": "Guaranteed confidentiality, security, and transparent deliverables.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront to initiate project development, 30% upon approval of design and booking workflows, and 20% before final live deployment."
+                },
+                {
+                    "title": "Patient data security",
+                    "body": "All patient intake forms and booking logs are encrypted. Web-App never stores, shares, or accesses patient health records after handover."
+                },
+                {
+                    "title": "Physician content accuracy",
+                    "body": "The clinic reviews and approves all medical bios, departmental descriptions, and health guidance before public launch."
+                },
+                {
+                    "title": "Warranty & ongoing care",
+                    "body": "Includes 30 days of comprehensive technical support and optional monthly maintenance for regular backups and updates."
+                }
+            ],
+            "calloutLabel": "Important:",
+            "calloutBody": "Prices are fixed development estimates for the scope listed. Applicable taxes, if any, will be stated separately. Final scope and milestones will be confirmed in a written agreement."
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Ready to modernize your patient experience?",
+            "subheading": "Let's provide your patients with the smooth, professional digital care they deserve.",
+            "paragraphs": [
+                "We recommend the Integrated Patient Booking & Intake package at GH₵9,500 for busy practices looking to eliminate front-desk bottlenecks and provide 24/7 appointment convenience. For private consulting rooms and emerging clinics, Clinic Presence at GH₵5,500 delivers immediate clinical credibility.",
+                "Reply with your chosen package or request the complimentary Patient Experience & Visibility Check to begin."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Practice contact",
+                "clientName": "[Clinic / Practice Name]",
+                "clientLocation": "Accra, Ghana"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Healthcare & Medical Practice Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "health-cold-pitch",
+            "name": "Cold Clinic Outreach",
+            "subject": "Eliminating front-desk queues & phone congestion at [Client Name]",
+            "body": "Dear [Client Name] Medical Director / Practice Manager,\n\nBusy clinics often face crowded waiting rooms, missed patient appointment calls, and time-consuming manual paper intake forms.\n\nWe build modern healthcare websites and patient portals that allow patients to schedule appointments 24/7, select doctors, and complete pre-visit medical questionnaires online.\n\nI have prepared a custom clinic proposal for [Client Name]:\n🔗 View Healthcare Proposal: [Proposal Link]\n\nHighlights for [Client Name]:\n• 24/7 online doctor booking with automated SMS reminders\n• Digital intake questionnaires to eliminate front-desk paperwork\n• Doctor department profiles, clinical credentials, and location maps\n\nCould we arrange a brief 10-minute call this week to discuss streamlining patient bookings?\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Healthcare Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "health-followup",
+            "name": "Healthcare Proposal Delivery",
+            "subject": "Clinic Website & Patient Booking Proposal for [Client Name]",
+            "body": "Dear [Client Name] Administration,\n\nFollowing our conversation regarding upgrading [Client Name]'s clinical digital presence, I have prepared our full interactive proposal.\n\n🔗 Access the Healthcare Proposal:\n[Proposal Link]\n\nPackage options:\n• Clinic Presence (GH₵5,500): Clinical authority, doctor directory, and WhatsApp booking\n• Patient Booking & Intake (GH₵9,500): Interactive doctor appointment calendar, digital intake forms, and automated reminders\n\nPlease let me know if you would like a walkthrough for your doctors or clinic committee.\n\nBest regards,\n\nPRINCE KYEI\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "health-free-audit",
+            "name": "Free Patient Journey Audit",
+            "subject": "Complimentary patient booking audit for [Client Name]",
+            "body": "Dear [Client Name] Team,\n\nWe would like to offer [Client Name] a complimentary Patient Journey & Search Audit at GH₵0.\n\nWe will review:\n• Online appointment convenience and patient drop-off points\n• Local search ranking for clinic and specialist queries in your district\n• Practical recommendations to reduce missed appointments with automated SMS\n\nExplore our proposal and request your free assessment:\n👉 [Proposal Link]\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Health Tech"
+        }
+    ]
+}

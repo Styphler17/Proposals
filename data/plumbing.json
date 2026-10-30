@@ -1,0 +1,447 @@
+{
+    "meta": {
+        "title": "Plumbing & Home Services Website Proposal | Web-App",
+        "description": "Website development, emergency call capture, quote requests, and job booking proposal for plumbing and home service contractors."
+    },
+    "scrollTarget": "contact",
+    "scrollLabel": "Get in touch",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · Trades & Field Service Solutions",
+        "eyebrow": "Home Services & Lead Generation Proposal",
+        "headline": "High-converting websites and dispatch tools for plumbing & trades.",
+        "subheading": "Get more emergency calls, booked jobs, and upfront quote requests from homeowners and property managers in your service areas.",
+        "preparedFor": "[Plumbing / Home Services Company]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The trades & plumbing opportunity",
+            "subheading": "When pipes burst or fixtures fail, customers call the first credible business that answers.",
+            "clientName": "[Company Owner / General Manager]",
+            "introSuffix": "thank you for considering Web-App. We propose a fast, conversion-optimized trades website that positions your plumbing business as the premier local authority, captures high-ticket emergency calls, and streamlines job bookings.",
+            "outcomes": [
+                {
+                    "title": "Instant Emergency Call Capture",
+                    "body": "1-tap click-to-call floating buttons and WhatsApp dispatch links designed for immediate mobile response."
+                },
+                {
+                    "title": "Targeted Service Area Pages",
+                    "body": "Dedicated landing pages for key neighborhoods (Airport Residential, East Legon, Cantonments, etc.) to dominate local search."
+                },
+                {
+                    "title": "Upfront Estimate Calculators",
+                    "body": "Interactive quote forms that collect job photos and scope details before dispatching a technician."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Start with a free assessment",
+            "subheading": "A quick look at how many emergency plumbing leads you might be missing in your area.",
+            "cards": [
+                {
+                    "tag": "Free · No obligation",
+                    "title": "Local Search & Competitor Audit",
+                    "price": "GH₵0",
+                    "body": "An audit of your Google Maps listing, local search rank for 'plumber near me', and review ratings versus top local competitors.",
+                    "items": [
+                        "Ranking analysis for high-value plumbing keywords in your cities",
+                        "Review of website speed and mobile click-to-call functionality",
+                        "Top 3 suggestions to win more residential and commercial maintenance contracts",
+                        "15-minute phone or WhatsApp review"
+                    ]
+                },
+                {
+                    "tag": "Free · For qualified contractors",
+                    "title": "Emergency Lead-Capture Page Concept",
+                    "price": "GH₵0",
+                    "body": "A visual prototype of an emergency service landing page customized with your branding, trucks, and license badges.",
+                    "items": [
+                        "High-converting emergency plumbing header design",
+                        "Trust badge integration (licensed, insured, 24/7 response)",
+                        "Instant WhatsApp emergency request form preview",
+                        "No commitment to full build"
+                    ]
+                }
+            ],
+            "footer": "Free assessments are provided to verified service contractors. They do not include web hosting, domain, ad campaign spend, or ongoing software licensing."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your contractor website package",
+            "subheading": "Built specifically for service contractors — from local emergency plumbers to multi-truck mechanical teams.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Local Lead Machine",
+                    "title": "Emergency Lead Site",
+                    "price": "GH₵4,500",
+                    "desc": "Built for fast-responding plumbing teams that want phones ringing with residential calls and repair requests.",
+                    "items": [
+                        "5 high-converting pages (Home, Emergency Plumbing, Leak Detection, Drain Cleaning, Contact)",
+                        "Prominent floating Click-to-Call and WhatsApp emergency buttons",
+                        "Emergency job inquiry form with photo upload for damaged pipes/fixtures",
+                        "Trust badges & guarantees (Licensed, Insured, Upfront Pricing)",
+                        "Customer reviews & before/after job photo gallery",
+                        "Google Maps service area radius display",
+                        "Mobile-first, lightning-fast loading speeds under 1.5 seconds",
+                        "Google Business profile optimization guidance",
+                        "14 days post-launch support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2 weeks"
+                        }
+                    ],
+                    "footNote": "Designed to convert mobile visitors looking for immediate emergency assistance."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for multi-truck businesses",
+                    "kicker": "Package 02 · Full Service & Booking",
+                    "title": "Plumbing Pro & Job Booking",
+                    "price": "GH₵7,800",
+                    "desc": "For established contractors seeking residential & commercial plumbing contracts, maintenance plans, and automated booking.",
+                    "items": [
+                        "Everything in Emergency Lead Site",
+                        "Up to 12 dedicated service and location pages (e.g. Water Heaters, Sewer Lines, Commercial)",
+                        "Interactive Online Job Booking Calendar (schedule appointments by date/time)",
+                        "Instant Quote Estimator based on service type and urgency",
+                        "Annual plumbing maintenance club sign-up & recurring service page",
+                        "SMS & Email dispatch notifications to on-duty technician",
+                        "Commercial & property manager bid request portal",
+                        "Comprehensive on-page SEO for multiple neighborhoods and cities",
+                        "30 days post-launch warranty and administrator training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "3–4 weeks"
+                        }
+                    ]
+                }
+            ],
+            "enterprise": {
+                "heading": "Managing a fleet of 5+ service technicians?",
+                "body": "Ask about our Field Dispatch Integration with GPS tracking, job card management, technician routing, and automated invoicing.",
+                "cta": "Fleet Solution"
+            }
+        },
+        {
+            "id": "upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Optional operational & field upgrades",
+            "subheading": "Streamline technician coordination and repeat maintenance contracts.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Field Operations · Mobile App",
+                    "title": "Technician Job & Dispatch App",
+                    "price": "+GH₵4,200",
+                    "desc": "A lightweight mobile app for technicians on the road to receive jobs, navigate to client locations, and mark tasks complete.",
+                    "items": [
+                        "Android & iOS technician interface",
+                        "Instant job notification with address, client phone, and photo of issue",
+                        "1-tap Google Maps directions to job site",
+                        "Before & after job completion photo upload",
+                        "Digital client signature capture on completion",
+                        "Push alerts for emergency urgent dispatches"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵4,200 added to Package 02"
+                        }
+                    ]
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Recurring Revenue · Maintenance Plans",
+                    "title": "Annual Service Plan Portal",
+                    "price": "+GH₵2,500",
+                    "desc": "Turn one-off repair customers into recurring revenue with automated annual plumbing check-up memberships.",
+                    "items": [
+                        "Recurring membership plan billing via Paystack / Mobile Money",
+                        "Customer portal with service history and scheduled inspections",
+                        "Automated annual inspection reminder emails & SMS",
+                        "Priority emergency booking perks for club members"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵2,500"
+                        }
+                    ]
+                }
+            ],
+            "smallNote": "Domain registration, hosting server fees, and SMS credit bundles (e.g. Hubtel / mNotify) are client expenses and quoted transparently before deployment."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Plumbing package comparison",
+            "subheading": "Clear breakdown of features included in each contractor tier.",
+            "headers": [
+                "Feature",
+                "Emergency Lead Site\nGH₵4,500",
+                "Plumbing Pro & Booking\nGH₵7,800"
+            ],
+            "rows": [
+                [
+                    "Mobile-optimized emergency site",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Prominent Click-to-Call & WhatsApp floating triggers",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Job photo upload for estimates",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Customer reviews & before/after portfolio",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Dedicated city / neighborhood landing pages",
+                    {
+                        "c": "dash",
+                        "v": "1 page"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Up to 8 areas"
+                    }
+                ],
+                [
+                    "Online self-scheduling appointment calendar",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Interactive estimate cost calculator",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Commercial contractor bid portal",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Technician dispatch notifications via SMS",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Technician field mobile app",
+                    {
+                        "c": "dash",
+                        "v": "Field App upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Field App upgrade"
+                    }
+                ],
+                [
+                    "Annual maintenance membership billing",
+                    {
+                        "c": "dash",
+                        "v": "Portal upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Portal upgrade"
+                    }
+                ]
+            ],
+            "footer": "All packages include an easy-to-use content management area allowing you to add new job photos, update service rates, and manage customer inquiries."
+        },
+        {
+            "id": "addons",
+            "num": "06",
+            "type": "addons",
+            "heading": "Optional growth services for trades",
+            "subheading": "Keep your service trucks busy year-round with targeted marketing.",
+            "items": [
+                {
+                    "title": "Google Local Search (SEO) Domination",
+                    "body": "Rank on page 1 of Google for high-paying queries like 'emergency plumber', 'leak detection', and 'water heater repair'."
+                },
+                {
+                    "title": "Google Search Ads (PPC) Management",
+                    "body": "Show up at the exact moment a homeowner searches for emergency plumbing assistance with high-ROI Google Ads."
+                },
+                {
+                    "title": "Jobsite Signage & Van QR Decals",
+                    "body": "QR code decals for service vans and yard signs allowing neighbors to instantly view and book your services."
+                },
+                {
+                    "title": "Automated Review Request System",
+                    "body": "Send automatic SMS review requests to satisfied homeowners after each completed service job to boost 5-star ratings."
+                }
+            ],
+            "footer": "Marketing services can be launched immediately or paired with seasonal plumbing peak periods (e.g. rainy season floods, holiday seasons)."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Project process & timeline",
+            "subheading": "A practical 3-week sequence from kickoff to receiving client inquiries.",
+            "steps": [
+                {
+                    "title": "1. Discovery & Areas",
+                    "body": "Confirm service list, emergency rates, target neighborhoods, and branding."
+                },
+                {
+                    "title": "2. High-Converting Build",
+                    "body": "Design and build lead-capture pages, estimate calculators, and mobile click-to-call flows."
+                },
+                {
+                    "title": "3. Dispatch Testing",
+                    "body": "Test inquiry routing to your phone and WhatsApp, verify load speed, and launch."
+                }
+            ]
+        },
+        {
+            "id": "terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Investment & project terms",
+            "subheading": "Transparent milestones and clear scope boundaries.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront deposit to initiate development, 30% upon approval of main website pages, and 20% prior to final launch and domain live connection."
+                },
+                {
+                    "title": "Ownership & handover",
+                    "body": "Upon final payment, full ownership of custom website design and assets is transferred to your business with no ongoing lock-in."
+                },
+                {
+                    "title": "Service rates & areas",
+                    "body": "Client supplies accurate lists of covered neighborhoods, license numbers, warranty policies, and service pricing."
+                },
+                {
+                    "title": "Warranty support",
+                    "body": "Includes 30 days of free technical and bug support after deployment to ensure zero downtime."
+                }
+            ],
+            "calloutLabel": "Important:",
+            "calloutBody": "Prices are fixed development estimates for the scope listed. Applicable third-party services (hosting, domain, SMS credits) are confirmed in writing before purchase."
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Ready to win more plumbing contracts?",
+            "subheading": "Let's turn online searches in your territory into profitable booked service jobs.",
+            "paragraphs": [
+                "We recommend the Plumbing Pro & Booking package at GH₵7,800 for active trade businesses looking to scale their team, win commercial accounts, and automate bookings. For solo contractors or focused repair teams, the Emergency Lead Site at GH₵4,500 delivers immediate lead generation from mobile phone calls.",
+                "Reply with your preferred package or request the free Local Search & Competitor Audit to begin."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Contractor contact",
+                "clientName": "[Plumbing Company Name]",
+                "clientLocation": "Accra / Tema, Ghana"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Plumbing & Trade Services Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "plumb-cold-pitch",
+            "name": "Cold Trades Lead Pitch",
+            "subject": "More emergency calls & booked jobs for [Client Name]",
+            "body": "Dear [Client Name] Owner / Operations,\n\nWhen homeowners and property managers face burst pipes, leaks, or emergency electrical faults, they call the first credible business that answers with one tap.\n\nWe build high-converting emergency trades websites that put your phone number front and center and capture high-paying commercial contracts.\n\nI put together an interactive proposal tailored for [Client Name]:\n🔗 View Trades Proposal: [Proposal Link]\n\nKey features for [Client Name]:\n• 1-tap emergency click-to-call and WhatsApp dispatch buttons\n• Dedicated local area landing pages to dominate Google search\n• Interactive estimate calculator and photo upload for damaged pipes\n\nWould you have 10 minutes this week to discuss winning more service jobs in your area?\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Trades & Field Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "plumb-followup",
+            "name": "Trades Proposal Delivery",
+            "subject": "Contractor Website & Booking Proposal for [Client Name]",
+            "body": "Dear [Client Name],\n\nThank you for considering Web-App for your contractor website. Here is our complete interactive proposal:\n\n🔗 View Proposal:\n[Proposal Link]\n\nPackage breakdown:\n1. Emergency Lead Site (GH₵4,500): Fast mobile phone call generator\n2. Plumbing Pro & Booking (GH₵7,800): Online appointment scheduler, quote calculator, and service area expansion\n\nLooking forward to helping your service trucks stay busy year-round.\n\nWarm regards,\n\nPRINCE KYEI\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "plumb-free-audit",
+            "name": "Free Google Maps & Competitor Audit",
+            "subject": "Complimentary local search audit for [Client Name]",
+            "body": "Hi [Client Name] Team,\n\nHow many emergency plumbing inquiries in your territory are going to competitors?\n\nWe offer [Client Name] a complimentary Local Search & Google Maps Audit at GH₵0:\n• Search ranking check for emergency plumbing keywords in your cities\n• Mobile speed and 1-tap call review\n• 3 actionable recommendations to capture more maintenance contracts\n\nView our proposal and claim your free audit:\n👉 [Proposal Link]\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Trades"
+        }
+    ]
+}

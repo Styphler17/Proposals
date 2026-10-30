@@ -1,0 +1,509 @@
+{
+    "meta": {
+        "title": "Real Estate Website Proposal | PROPERTYMAN CONSULT",
+        "description": "Website development and property lead-generation proposal for real estate agencies in Ghana."
+    },
+    "scrollTarget": "contact",
+    "scrollLabel": "Get in touch",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · Real Estate Platforms",
+        "eyebrow": "Property websites · Digital growth · Lead generation",
+        "headline": "A stronger digital presence for your real estate business.",
+        "subheading": "A practical website proposal designed to help buyers, tenants, investors, and property owners discover your listings and contact your team.",
+        "preparedFor": "PROPERTYMAN CONSULT",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "27/10/2026 · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The business opportunity",
+            "subheading": "A website should do more than look professional. It should help generate inquiries.",
+            "clientName": "PROPERTYMAN CONSULT",
+            "introSuffix": "thank you for considering us as a digital partner. We propose a mobile-friendly real estate website that presents your agency professionally, makes properties easy to explore, and gives interested prospects a clear path to contact your team.",
+            "outcomes": [
+                {
+                    "title": "Build trust",
+                    "body": "Showcase your company, team, properties, and contact information professionally."
+                },
+                {
+                    "title": "Make listings easier to find",
+                    "body": "Organize properties by location, type, price, and sale or rental status where included."
+                },
+                {
+                    "title": "Convert interest into inquiries",
+                    "body": "Use WhatsApp links, inquiry forms, and viewing requests where included."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Start with a free offer",
+            "subheading": "A low-risk way to experience our thinking before committing to development.",
+            "cards": [
+                {
+                    "tag": "Free · No obligation",
+                    "title": "Property Visibility Check",
+                    "price": "GH₵0",
+                    "body": "A short review of your existing online presence to identify practical opportunities.",
+                    "items": [
+                        "Review of your website or public business profile",
+                        "Three prioritized improvement recommendations",
+                        "15-minute feedback call",
+                        "Suggested next step based on your budget"
+                    ]
+                },
+                {
+                    "tag": "Free · For qualified prospects",
+                    "title": "Sample Property Page Preview",
+                    "price": "GH₵0",
+                    "body": "A simple visual concept to show how one of your listings could be presented online.",
+                    "items": [
+                        "One static homepage section or property-detail concept",
+                        "Uses one sample property and information you provide",
+                        "One presentation of the concept",
+                        "No functional website or production code included"
+                    ]
+                }
+            ],
+            "footer": "Free offers are limited to the items listed above, subject to availability and qualification. They do not include a live website, domain, hosting, paid advertising, or ongoing technical support. No purchase is required."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your main website package",
+            "subheading": "We keep the main choice simple. Start with the package that fits your current needs, then add advanced features as your business grows.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Main Package 01",
+                    "title": "Starter Presence",
+                    "price": "GH₵5,000",
+                    "desc": "For a small agency that needs a credible online presence and a clear way for customers to get in touch.",
+                    "items": [
+                        "Up to 5 standard pages",
+                        "Responsive, mobile-friendly design",
+                        "Featured property showcase and dedicated property-detail pages",
+                        "Sale and rental categories",
+                        "Initial upload of up to 20 properties",
+                        "Self-service property dashboard to add, edit, and remove listings without developer help",
+                        "Search by location, property type, price, and sale/rent status",
+                        "Featured and recently added listings",
+                        "Maps integration",
+                        "WhatsApp contact links and basic inquiry form",
+                        "Basic property inquiry details sent to the agency",
+                        "Social links and basic on-page SEO",
+                        "2 revision rounds",
+                        "14 days of post-launch bug support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Includes self-service listing management and core property discovery tools. Agent profiles, viewing-request workflows, and enhanced lead tools are available in Property Growth."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for active agencies",
+                    "kicker": "Main Package 02",
+                    "title": "Property Growth",
+                    "price": "GH₵8,000",
+                    "desc": "For an active agency that wants to manage listings and make it easier for clients to find the right property.",
+                    "items": [
+                        "Everything in Starter Presence",
+                        "Increase initial property upload allowance to up to 30 properties",
+                        "Property-specific inquiry forms and viewing request form",
+                        "Up to 3 agent profile pages",
+                        "Email notifications for new inquiries",
+                        "Analytics setup and basic performance tracking",
+                        "Basic administrator training",
+                        "30 days of post-launch bug support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "3–4 weeks"
+                        }
+                    ]
+                }
+            ],
+            "enterprise": {
+                "heading": "Not ready to invest yet?",
+                "body": "Start with our free Property Visibility Check or request a sample property-page preview. We will give you useful recommendations and suggest a practical next step for your budget.",
+                "cta": "Start free"
+            }
+        },
+        {
+            "id": "upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Optional upgrade packages",
+            "subheading": "Start with either main package, then add these upgrades when your agency is ready. Upgrade prices are added to the price of your selected main package, not standalone website prices.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Optional Upgrade A · Advanced Agency",
+                    "title": "Agency Professional Upgrade",
+                    "price": "+GH₵2,500",
+                    "desc": "Add stronger agent and lead-management tools to your chosen Starter Presence or Property Growth website.",
+                    "items": [
+                        "Everything in your selected main package",
+                        "Increase initial upload allowance to up to 75 properties",
+                        "Expand agent profiles to up to 10 agents",
+                        "Assign listings to individual agents",
+                        "Lead inquiry management dashboard",
+                        "Enhanced property filters",
+                        "Support for supplied property video and virtual-tour links",
+                        "Enhanced on-page SEO setup",
+                        "3 revision rounds for the full project",
+                        "45 days of post-launch bug support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "GH₵2,500 added to the selected main package."
+                        },
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "Allow 1–2 additional weeks, subject to scope."
+                        }
+                    ]
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Optional Upgrade B · Advanced Operations",
+                    "title": "Enterprise Property Upgrade",
+                    "price": "+GH₵5,500",
+                    "desc": "For agencies that need more control over team access, lead routing, reporting, or connections to existing business tools.",
+                    "items": [
+                        "Everything in the Agency Professional Upgrade",
+                        "Multiple staff accounts with agreed permission levels",
+                        "Advanced property and lead-management workflow",
+                        "One agreed custom report or management dashboard",
+                        "One compatible CRM or external API integration, subject to technical review",
+                        "Lead routing rules for agreed agents or teams",
+                        "One scoped booking or viewing workflow enhancement",
+                        "Technical planning for future system or mobile-app expansion"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "GH₵5,500 added to the selected main package and includes the Agency Professional upgrade features."
+                        }
+                    ],
+                    "footNote": "Third-party fees and work outside the agreed scope are excluded."
+                }
+            ],
+            "smallNote": "Upgrade pricing is additional to the GH₵5,000 Starter Presence or GH₵8,000 Property Growth package. For example, Starter + Agency Professional is GH₵7,500; Property Growth + Agency Professional is GH₵10,500. Enterprise Upgrade includes Agency Professional features, so the combined total is GH₵10,500 with Starter or GH₵13,500 with Property Growth. These totals exclude hosting, domain, third-party subscriptions, and any separately approved out-of-scope work."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Main package comparison",
+            "subheading": "The exact scope will be confirmed in writing before work begins.",
+            "headers": [
+                "Feature",
+                "Starter Presence\nGH₵5,000",
+                "Property Growth\nGH₵8,000"
+            ],
+            "rows": [
+                [
+                    "Mobile-friendly website",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Initial property upload allowance",
+                    "20",
+                    "30"
+                ],
+                [
+                    "Dedicated property-detail pages and sale/rent categories",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Self-service dashboard to add, edit, and remove listings",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Search by location, type, price, and sale/rent status",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Featured and recently added listings",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Maps integration",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "WhatsApp and inquiry forms",
+                    {
+                        "c": "yes",
+                        "v": "Basic"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Property-specific"
+                    }
+                ],
+                [
+                    "Viewing request form",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Agent profiles",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    "Up to 3"
+                ],
+                [
+                    "Email notifications for new inquiries",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Analytics setup and administrator training",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Lead dashboard / assign listings to agents",
+                    {
+                        "c": "dash",
+                        "v": "Upgrade"
+                    },
+                    "Agency Professional upgrade"
+                ],
+                [
+                    "CRM or external API integration",
+                    {
+                        "c": "dash",
+                        "v": "Enterprise upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Enterprise upgrade"
+                    }
+                ]
+            ],
+            "footer": "Property upload numbers are initial setup allowances, not necessarily lifetime limits on how many properties the system can hold. Final technical limits depend on the chosen implementation and hosting environment."
+        },
+        {
+            "id": "addons",
+            "num": "06",
+            "type": "addons",
+            "heading": "Optional services to grow after launch",
+            "subheading": "Add only what helps your team. These services are scoped separately and are not required to launch the website.",
+            "items": [
+                {
+                    "title": "Website care & security",
+                    "body": "Updates, backups, uptime checks, security maintenance, and agreed minor fixes. Available as a recurring service."
+                },
+                {
+                    "title": "Property listing support",
+                    "body": "Monthly upload and updating of property details, images, availability, and prices, based on an agreed volume."
+                },
+                {
+                    "title": "SEO & local visibility",
+                    "body": "Search optimization, location-focused landing pages, and support improving your Google Business Profile presence."
+                },
+                {
+                    "title": "Social media property promotion",
+                    "body": "Property posts, promotional creatives, and campaign support. Advertising spend is paid separately by the client."
+                },
+                {
+                    "title": "Lead automation & CRM",
+                    "body": "Route website inquiries to the right agent, send notifications, and connect compatible CRM or follow-up tools."
+                },
+                {
+                    "title": "Photography, video & virtual tours",
+                    "body": "Property media production or integration with supplied video and virtual-tour services. Any external production cost is quoted separately."
+                },
+                {
+                    "title": "Mobile app development",
+                    "body": "Separate Android and iOS app proposal, including a technical assessment of how the app can share property data with the website."
+                },
+                {
+                    "title": "Analytics & conversion improvements",
+                    "body": "Review visitor activity and inquiry journeys, then recommend changes to help more visitors contact your team."
+                }
+            ],
+            "footer": "We will recommend add-ons only where there is a clear business case. Prices, deliverables, and recurring commitments will be agreed before work begins."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "How the project works",
+            "subheading": "Clear milestones help both teams stay aligned.",
+            "steps": [
+                {
+                    "title": "1. Discover",
+                    "body": "Confirm goals, content, property volume, required features, and the selected package."
+                },
+                {
+                    "title": "2. Design & build",
+                    "body": "Approve the visual direction, then develop the agreed pages and functionality."
+                },
+                {
+                    "title": "3. Test & launch",
+                    "body": "Review core functionality, approve launch, and receive the agreed handover and training."
+                }
+            ]
+        },
+        {
+            "id": "investment",
+            "num": "08",
+            "type": "terms",
+            "heading": "Investment and project terms",
+            "subheading": "Transparent costs and clear boundaries from the start.",
+            "terms": [
+                {
+                    "title": "Payment schedule",
+                    "body": "Suggested milestones: 50% upfront, 30% after the agreed main functionality is demonstrated, and 20% before final handover and launch."
+                },
+                {
+                    "title": "Hosting and domain excluded",
+                    "body": "Hosting, domain registration, business email, paid plugins or APIs, and other third-party charges are not included in development fees. We will confirm these costs before purchase."
+                },
+                {
+                    "title": "Content and approvals",
+                    "body": "The client supplies accurate property details, prices, images, branding, and authorized contact information. Delays in content or approvals can affect delivery dates."
+                },
+                {
+                    "title": "Changes and support",
+                    "body": "Features outside the agreed scope are quoted separately and require approval. Included bug support covers defects in delivered functionality, not new features or ongoing content updates."
+                },
+                {
+                    "title": "Ownership and third-party tools",
+                    "body": "After full payment, the client receives the agreed custom deliverables and website content, subject to third-party licenses and service terms."
+                },
+                {
+                    "title": "Maintenance after launch",
+                    "body": "Ongoing updates, backups, security checks, content uploads, and technical maintenance can be arranged under a separate monthly or annual plan."
+                }
+            ],
+            "calloutLabel": "Important:",
+            "calloutBody": "Prices are development estimates for the scope listed. Applicable taxes, if any, will be stated separately. The final scope, delivery dates, and payment milestones will be confirmed in a written agreement before work starts."
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Let's find the right fit",
+            "subheading": "No pressure to choose the biggest package. Let's start with your business needs.",
+            "paragraphs": [
+                "We recommend Property Growth at GH₵8,000 for agencies that want to manage listings themselves and turn property interest into direct inquiries. Starter Presence at GH₵5,000 already includes dedicated property pages, sale/rental categories, and basic inquiry capture. Agencies can add Agency Professional for GH₵2,500 or the Enterprise upgrade for GH₵5,500 when they need more advanced tools. If you are not ready to invest yet, start with our free visibility check.",
+                "To proceed, reply with your preferred package or request the free Property Visibility Check. We can then confirm your requirements and prepare the final scope."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Client contact",
+                "clientName": "PROPERTYMAN CONSULT",
+                "clientLocation": "Location: Agblezaa - Manet Rd, Accra"
+            }
+        }
+    ],
+    "footer": {
+        "left": "PROPERTYMAN CONSULT · Real Estate Website Development",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "re-cold-pitch",
+            "name": "Cold Agency Lead Outreach",
+            "subject": "Direct buyer inquiries & property listings for [Client Name]",
+            "body": "Dear [Client Name] Principal / Management,\n\nI noticed [Client Name]'s impressive property portfolio. However, many agencies lose high-value buyers because they rely too heavily on third-party portals that showcase competitors alongside your listings.\n\nWe build dedicated real estate platforms that position your agency as the premier property authority and capture direct buyer and tenant inquiries.\n\nWe prepared an interactive proposal tailored for [Client Name]:\n🔗 View Real Estate Proposal: [Proposal Link]\n\nWhat this brings to [Client Name]:\n• Dedicated property detail pages with instant WhatsApp inquiry forms\n• Self-service listing dashboard to add and edit properties with ease\n• Up to 3 agent profiles to route inquiries directly to closing agents\n\nWould you be open to a quick 10-minute chat this week to review your property visibility?\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "re-followup",
+            "name": "Real Estate Proposal Delivery",
+            "subject": "Real Estate Website & Listing Portal Proposal for [Client Name]",
+            "body": "Dear [Client Name],\n\nFollowing our discussion regarding modernizing [Client Name]'s digital presence, I have prepared our full commercial proposal.\n\n🔗 Access the Interactive Proposal:\n[Proposal Link]\n\nInside the proposal:\n1. Package options: Starter Presence (GH₵5,000) vs. Property Growth (GH₵8,000)\n2. Side-by-side feature comparison\n3. Implementation timeline and ownership handover terms\n\nWe recommend Property Growth for active agencies looking to manage listings independently and turn buyer traffic into direct commissions.\n\nWarm regards,\n\nPRINCE KYEI\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "re-free-audit",
+            "name": "Free Property Visibility Check",
+            "subject": "Complimentary property search audit for [Client Name]",
+            "body": "Hi [Client Name],\n\nHow easily do property seekers find [Client Name] when searching for homes or commercial properties in your territory?\n\nWe are offering [Client Name] a complimentary Property Visibility Check at GH₵0:\n• Search rank analysis for high-intent property keywords in your target areas\n• Mobile speed and viewing inquiry check\n• 3 practical suggestions to capture more direct buyer leads\n\nView our proposal and request your free audit here:\n👉 [Proposal Link]\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Real Estate Tech"
+        }
+    ]
+}

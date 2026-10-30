@@ -1,0 +1,448 @@
+{
+    "meta": {
+        "title": "E-Commerce Website & Shopping App Proposal | Web-App",
+        "description": "Custom online storefront, product catalog, Mobile Money/Card checkout, and mobile shopping app development proposal."
+    },
+    "scrollTarget": "contact",
+    "scrollLabel": "Get in touch",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Digital products · E-Commerce & Retail Storefronts",
+        "eyebrow": "E-Commerce & Mobile Shopping App Proposal",
+        "headline": "Custom online storefronts and shopping apps engineered to sell.",
+        "subheading": "From fast product browsing to mobile money and card checkout, built to give retail brands complete ownership of their sales and customer data.",
+        "preparedFor": "[Retail Brand / Boutique / Store Owner]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The direct-to-consumer advantage",
+            "subheading": "Transition from manual Instagram DM orders to an automated 24/7 sales engine.",
+            "clientName": "[Brand Owner / Retail Director]",
+            "introSuffix": "thank you for considering Web-App. We propose building a bespoke, high-speed online shopping platform that reflects your brand prestige, automates inventory tracking, and allows customers to buy seamlessly in seconds.",
+            "outcomes": [
+                {
+                    "title": "Zero Manual Order Friction",
+                    "body": "Replace back-and-forth WhatsApp inquiries with instant automated cart, checkout, and payments."
+                },
+                {
+                    "title": "Mobile Money & Card Checkout",
+                    "body": "Accept MTN MoMo, Telecel Cash, AT Money, Visa, and Mastercard with instant payment verification."
+                },
+                {
+                    "title": "Automated Stock & Delivery Sync",
+                    "body": "Real-time inventory deduction, courier dispatch labels, and automated customer tracking SMS."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Start with a complimentary store audit",
+            "subheading": "Identify conversion bottlenecks and payment drop-offs before investing.",
+            "cards": [
+                {
+                    "tag": "Free · No obligation",
+                    "title": "E-Commerce Checkout & Speed Audit",
+                    "price": "GH₵0",
+                    "body": "A thorough review of your current checkout flow, mobile shopping responsiveness, and product page conversions.",
+                    "items": [
+                        "Mobile speed test across 3G/4G network conditions",
+                        "Checkout friction points and abandoned cart assessment",
+                        "Top 3 suggestions to double mobile payment conversion rates",
+                        "15-minute review call"
+                    ]
+                },
+                {
+                    "tag": "Free · For qualified retail brands",
+                    "title": "Interactive Product Page Concept",
+                    "price": "GH₵0",
+                    "body": "A custom-designed prototype of one of your signature products featuring image gallery, variant selectors, and mobile checkout.",
+                    "items": [
+                        "Bespoke product page mockup using your brand assets",
+                        "Size, color, and quantity selector demonstration",
+                        "1-click Mobile Money checkout preview",
+                        "No commitment to full store development"
+                    ]
+                }
+            ],
+            "footer": "Complimentary audits are provided to active merchants and retail brands. They exclude ad spend, domain purchase, and hosting server costs."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your e-commerce platform package",
+            "subheading": "Scalable architecture designed to handle high-traffic flash sales and thousands of catalog SKUs.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Package 01 · Boutique Storefront",
+                    "title": "Starter Boutique Store",
+                    "price": "GH₵5,800",
+                    "desc": "Perfect for emerging fashion boutiques, beauty brands, and specialty retail shops launching their first online store.",
+                    "items": [
+                        "Custom-designed mobile-first storefront (Home, Shop, Product, About, Contact, FAQ)",
+                        "Product catalog setup for up to 50 initial items with variations (size, color)",
+                        "Integrated Paystack / Flutterwave gateway (MoMo + Cards)",
+                        "Customer shopping cart, wish list, and guest checkout",
+                        "Basic shipping rate calculator by city / region",
+                        "Order notification emails & WhatsApp customer confirmation",
+                        "Store manager dashboard to manage products and view orders",
+                        "14 days post-launch support & inventory training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "2–3 weeks"
+                        }
+                    ],
+                    "footNote": "Products can be added, edited, or put on sale by your team anytime."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for high-volume retail",
+                    "kicker": "Package 02 · Full Scale Commerce",
+                    "title": "Growth E-Commerce Platform",
+                    "price": "GH₵10,500",
+                    "desc": "Built for established retail brands requiring automated multi-tier shipping, discount codes, customer accounts, and marketing tracking.",
+                    "items": [
+                        "Everything in Starter Boutique Store",
+                        "Expanded initial catalog upload up to 250 products",
+                        "Customer account portal with saved addresses and order tracking",
+                        "Coupon codes, flash sale banners, and buy-one-get-one promotions",
+                        "Abandoned cart recovery emails (recaptures lost sales)",
+                        "Advanced courier delivery integration (e.g. Swift, Yango, or custom zone pricing)",
+                        "Facebook / Instagram Pixel & TikTok Shop catalog synchronization",
+                        "Low-stock email warnings and backorder management",
+                        "30 days post-launch support and full staff video walkthrough"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Estimated delivery:",
+                            "text": "3–4 weeks"
+                        }
+                    ]
+                }
+            ],
+            "enterprise": {
+                "heading": "Wholesale B2B or multi-vendor marketplace?",
+                "body": "We engineer enterprise platforms with tiered bulk pricing, vendor commission splits, customer credit limits, and custom ERP synchronization.",
+                "cta": "B2B Quote"
+            }
+        },
+        {
+            "id": "upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Optional mobile app & loyalty extensions",
+            "subheading": "Put your store directly into your customers' pockets on their home screens.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Customer Retention · Mobile App",
+                    "title": "iOS & Android Shopping App",
+                    "price": "+GH₵5,800",
+                    "desc": "A dedicated mobile shopping app on App Store and Google Play that drives 3x higher retention through push notifications.",
+                    "items": [
+                        "Native Android & iOS customer shopping application",
+                        "Push notifications for new collection drops and restock alerts",
+                        "1-tap express biometric checkout (Face ID / Fingerprint)",
+                        "App-exclusive discount vouchers and customer VIP tiers",
+                        "Published under your official brand developer account"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵5,800 added to Package 02"
+                        }
+                    ]
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Omnichannel · POS & Barcode",
+                    "title": "Physical POS & Inventory Sync",
+                    "price": "+GH₵3,500",
+                    "desc": "Synchronize online website sales with your physical retail shop to prevent selling items already bought in-store.",
+                    "items": [
+                        "Real-time stock synchronization between physical shop and website",
+                        "Barcode scanner support for fast checkout at counter",
+                        "Combined sales analytics reporting (in-store vs online)"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Upgrade fee:",
+                            "text": "+GH₵3,500"
+                        }
+                    ]
+                }
+            ],
+            "smallNote": "Payment gateway processing fees (1.95% standard Paystack rate) are deducted by the processor per transaction. Domain and hosting accounts are owned by the client."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "E-Commerce package comparison",
+            "subheading": "Compare features across both store development packages.",
+            "headers": [
+                "Feature",
+                "Starter Boutique\nGH₵5,800",
+                "Growth Commerce\nGH₵10,500"
+            ],
+            "rows": [
+                [
+                    "Custom responsive mobile storefront",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Product catalog with color & size variants",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Mobile Money & Card payment integration",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Customer shopping cart & instant checkout",
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Customer registered accounts & order history",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Coupon codes & promotional discount engine",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Automated abandoned cart recovery emails",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Instagram & Facebook Shop product catalog sync",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Multi-tier regional & courier delivery rules",
+                    {
+                        "c": "dash",
+                        "v": "Not included"
+                    },
+                    {
+                        "c": "yes",
+                        "v": "Included"
+                    }
+                ],
+                [
+                    "Branded iOS & Android customer mobile app",
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "Mobile App upgrade"
+                    }
+                ],
+                [
+                    "Physical retail store POS stock synchronization",
+                    {
+                        "c": "dash",
+                        "v": "POS upgrade"
+                    },
+                    {
+                        "c": "dash",
+                        "v": "POS upgrade"
+                    }
+                ]
+            ],
+            "footer": "All packages provide full store ownership with zero recurring developer fees on your product sales."
+        },
+        {
+            "id": "addons",
+            "num": "06",
+            "type": "addons",
+            "heading": "Optional growth services for e-commerce",
+            "subheading": "Drive targeted traffic and increase average order values.",
+            "items": [
+                {
+                    "title": "Product Studio Photography",
+                    "body": "Clean white-background and lifestyle photos of your apparel, accessories, or products optimized for fast web loading."
+                },
+                {
+                    "title": "Meta & TikTok Ads Campaign Setup",
+                    "body": "High-converting paid social ad campaigns focused on direct purchases and dynamic product retargeting."
+                },
+                {
+                    "title": "E-Commerce Search Engine Optimization",
+                    "body": "Rank your category pages on Google for keywords like 'buy perfumes online Ghana' or 'designer shoes Accra'."
+                },
+                {
+                    "title": "Email & WhatsApp Marketing Flows",
+                    "body": "Automated welcome series, post-purchase thank-you messages, and VIP customer birthday discounts."
+                }
+            ],
+            "footer": "Marketing campaigns can be scheduled to coincide with product launches or peak shopping seasons (Black Friday, Christmas)."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Project process & launch sequence",
+            "subheading": "A proven 4-stage launch system from catalog ingestion to first checkout.",
+            "steps": [
+                {
+                    "title": "1. Inventory & Branding",
+                    "body": "Gather product photos, descriptions, pricing, variations, and payment gateway credentials."
+                },
+                {
+                    "title": "2. Store Build",
+                    "body": "Develop custom storefront design, configure cart, payment gateways, and shipping zones."
+                },
+                {
+                    "title": "3. Checkout Testing",
+                    "body": "Execute live test transactions via Mobile Money and Cards to verify settlement and order alerts."
+                },
+                {
+                    "title": "4. Go-Live & Handover",
+                    "body": "Connect your custom domain, train your fulfillment team, and launch to customers."
+                }
+            ]
+        },
+        {
+            "id": "terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Commercial terms & store ownership",
+            "subheading": "Transparent milestones and zero ongoing revenue shares.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront to begin development, 30% upon approval of storefront catalog design, and 20% prior to final domain live connection."
+                },
+                {
+                    "title": "100% Revenue ownership",
+                    "body": "All sales revenue goes straight into your merchant bank or mobile money account. Web-App takes zero commissions on your sales."
+                },
+                {
+                    "title": "Product catalog supply",
+                    "body": "Client provides accurate product descriptions, high-resolution imagery, stock quantities, and return/refund policies."
+                },
+                {
+                    "title": "Post-launch warranty",
+                    "body": "Includes 30 days of free bug and technical support to ensure seamless order processing and checkout stability."
+                }
+            ],
+            "calloutLabel": "Important:",
+            "calloutBody": "Prices are one-time project fees for the agreed deliverables. Third-party transaction gateway fees (e.g. Paystack 1.95%) are deducted automatically by the payment provider."
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Ready to launch your online retail store?",
+            "subheading": "Let's build a shopping experience your customers will love buying from repeatedly.",
+            "paragraphs": [
+                "We recommend the Growth E-Commerce Platform at GH₵10,500 for established retail brands ready to scale marketing and automate order recovery. For specialized boutiques and emerging designers, the Starter Boutique Store at GH₵5,800 is the fastest route to reliable online sales.",
+                "Reply with your chosen package or request the complimentary E-Commerce Checkout & Speed Audit to begin."
+            ],
+            "signature": {
+                "senderName": "PRINCE KYEI",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Merchant contact",
+                "clientName": "[Brand / Store Name]",
+                "clientLocation": "Accra, Ghana"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · E-Commerce & Retail Storefront Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "ecom-cold-pitch",
+            "name": "Cold E-Commerce Pitch",
+            "subject": "Automated MoMo checkout & customer app for [Client Name]",
+            "body": "Dear [Client Name] Founder / Brand Manager,\n\nSelling through Instagram DMs and WhatsApp chat is slow, manual, and leads to abandoned carts while waiting for payment confirmations.\n\nWe build high-converting e-commerce storefronts and mobile shopping apps with instant Mobile Money and Card checkout, automated abandoned cart recovery, and live inventory tracking.\n\nI have prepared a custom proposal for [Client Name]:\n🔗 View E-Commerce Proposal: [Proposal Link]\n\nKey benefits for [Client Name]:\n• Direct MoMo/Card payments with automated receipt dispatch\n• Product variant management (sizes, colors, stock counts)\n• Dedicated iOS & Android customer shopping app available\n\nWould you be open to a 10-minute demo to see how simple automated online selling can be?\n\nBest regards,\n\nPRINCE KYEI\nWeb-App E-Commerce\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "ecom-followup",
+            "name": "E-Commerce Proposal Delivery",
+            "subject": "Online Store & Mobile Shopping App Proposal for [Client Name]",
+            "body": "Dear [Client Name],\n\nThank you for discussing your online retail vision with us. Here is our complete interactive e-commerce proposal:\n\n🔗 View Full Proposal:\n[Proposal Link]\n\nPackage breakdown:\n1. Starter Boutique Store (GH₵5,800): Perfect for boutique retail and fast launch\n2. Growth E-Commerce Platform (GH₵10,500): Discount engine, abandoned cart recovery, and high-volume scalability\n\nLooking forward to turning [Client Name]'s social audience into consistent daily orders.\n\nWarm regards,\n\nPRINCE KYEI\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "ecom-free-audit",
+            "name": "Free Checkout Speed Audit",
+            "subject": "Complimentary mobile checkout audit for [Client Name]",
+            "body": "Hi [Client Name] Team,\n\nHow much revenue is [Client Name] leaving on the table due to checkout friction?\n\nWe are offering [Client Name] a complimentary Store Conversion Audit at GH₵0:\n• Analysis of mobile loading speed and checkout drop-off rates\n• Review of Mobile Money payment UX and product page conversion factors\n• 3 actionable recommendations to boost average order value\n\nReview our proposal and claim your free audit:\n👉 [Proposal Link]\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Retail Tech"
+        }
+    ]
+}
