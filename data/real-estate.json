@@ -474,11 +474,15 @@
             ],
             "signature": {
                 "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App",
                 "senderEmail": "prince.kyei010@gmail.com",
                 "senderPhone": "+233247380924",
-                "clientLabel": "Client contact",
+                "clientLabel": "Real Estate Agency Contact",
                 "clientName": "PROPERTYMAN CONSULT",
-                "clientLocation": "Location: Agblezaa - Manet Rd, Accra"
+                "clientContactPerson": "[Managing Broker / Principal Consultant]",
+                "clientContact": "[Agency Phone / WhatsApp / Email]",
+                "clientLocation": "Agblezaa - Manet Rd, Accra, Ghana",
+                "clientDate": "[Acceptance Date / Campaign Kickoff]"
             }
         }
     ],

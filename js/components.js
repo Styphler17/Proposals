@@ -470,6 +470,51 @@ const components = {
 
   /* ── Closing / Contact ──────────────────────────────────────────────── */
 
+  signatureBlock(sig = {}, sp) {
+    const senderName    = sig.senderName || sig.name || 'PRINCE KYEI';
+    const senderTitle   = sig.senderTitle || sig.title || sig.senderCompany || 'Lead Digital Solutions Architect, Web-App';
+    const senderEmail   = sig.senderEmail || sig.email || 'prince.kyei010@gmail.com';
+    const senderPhone   = sig.senderPhone || sig.phone || '+233247380924';
+    const cleanPhone    = senderPhone.replace(/[^\d+]/g, '');
+
+    const clientLabel   = sig.clientLabel || 'Client Acceptance & Details';
+    const clientName    = sig.clientName || sig.clientCompany || '[Client / Organization Name]';
+    const clientRep     = sig.clientContactPerson || sig.clientRep || '[Authorized Representative / Title]';
+    const clientContact = sig.clientContact || sig.clientPhone || sig.clientEmail || '[Direct Phone / WhatsApp / Email]';
+    const clientLoc     = sig.clientLocation || '[Office Location / City, Ghana]';
+    const clientDate    = sig.clientDate || '[Acceptance Date / Signature]';
+
+    return `
+      <div class="signature">
+        <div class="signline signline-sender">
+          <span class="signline-label">Prepared &amp; Presented By</span>
+          <strong class="signline-name" contenteditable="true" data-path="${sp}.senderName">${this.esc(senderName)}</strong>
+          <div class="signline-meta" contenteditable="true" data-path="${sp}.senderTitle">${this.esc(senderTitle)}</div>
+          <div class="signline-row">
+            ${this.icon('mail', 'contact-icon')}<a href="mailto:${this.esc(senderEmail)}" class="contact-link" contenteditable="true" data-path="${sp}.senderEmail">${this.esc(senderEmail)}</a>
+          </div>
+          <div class="signline-row">
+            ${this.icon('phone', 'contact-icon')}<a href="tel:${this.esc(cleanPhone)}" class="contact-link" contenteditable="true" data-path="${sp}.senderPhone">${this.esc(senderPhone)}</a>
+          </div>
+        </div>
+
+        <div class="signline signline-client">
+          <span class="signline-label" contenteditable="true" data-path="${sp}.clientLabel">${this.esc(clientLabel)}</span>
+          <strong class="signline-name" contenteditable="true" data-path="${sp}.clientName">${this.esc(clientName)}</strong>
+          <div class="signline-meta" contenteditable="true" data-path="${sp}.clientContactPerson">${this.esc(clientRep)}</div>
+          <div class="signline-row">
+            ${this.icon('phone', 'contact-icon')}<span contenteditable="true" data-path="${sp}.clientContact">${this.esc(clientContact)}</span>
+          </div>
+          <div class="signline-row">
+            ${this.icon('map-pin', 'contact-icon')}<span contenteditable="true" data-path="${sp}.clientLocation">${this.esc(clientLoc)}</span>
+          </div>
+          <div class="signline-row signline-date-row">
+            ${this.icon('calendar', 'contact-icon')}<span contenteditable="true" data-path="${sp}.clientDate">${this.esc(clientDate)}</span>
+          </div>
+        </div>
+      </div>`;
+  },
+
   closing(section, path) {
     const paras = (section.paragraphs || []).map((p, i) =>
       `<p contenteditable="true" data-path="${path}.paragraphs.${i}">${this.esc(p)}</p>`
@@ -477,28 +522,13 @@ const components = {
 
     const sig = section.signature || {};
     const sp  = `${path}.signature`;
-    const email = sig.senderEmail || 'prince.kyei010@gmail.com';
-    const phone = sig.senderPhone || '+233247380924';
-    const cleanPhone = phone.replace(/[^\d+]/g, '');
 
     return `
       <section id="${section.id || 'next-steps'}">
         ${this.sectionHead(section.num, section.heading, section.subheading, path)}
         <div class="closing">
           ${paras}
-          <div class="signature">
-            <div class="signline">
-              <strong contenteditable="true" data-path="${sp}.senderName">${this.esc(sig.senderName || 'PRINCE KYEI')}</strong><br>
-              <span contenteditable="true" data-path="${sp}.senderCompany">${this.esc(sig.senderCompany || 'Web-App')}</span><br>
-              ${this.icon('mail', 'contact-icon')}<a href="mailto:${this.esc(email)}" class="contact-link" contenteditable="true" data-path="${sp}.senderEmail">${this.esc(email)}</a><br>
-              ${this.icon('phone', 'contact-icon')}<a href="tel:${this.esc(cleanPhone)}" class="contact-link" contenteditable="true" data-path="${sp}.senderPhone">${this.esc(phone)}</a>
-            </div>
-            <div class="signline">
-              <strong>Client details</strong><br>
-              <span contenteditable="true" data-path="${sp}.clientName">${this.esc(sig.clientName)}</span><br>
-              <span contenteditable="true" data-path="${sp}.clientDate">${this.esc(sig.clientDate)}</span>
-            </div>
-          </div>
+          ${this.signatureBlock(sig, sp)}
         </div>
       </section>`;
   },
@@ -508,29 +538,15 @@ const components = {
       `<p contenteditable="true" data-path="${path}.paragraphs.${i}">${this.esc(p)}</p>`
     ).join('');
 
-    const sig = section.signature;
+    const sig = section.signature || {};
     const sp  = `${path}.signature`;
-    const email = sig.senderEmail || 'prince.kyei010@gmail.com';
-    const phone = sig.senderPhone || '+233247380924';
-    const cleanPhone = phone.replace(/[^\d+]/g, '');
 
     return `
       <section id="${section.id || 'contact'}">
         ${this.sectionHead(section.num, section.heading, section.subheading, path)}
         <div class="closing">
           ${paras}
-          <div class="signature">
-            <div class="signline">
-              <strong contenteditable="true" data-path="${sp}.senderName">${this.esc(sig.senderName || 'PRINCE KYEI')}</strong><br>
-              ${this.icon('mail', 'contact-icon')}Email: <a href="mailto:${this.esc(email)}" class="contact-link" contenteditable="true" data-path="${sp}.senderEmail">${this.esc(email)}</a><br>
-              ${this.icon('phone', 'contact-icon')}Phone / WhatsApp: <a href="tel:${this.esc(cleanPhone)}" class="contact-link" contenteditable="true" data-path="${sp}.senderPhone">${this.esc(phone)}</a>
-            </div>
-            <div class="signline">
-              <strong>${this.esc(sig.clientLabel || 'Client contact')}</strong><br>
-              <strong contenteditable="true" data-path="${sp}.clientName">${this.esc(sig.clientName)}</strong><br>
-              ${this.icon('map-pin', 'contact-icon')}<span contenteditable="true" data-path="${sp}.clientLocation">${this.esc(sig.clientLocation)}</span>
-            </div>
-          </div>
+          ${this.signatureBlock(sig, sp)}
         </div>
       </section>`;
   },

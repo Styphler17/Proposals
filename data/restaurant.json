@@ -423,11 +423,15 @@
             ],
             "signature": {
                 "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App",
                 "senderEmail": "prince.kyei010@gmail.com",
                 "senderPhone": "+233247380924",
-                "clientLabel": "Restaurant contact",
-                "clientName": "[Restaurant Name / Venue]",
-                "clientLocation": "Accra, Ghana"
+                "clientLabel": "Restaurant Management Contact",
+                "clientName": "[Restaurant / Lounge Name]",
+                "clientContactPerson": "[General Manager / Head of Operations]",
+                "clientContact": "[Reservations Phone / Kitchen Email]",
+                "clientLocation": "Accra, Ghana",
+                "clientDate": "[Acceptance Date / Go-Live Date]"
             }
         }
     ],

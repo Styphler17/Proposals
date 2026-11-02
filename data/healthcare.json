@@ -412,11 +412,15 @@
             ],
             "signature": {
                 "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App",
                 "senderEmail": "prince.kyei010@gmail.com",
                 "senderPhone": "+233247380924",
-                "clientLabel": "Practice contact",
-                "clientName": "[Clinic / Practice Name]",
-                "clientLocation": "Accra, Ghana"
+                "clientLabel": "Clinic & Practice Contact",
+                "clientName": "[Clinic / Medical Practice Name]",
+                "clientContactPerson": "[Medical Director / Practice Manager]",
+                "clientContact": "[Reception Phone / Official Email]",
+                "clientLocation": "Accra, Ghana",
+                "clientDate": "[Acceptance Date / Portal Sign-off]"
             }
         }
     ],

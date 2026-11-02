@@ -402,10 +402,16 @@
                 "To get started, simply reply to confirm your preferred tier or schedule your complimentary 20-minute feasibility check."
             ],
             "signature": {
-                "name": "PRINCE KYEI",
-                "title": "Lead Mobile Solutions Architect, Web-App",
-                "phone": "+233247380924",
-                "email": "prince.kyei010@gmail.com"
+                "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Mobile Solutions Architect, Web-App",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Client Mobile Lead & Sign-off",
+                "clientName": "[Website / Business Name]",
+                "clientContactPerson": "[Project Manager / Decision Maker]",
+                "clientContact": "[Direct Phone / WhatsApp / Email]",
+                "clientLocation": "Accra, Ghana",
+                "clientDate": "[Acceptance Date / Target Launch]"
             }
         }
     ],

@@ -412,11 +412,15 @@
             ],
             "signature": {
                 "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App",
                 "senderEmail": "prince.kyei010@gmail.com",
                 "senderPhone": "+233247380924",
-                "clientLabel": "Contractor contact",
-                "clientName": "[Plumbing Company Name]",
-                "clientLocation": "Accra / Tema, Ghana"
+                "clientLabel": "Contractor Operations Contact",
+                "clientName": "[Plumbing & Trade Business Name]",
+                "clientContactPerson": "[Managing Contractor / Dispatch Lead]",
+                "clientContact": "[Dispatch Phone / WhatsApp / Email]",
+                "clientLocation": "Accra / Tema, Ghana",
+                "clientDate": "[Acceptance Date / System Deployment]"
             }
         }
     ],

@@ -390,10 +390,16 @@
                 "To get started, simply reply to confirm your preferred package or schedule a complimentary 30-minute demonstration for your pastoral board."
             ],
             "signature": {
-                "name": "PRINCE KYEI",
-                "title": "Lead Digital Architect, Web-App Proposals",
-                "phone": "+233247380924",
-                "email": "prince.kyei010@gmail.com"
+                "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App Proposals",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Church Administrative Contact",
+                "clientName": "[Church / Ministry Name]",
+                "clientContactPerson": "[Senior Pastor / Church Administrator]",
+                "clientContact": "[Church Office Phone / Official Email]",
+                "clientLocation": "Accra / Kumasi, Ghana",
+                "clientDate": "[Acceptance Date / Ministry Sign-off]"
             }
         }
     ],

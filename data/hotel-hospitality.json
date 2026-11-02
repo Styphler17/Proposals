@@ -389,10 +389,16 @@
                 "To get started, simply reply to confirm your preferred package or schedule a complimentary 30-minute demonstration for your General Manager."
             ],
             "signature": {
-                "name": "PRINCE KYEI",
-                "title": "Lead Hospitality Solutions Architect, Web-App Proposals",
-                "phone": "+233247380924",
-                "email": "prince.kyei010@gmail.com"
+                "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Hospitality Solutions Architect, Web-App",
+                "senderEmail": "prince.kyei010@gmail.com",
+                "senderPhone": "+233247380924",
+                "clientLabel": "Hotel Management Contact",
+                "clientName": "[Hotel / Resort Name]",
+                "clientContactPerson": "[General Manager / Reservations Lead]",
+                "clientContact": "[Front Desk / Management Phone / Email]",
+                "clientLocation": "Accra / Takoradi, Ghana",
+                "clientDate": "[Acceptance Date / Target Go-Live]"
             }
         }
     ],

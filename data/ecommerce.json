@@ -413,11 +413,15 @@
             ],
             "signature": {
                 "senderName": "PRINCE KYEI",
+                "senderTitle": "Lead Digital Architect, Web-App",
                 "senderEmail": "prince.kyei010@gmail.com",
                 "senderPhone": "+233247380924",
-                "clientLabel": "Merchant contact",
-                "clientName": "[Brand / Store Name]",
-                "clientLocation": "Accra, Ghana"
+                "clientLabel": "Merchant & Brand Contact",
+                "clientName": "[Retail Brand / Online Store Name]",
+                "clientContactPerson": "[E-Commerce Manager / Brand Owner]",
+                "clientContact": "[Support Phone / Official Store Email]",
+                "clientLocation": "Accra, Ghana",
+                "clientDate": "[Acceptance Date / Store Launch]"
             }
         }
     ],
