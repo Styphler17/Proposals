@@ -732,7 +732,22 @@ async function saveChanges() {
   if (status) status.textContent = 'Saving…';
 
   try {
-    const url = `save.php?file=${encodeURIComponent(currentJsonFile)}`;
+    // Determine the correct save endpoint based on environment
+    const isFileProtocol = window.location.protocol === 'file:';
+    const isLocalhost    = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const isVercel       = !isLocalhost && !isFileProtocol;
+
+    if (isFileProtocol) {
+      if (status) status.textContent = 'Open via MAMP to save';
+      if (btn) { setButtonText(btn, 'Save changes'); btn.disabled = false; }
+      showToast('Open via MAMP (http://localhost/Proposals/…) to enable saving.');
+      return;
+    }
+
+    const url = isVercel
+      ? `/api/save?file=${encodeURIComponent(currentJsonFile)}`
+      : `save.php?file=${encodeURIComponent(currentJsonFile)}`;
+
     const res = await fetch(url, {
       method:  'POST',
       headers: {
@@ -757,7 +772,7 @@ async function saveChanges() {
       }
       showToast('Proposal changes saved successfully ✓');
     } else {
-      const errMsg = json?.error || (res.status === 405 ? '405 Method Not Allowed — ensure MAMP is running and page is opened via http://localhost/…' : `HTTP ${res.status}`);
+      const errMsg = json?.error || `HTTP ${res.status}`;
       if (status) status.textContent = `Save failed: ${errMsg}`;
       if (btn) {
         setButtonText(btn, 'Retry save');
