@@ -1,0 +1,436 @@
+{
+    "meta": {
+        "title": "Website to Mobile App Conversion Proposal | Web-App",
+        "description": "Turn your existing responsive website into an Android and iOS mobile app with WebView shells, push notifications, and native features."
+    },
+    "scrollTarget": "main-packages",
+    "scrollLabel": "View app conversion packages",
+    "scrollShortLabel": "Packages",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Mobile app conversion · Android & iOS WebView & Hybrid",
+        "eyebrow": "Website to Mobile App Proposal",
+        "headline": "Turn your existing website into a high-performance mobile app.",
+        "subheading": "A fast, cost-effective route to publish your responsive website onto the Google Play Store and Apple App Store with native push notifications, deep links, and device capabilities.",
+        "preparedFor": "[Client / Business Name]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The mobile conversion opportunity",
+            "subheading": "Take advantage of your existing website to launch a mobile app in weeks rather than months.",
+            "clientName": "[Client Name]",
+            "introSuffix": "already has a functioning web presence. Rather than investing in a costly ground-up rebuild, converting your website into a hybrid mobile app allows you to engage mobile users with push notifications, icon presence, and native speed.",
+            "outcomes": [
+                {
+                    "title": "1-Tap Home Screen Presence",
+                    "desc": "Give customers instant access with a branded app icon on their home screen, boosting recurring visits and brand recall."
+                },
+                {
+                    "title": "Real-Time Push Notifications",
+                    "desc": "Send instant alerts for flash sales, order updates, new content, and announcements directly to users' lock screens with 90%+ open rates."
+                },
+                {
+                    "title": "Fast Time-to-Market & Lower Cost",
+                    "desc": "Launch on Google Play and Apple App Store in as little as 1 to 4 weeks at a fraction of the cost of building from scratch."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Complimentary mobile feasibility check",
+            "subheading": "Two zero-risk resources provided to assess your website's readiness for App Store conversion.",
+            "cards": [
+                {
+                    "tag": "Zero-Obligation Audit",
+                    "title": "Website Mobile-Readiness & UX Review",
+                    "price": "GH₵0",
+                    "desc": "We test your existing website across multiple Android and iOS device viewports to verify compatibility.",
+                    "items": [
+                        "Review of mobile touch navigation, sticky headers, and input fields",
+                        "Check for external link handling and authentication session persistence",
+                        "Assessment of Apple App Store Guideline 4.2 (Minimum Functionality compliance)",
+                        "Written readiness checklist with recommendations before packaging"
+                    ]
+                },
+                {
+                    "tag": "Interactive Demonstration",
+                    "title": "20-Min Test App Preview & Walkthrough",
+                    "price": "GH₵0",
+                    "desc": "Experience your website loaded inside a native container on a real smartphone.",
+                    "items": [
+                        "Live demo of splash screen animation and smooth status bar integration",
+                        "Walkthrough of push notification dashboard and deep link testing",
+                        "Explanation of Google Play and Apple Developer account enrollment",
+                        "Q&A session to confirm feature scope and launch milestones"
+                    ]
+                }
+            ],
+            "footer": "Free assessments are available for active businesses, e-commerce stores, news portals, and community sites."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your mobile conversion tier",
+            "subheading": "Three progressive tiers matching the exact deliverables and timeframes required for your app experience.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Tier 1 · Fast Store Presence",
+                    "title": "The \"Wrapper\" (Starter)",
+                    "price": "GH₵1,500 – 2,500",
+                    "desc": "A sleek native shell that packages your mobile website into an installable Android and iOS application.",
+                    "items": [
+                        "App icon design & branded splash loading screen",
+                        "Basic WebView shell (optimally loads and caches the website)",
+                        "Smooth native navigation & Android physical back-button handling",
+                        "Pull-to-refresh & offline network connection detector screen",
+                        "Basic cross-device testing across common screen resolutions",
+                        "Store submission assistance & signed release bundle (.aab / .ipa)",
+                        "14 days post-launch warranty and verification support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "1–2 weeks"
+                        }
+                    ],
+                    "footNote": "Best for content sites, blogs, and simple catalogs that want fast App Store availability."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for active stores & member portals",
+                    "kicker": "Tier 2 · Enhanced Engagement",
+                    "title": "The \"Native Feel\" (Plus)",
+                    "price": "GH₵3,000 – 6,000",
+                    "desc": "Everything in Starter plus real-time push notifications, deep links, and seamless user account persistence.",
+                    "items": [
+                        "Everything included in the Starter \"Wrapper\" package",
+                        "Push notifications setup with Firebase Cloud Messaging (FCM) & web push backend",
+                        "Deep links support (opening shared links navigates directly to specific in-app pages)",
+                        "Improved login handling (persistent cookies and biometric keychain storage)",
+                        "Basic in-app analytics & crash reporting setup (Google Analytics / Crashlytics)",
+                        "Custom native bottom navigation bar for quick access to primary sections",
+                        "30 days post-launch warranty and push broadcast training"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "2–4 weeks"
+                        }
+                    ],
+                    "footNote": "Engineered to keep users coming back with automated notifications and smooth in-app navigation."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Tier 3 · Custom Device Features",
+                    "title": "The \"Hybrid\" (Advanced)",
+                    "price": "GH₵6,000 – 12,000+",
+                    "desc": "A hybrid architecture blending your website with custom native device screens and offline capabilities.",
+                    "items": [
+                        "Everything included in the Plus \"Native Feel\" package",
+                        "Custom native screens (e.g., native camera capture, GPS geolocation, file uploaders)",
+                        "Offline caching (key screens and cached data display smoothly without internet)",
+                        "Additional API integrations & JavaScript-to-Native bridge handlers",
+                        "Biometric authentication (Fingerprint / Face ID login lock)",
+                        "Expanded QA testing across multiple OS versions and screen aspect ratios",
+                        "Comprehensive store rejection protection & Apple Guideline 4.2 compliance defense",
+                        "60 days dedicated technical warranty and priority support"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "3–8+ weeks"
+                        }
+                    ],
+                    "footNote": "For businesses requiring hardware access (camera, location, biometrics) and offline reliability."
+                }
+            ],
+            "enterprise": {
+                "heading": "Enterprise Multi-Store & White-Label Deployments",
+                "body": "For organizations requiring custom internal distribution, mobile device management (MDM) deployment, multi-tenant white-label branding, or dedicated continuous integration / continuous deployment (CI/CD) pipelines.",
+                "cta": "Custom Scope · From GH₵15,000"
+            },
+            "smallNote": "All packages include complete source code ownership. Apple Developer ($99/year) and Google Play Console ($25 one-time) fees are paid directly to Apple and Google."
+        },
+        {
+            "id": "app-upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Popular conversion add-ons",
+            "subheading": "Optional enhancements to elevate your mobile application.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Security & Convenience",
+                    "title": "Biometric Face ID & Fingerprint Login",
+                    "price": "+GH₵1,800",
+                    "desc": "Allow users to unlock the app and authenticate securely using their phone's fingerprint sensor or Face ID.",
+                    "items": [
+                        "Native iOS Face ID / Touch ID integration",
+                        "Android BiometricPrompt API integration",
+                        "Fallback to account password or PIN code",
+                        "Encrypted secure token storage on device"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "3–5 days"
+                        }
+                    ],
+                    "footNote": "Greatly enhances user security and login speed for financial, medical, or account-based apps."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Store Visibility & Ranking",
+                    "title": "App Store Optimization (ASO) Pack",
+                    "price": "+GH₵2,200",
+                    "desc": "Maximize organic downloads with professional App Store & Google Play screenshots, keywords, and copy.",
+                    "items": [
+                        "5 custom branded device mockup preview screenshots for iPhone and Android",
+                        "Keyword-optimized app title, subtitle, and detailed marketing description",
+                        "High-resolution App Store icon and promotional feature banners",
+                        "Localized Ghanaian search tags to rank for relevant industry searches"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "1 week"
+                        }
+                    ],
+                    "footNote": "Ensures your app looks prestigious and ranks well when potential customers search the stores."
+                }
+            ],
+            "smallNote": "Add-ons can be selected during the initial conversion or deployed as phase-two updates."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Conversion tier comparison matrix",
+            "subheading": "A clear side-by-side view of features, technical deliverables, and support across all three tiers.",
+            "headers": [
+                "Deliverable / Capability",
+                "The \"Wrapper\"",
+                "The \"Native Feel\"",
+                "The \"Hybrid\""
+            ],
+            "rows": [
+                [
+                    "Branded App Icon & Custom Splash Screen",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "WebView Shell & Full Website Loading",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Navigation & Physical Back-Button Handling",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Pull-to-Refresh & Offline Detector",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Store Submission Assistance (.aab / .ipa)",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Push Notifications (Firebase FCM Integration)",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Deep Linking to Specific Pages / Products",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Persistent Login & Session Cookie Handling",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "In-App Analytics & Crashlytics Setup",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Custom Native Screens (Camera, GPS, Uploads)",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Offline Data Caching (No Internet Needed)",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Biometric Face ID / Fingerprint Auth",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Warranty & Support Period",
+                    "14 Days",
+                    "30 Days",
+                    "60 Days"
+                ]
+            ],
+            "footnote": "Both Google Play Store (Android) and Apple App Store (iOS) publishing are supported across all tiers."
+        },
+        {
+            "id": "growth-services",
+            "num": "06",
+            "type": "addons",
+            "heading": "Ongoing app care & growth services",
+            "subheading": "Services to ensure your mobile apps remain fast, secure, and compatible with new phone models.",
+            "items": [
+                {
+                    "title": "Developer Account Enrollment Assistance",
+                    "body": "We guide your organization step-by-step through setting up verified Apple Developer ($99/yr) and Google Play Console ($25 one-time) accounts."
+                },
+                {
+                    "title": "Push Notification Marketing Campaigns",
+                    "body": "Assistance designing automated push notification sequences for abandoned carts, weekly promotions, or breaking announcements."
+                },
+                {
+                    "title": "In-App Review & Rating Prompts",
+                    "body": "Smart native rating dialogs that trigger after positive customer milestones to generate 5-star reviews on the stores."
+                },
+                {
+                    "title": "Annual OS Compatibility Updates",
+                    "body": "Quarterly SDK upgrades and testing to guarantee your apps run smoothly on the latest Android and iOS operating system releases."
+                }
+            ],
+            "footer": "Care plans can be retained monthly or booked on an as-needed basis for major seasonal updates."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Four-step conversion process",
+            "subheading": "From initial website inspection to live App Store availability in 1 to 4 weeks.",
+            "steps": [
+                {
+                    "num": "01",
+                    "title": "Website Audit & Asset Prep",
+                    "desc": "We inspect your website responsiveness, optimize viewport scaling, and collect your high-res logo artwork for app icons and splash screens."
+                },
+                {
+                    "num": "02",
+                    "title": "App Shell Engineering",
+                    "desc": "We configure the native wrapper container, integrate navigation controllers, set up push notification SDKs, and build test builds."
+                },
+                {
+                    "num": "03",
+                    "title": "Testing & Client Preview",
+                    "desc": "We install test builds on your team's real Android and iOS phones to test touch response, links, logins, and push notifications."
+                },
+                {
+                    "num": "04",
+                    "title": "Store Submission & Launch",
+                    "desc": "We prepare store screenshots, privacy policy links, and descriptions, then submit the signed release bundles for Google Play and Apple approval."
+                }
+            ]
+        },
+        {
+            "id": "commercial-terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Commercial terms and commitments",
+            "subheading": "Transparent milestone schedule, clear ownership, and reliable warranty terms.",
+            "terms": [
+                {
+                    "title": "Milestone payments",
+                    "body": "50% upfront commitment to initiate packaging and asset design, 30% upon approval of the live test build on your phone, and 20% prior to final store release."
+                },
+                {
+                    "title": "100% Code & Store Account Ownership",
+                    "body": "Apps are published directly under your company's official developer accounts. You maintain complete ownership of all code, assets, and user data."
+                },
+                {
+                    "title": "Store Approval Support Guarantee",
+                    "body": "We assist and handle technical feedback from Google Play and Apple review teams until your application is successfully published."
+                },
+                {
+                    "title": "Post-Launch Warranty",
+                    "body": "Includes complimentary bug fixing, crash monitoring, and technical support following store release based on your chosen tier."
+                }
+            ],
+            "callout": {
+                "label": "Store Requirements Notice:",
+                "body": "Apple and Google require organizations to hold registered developer accounts. Websites must be mobile-friendly and comply with standard App Store guidelines."
+            }
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Next steps to launch your mobile app",
+            "subheading": "Let's bring your website to the App Store and Google Play with speed and polish.",
+            "paragraphs": [
+                "We recommend The \"Native Feel\" (Plus) tier at GH₵3,000 – 6,000 for active businesses wanting to engage their customer base with lock-screen push notifications, deep linking, and smooth session persistence. For simple portfolios or blogs wanting fast store presence, The \"Wrapper\" (Starter) at GH₵1,500 – 2,500 delivers rapid 1–2 week deployment.",
+                "To get started, simply reply to confirm your preferred tier or schedule your complimentary 20-minute feasibility check."
+            ],
+            "signature": {
+                "name": "PRINCE KYEI",
+                "title": "Lead Mobile Solutions Architect, Web-App",
+                "phone": "+233247380924",
+                "email": "prince.kyei010@gmail.com"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Website to Mobile App Conversion Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "web-to-app-pitch",
+            "name": "Cold Pitch to Website Owner",
+            "subject": "Turning [Client Name]'s website into a mobile app (iOS & Android)",
+            "body": "Dear [Client Name] Team,\n\nI hope this email finds you well.\n\nWhile reviewing [Client Name]'s online presence, I noticed that your website is well-designed for mobile browsing. However, without a dedicated app on the Google Play Store and Apple App Store, you miss out on lock-screen push notifications, home-screen branding, and 1-tap customer retention.\n\nWe specialize in converting existing websites into high-performance Android & iOS mobile apps:\n• Tier 1: The \"Wrapper\" (Starter) · GH₵1,500 – 2,500 (1–2 weeks)\n• Tier 2: The \"Native Feel\" (Plus) · GH₵3,000 – 6,000 (Push alerts, deep links, persistent login)\n• Tier 3: The \"Hybrid\" (Advanced) · GH₵6,000 – 12,000+ (Offline caching, camera/GPS access)\n\nI have prepared a custom interactive proposal for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nWould you be open to a quick 15-minute phone or WhatsApp conversation this week to test a preview build on your phone?\n\nBest regards,\n\nPRINCE KYEI\nLead Mobile Architect, Web-App\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "web-to-app-delivery",
+            "name": "Proposal Delivery Follow-up",
+            "subject": "Website to Mobile App Proposal for [Client Name] - Web-App",
+            "body": "Dear [Client Name],\n\nThank you for our conversation regarding expanding [Client Name]'s digital presence into mobile apps. As discussed, I have assembled our full interactive Website to Mobile App Conversion proposal.\n\n🔗 Access the Interactive Proposal:\n[Proposal Link]\n\nInside, you will find:\n1. Detailed deliverables breakdown (Wrapper vs. Native Feel vs. Hybrid)\n2. Side-by-side feature comparison matrix\n3. Rapid 1 to 4 week launch schedule\n4. Transparent milestone payments and store publishing support\n\nPlease review the proposal and let me know if you would like to proceed with the recommended \"Native Feel\" tier.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "web-to-app-audit",
+            "name": "Free App Feasibility Check Offer",
+            "subject": "Complimentary mobile app feasibility check for [Client Name] (GH₵0)",
+            "body": "Hi [Client Name] Team,\n\nBefore spending tens of thousands on a ground-up mobile app rebuild, we would like to invite [Client Name] to take advantage of our complimentary Mobile App Feasibility Review at GH₵0.\n\nWe will evaluate:\n• How smoothly your current website functions inside a native app wrapper\n• App Store and Google Play approval feasibility under current guidelines\n• Opportunities to increase customer return rates with push notifications\n\nYou can review our proposal and schedule your free review here:\n👉 [Proposal Link]\n\nSimply reply to this email or send a WhatsApp message to +233247380924 to connect.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App"
+        }
+    ]
+}

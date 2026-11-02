@@ -1,0 +1,432 @@
+{
+    "meta": {
+        "title": "Custom Mobile App Development Proposal | Web-App",
+        "description": "Bespoke iOS and Android mobile applications built from scratch, from MVP launches to complex enterprise platforms."
+    },
+    "scrollTarget": "main-packages",
+    "scrollLabel": "View custom app packages",
+    "scrollShortLabel": "Packages",
+    "hero": {
+        "brand": {
+            "main": "web",
+            "accent": "-app"
+        },
+        "tagline": "Custom software · Bespoke iOS & Android Applications",
+        "eyebrow": "Custom Mobile Application Proposal",
+        "headline": "Custom iOS & Android mobile applications engineered for growth.",
+        "subheading": "From focused MVPs to advanced platforms with GPS tracking, cloud databases, and Paystack/Flutterwave integrations, we engineer bespoke mobile software tailored to your operations.",
+        "preparedFor": "[Client / Business Name]",
+        "preparedBy": "PRINCE KYEI",
+        "dateValidity": "[Proposal Date] · Valid for 14 days"
+    },
+    "sections": [
+        {
+            "id": "opportunity",
+            "num": "01",
+            "type": "outcomes",
+            "heading": "The custom application advantage",
+            "subheading": "Bespoke software built around your exact workflows, customer journeys, and commercial goals.",
+            "clientName": "[Client Name]",
+            "introSuffix": "requires technology tailored to its unique business model. Off-the-shelf templates and simple web wrappers cannot support proprietary algorithms, complex multi-user roles, real-time dispatch, or custom payment logic.",
+            "outcomes": [
+                {
+                    "title": "Bespoke User Experiences",
+                    "desc": "Tailored customer and staff workflows with native iOS and Android gesture response, offline reliability, and lightning performance."
+                },
+                {
+                    "title": "Scalable Cloud Architecture",
+                    "desc": "Robust backend APIs, relational databases, and automated backups built to effortlessly scale from hundreds to hundreds of thousands of users."
+                },
+                {
+                    "title": "Seamless Local & Global Payments",
+                    "desc": "Direct integrations with Ghanaian payment rails (MTN MoMo, Telecel Cash) alongside Visa/Mastercard via Paystack or Flutterwave."
+                }
+            ]
+        },
+        {
+            "id": "free-offers",
+            "num": "02",
+            "type": "freeOffers",
+            "heading": "Complimentary architecture & tech consultation",
+            "subheading": "Two valuable advisory sessions before entering technical scoping and wireframe design.",
+            "cards": [
+                {
+                    "tag": "Zero-Obligation Consultation",
+                    "title": "App Technical Architecture & Scope Review",
+                    "price": "GH₵0",
+                    "desc": "A deep-dive technical assessment evaluating database architecture, third-party APIs, and security requirements.",
+                    "items": [
+                        "Review of proposed feature requirements and user personas",
+                        "Selection of optimal tech stack (Flutter / React Native cross-platform)",
+                        "Assessment of third-party API dependencies (maps, SMS, payments)",
+                        "Recommended milestone roadmap and MVP scoping outline"
+                    ]
+                },
+                {
+                    "tag": "Executive Presentation",
+                    "title": "30-Min Wireframe & Tech Stack Demo",
+                    "price": "GH₵0",
+                    "desc": "An interactive screen presentation demonstrating similar app architectures and administrative backends.",
+                    "items": [
+                        "Demonstration of real-time cloud database syncing and push alert triggers",
+                        "Walkthrough of web admin dashboard capabilities and exportable reports",
+                        "Review of payment gateway settlement directly into your corporate account",
+                        "Open technical Q&A for founders, directors, and technical leads"
+                    ]
+                }
+            ],
+            "footer": "Consultations are provided to startups, commercial businesses, and corporate organizations across Ghana."
+        },
+        {
+            "id": "main-packages",
+            "num": "03",
+            "type": "tiers",
+            "heading": "Choose your custom application tier",
+            "subheading": "Three transparent tiers reflecting the exact scope, technical depth, and development timeframes from our proven framework.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Tier 1 · Focused Launch",
+                    "title": "The MVP (Minimum Viable Product)",
+                    "price": "GH₵8,000 – 15,000",
+                    "desc": "A simple, single-purpose application engineered for fast market validation without complex backend overhead.",
+                    "items": [
+                        "Single-purpose mobile app (e.g., church app with sermons/notices, or basic business directory)",
+                        "3–5 custom UI/UX screens with modern responsive layout",
+                        "Basic user authentication (email/password or phone login)",
+                        "Lightweight backend database & content management",
+                        "Cross-platform compilation for Android and iOS",
+                        "App Store and Google Play packaging and release build testing",
+                        "30 days post-launch technical warranty and handover"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "3–5 weeks"
+                        }
+                    ],
+                    "footNote": "Ideal for startups validating an idea, specialized directories, and community organization apps."
+                },
+                {
+                    "recommended": true,
+                    "recommendLabel": "Recommended for scaling businesses & commercial portals",
+                    "kicker": "Tier 2 · Operational Problem-Solver",
+                    "title": "The Standard Business App",
+                    "price": "GH₵18,000 – 30,000",
+                    "desc": "An application that solves a specific business problem with member accounts, notifications, and existing database/API connections.",
+                    "items": [
+                        "Solves a specific business problem (e.g., real estate listing app, school portal, fleet delivery app)",
+                        "Comprehensive user profiles, roles, and account preferences",
+                        "Push notifications engine with targeted message broadcasts",
+                        "Search, multi-attribute filtering & saved favorites/bookmarks",
+                        "Direct integration with existing business database, CRM, or REST/GraphQL API",
+                        "Secure session management with token-based API authentication",
+                        "Web-based management dashboard for administrative team",
+                        "60 days dedicated technical warranty, staff training & documentation"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "6–9 weeks"
+                        }
+                    ],
+                    "footNote": "Engineered for established businesses automating customer transactions or field workforce operations."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Tier 3 · Enterprise Ecosystem",
+                    "title": "The Advanced Platform",
+                    "price": "GH₵35,000 – 60,000+",
+                    "desc": "A complex, fully-featured commercial ecosystem with real-time tracking, payment integrations, and custom admin portals.",
+                    "items": [
+                        "Complex, fully-featured platform (e.g., e-commerce marketplace, fintech wallet, ride-hailing/logistics app)",
+                        "Advanced security, end-to-end data encryption & biometric authentication",
+                        "Real-time GPS tracking, live map routing, and driver/courier dispatch interfaces",
+                        "Complete payment gateway integration (Paystack, Flutterwave, MTN MoMo, Telecel Cash, Cards)",
+                        "Comprehensive Web Admin Dashboard with financial analytics, audit logs, and exportable reports",
+                        "Automated SMS & WhatsApp transactional alert triggers",
+                        "Multi-tenant or multi-role hierarchy (Admin, Vendor, Driver, Customer)",
+                        "Scalable cloud deployment (AWS / DigitalOcean) with automated daily backups",
+                        "90 days dedicated technical warranty, SLA support & developer knowledge transfer"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Timeframe:",
+                            "text": "10–16+ weeks"
+                        }
+                    ],
+                    "footNote": "Built for mission-critical digital products demanding high concurrency, military-grade security, and automated payments."
+                }
+            ],
+            "enterprise": {
+                "heading": "National-Scale Enterprise & Government Deployments",
+                "body": "For high-volume financial institutions, telecom value-added services, or national logistics networks requiring high-availability microservices architecture, automated penetration testing, and 24/7 dedicated DevOps monitoring.",
+                "cta": "Enterprise RFP · From GH₵75,000"
+            },
+            "smallNote": "All custom app projects include 100% intellectual property transfer, clean documented source code, and zero vendor lock-in."
+        },
+        {
+            "id": "platform-upgrades",
+            "num": "04",
+            "type": "tiers",
+            "heading": "Platform scalability upgrades",
+            "subheading": "High-impact modules that can be added to any custom mobile application tier.",
+            "tiers": [
+                {
+                    "recommended": false,
+                    "kicker": "Real-Time Interaction",
+                    "title": "In-App Chat & Customer Support Engine",
+                    "price": "+GH₵4,500",
+                    "desc": "Enable real-time 1-on-1 or group messaging between customers, support agents, or field personnel.",
+                    "items": [
+                        "WebSockets / Firebase real-time instant messaging engine",
+                        "Image, document, and audio voice note attachment sharing",
+                        "Message read receipts, typing indicators, and push alerts",
+                        "Admin moderation panel with chat transcript history"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "1–2 weeks"
+                        }
+                    ],
+                    "footNote": "Essential for marketplace negotiation, doctor-patient consultation, and rider-driver coordination."
+                },
+                {
+                    "recommended": false,
+                    "kicker": "Fintech & Automated Billing",
+                    "title": "Automated In-App Wallet & Escrow Ledger",
+                    "price": "+GH₵5,800",
+                    "desc": "A virtual digital wallet system allowing users to hold balances, make instant in-app payments, and withdraw to MoMo.",
+                    "items": [
+                        "Double-entry bookkeeping financial ledger architecture",
+                        "Instant wallet top-up via Mobile Money and Credit/Debit Card",
+                        "Automated payout API for technician, vendor, or driver withdrawals",
+                        "Transaction history with downloadable PDF receipts and tax statements"
+                    ],
+                    "footItems": [
+                        {
+                            "label": "Setup time:",
+                            "text": "2 weeks"
+                        }
+                    ],
+                    "footNote": "Eliminates payment friction and enables recurring transactions without re-entering card details."
+                }
+            ],
+            "smallNote": "Upgrades are scoped collaboratively and integrated directly into the core app sprint schedule."
+        },
+        {
+            "id": "comparison",
+            "num": "05",
+            "type": "comparison",
+            "heading": "Custom application tier comparison",
+            "subheading": "A comprehensive feature breakdown across our MVP, Standard Business, and Advanced Platform tiers.",
+            "headers": [
+                "Application Capability",
+                "The MVP",
+                "Standard Business App",
+                "The Advanced Platform"
+            ],
+            "rows": [
+                [
+                    "Custom iOS & Android Mobile App",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Modern Native UI/UX Screen Layouts",
+                    "3–5 screens",
+                    "8–18 screens",
+                    "25+ screens"
+                ],
+                [
+                    "User Authentication & Profile Storage",
+                    "yes",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Cloud Database & Backend API",
+                    "Basic",
+                    "Advanced",
+                    "Enterprise High-Scale"
+                ],
+                [
+                    "Push Notifications (Targeted Segments)",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Search, Filtering & Bookmarking",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Integration with Existing DB / ERP / API",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Web Admin Management Dashboard",
+                    "dash",
+                    "yes",
+                    "yes"
+                ],
+                [
+                    "Real-Time GPS Tracking & Live Maps",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Mobile Money & Card Payment Gateway",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Multi-Role Access (Driver, Vendor, Admin)",
+                    "dash",
+                    "dash",
+                    "yes"
+                ],
+                [
+                    "Dedicated Warranty & Support Period",
+                    "30 Days",
+                    "60 Days",
+                    "90 Days"
+                ]
+            ],
+            "footnote": "All applications are engineered with clean code architecture and handed over with complete technical documentation."
+        },
+        {
+            "id": "growth-services",
+            "num": "06",
+            "type": "addons",
+            "heading": "DevOps, infrastructure & growth services",
+            "subheading": "Enterprise cloud management and ongoing product engineering support.",
+            "items": [
+                {
+                    "title": "Cloud Infrastructure Setup (AWS / DigitalOcean)",
+                    "body": "Production server provisioning, SSL certificates, load balancers, and managed PostgreSQL/MongoDB database deployment with automated backups."
+                },
+                {
+                    "title": "SMS & WhatsApp Transactional Gateway Setup",
+                    "body": "Integration with Ghanaian bulk SMS providers for instant one-time passwords (OTP), login verification codes, and booking confirmation alerts."
+                },
+                {
+                    "title": "App Store Optimization & Launch Marketing",
+                    "body": "App store screenshot design, localized keywords, privacy policy drafting, and launch-day submission coordination."
+                },
+                {
+                    "title": "Monthly Feature Sprint & DevOps Retainer",
+                    "body": "Continuous engineering support providing dedicated developer hours each month for new features, OS upgrades, and security patches."
+                }
+            ],
+            "footer": "Cloud hosting subscriptions and third-party SMS/payment provider fees are billed transparently at direct cost."
+        },
+        {
+            "id": "process",
+            "num": "07",
+            "type": "steps",
+            "heading": "Four-phase agile engineering roadmap",
+            "subheading": "A disciplined, milestone-driven software development lifecycle guaranteeing quality and transparency.",
+            "steps": [
+                {
+                    "num": "01",
+                    "title": "Architecture & UI/UX Wireframing",
+                    "desc": "We define the database schema, map user journeys, design high-fidelity Figma screens, and finalize technical API specifications."
+                },
+                {
+                    "num": "02",
+                    "title": "Core Sprint Development",
+                    "desc": "Our team builds the frontend mobile interfaces, engineers backend API endpoints, and connects database models in weekly sprints."
+                },
+                {
+                    "num": "03",
+                    "title": "End-to-End Testing & Security Audit",
+                    "desc": "We conduct rigorous functional testing, stress-test server loads, simulate real-world network latency, and audit payment security."
+                },
+                {
+                    "num": "04",
+                    "title": "App Store Publishing & Handover",
+                    "desc": "We deploy the production cloud environment, submit release builds to Google Play and Apple App Store, and train your administrative team."
+                }
+            ]
+        },
+        {
+            "id": "commercial-terms",
+            "num": "08",
+            "type": "terms",
+            "heading": "Commercial terms and IP ownership",
+            "subheading": "Complete intellectual property transfer, milestone-governed payments, and clear SLAs.",
+            "terms": [
+                {
+                    "title": "Milestone-based payments",
+                    "body": "50% upfront commitment to initiate architectural wireframing and server provisioning, 30% upon approval of the working staging beta build, and 20% prior to final production deployment."
+                },
+                {
+                    "title": "100% Intellectual Property Ownership",
+                    "body": "Upon final settlement, all custom source code, database architectures, graphics, and server configurations belong exclusively to your organization."
+                },
+                {
+                    "title": "Transparent Cloud & Third-Party Billing",
+                    "body": "Cloud server hosting (AWS/DigitalOcean) and payment gateway processing fees are paid directly to providers without agency markup."
+                },
+                {
+                    "title": "Dedicated Technical Warranty",
+                    "body": "Includes 60 to 90 days of complimentary bug resolution, crash monitoring, and server performance tuning post-launch."
+                }
+            ],
+            "callout": {
+                "label": "Custom Engineering Guarantee:",
+                "body": "Every custom application is built from scratch with clean, documented code and modular architecture to ensure your in-house developers or future partners can easily extend the platform."
+            }
+        },
+        {
+            "id": "contact",
+            "num": "09",
+            "type": "reClosing",
+            "heading": "Next steps to engineer your custom app",
+            "subheading": "Partner with Web-App to build high-performance mobile software that scales your business.",
+            "paragraphs": [
+                "We recommend The Standard Business App tier at GH₵18,000 – 30,000 for established businesses seeking to automate operational workflows, connect existing databases, and engage users with targeted notifications. For startups launching a focused first release, The MVP at GH₵8,000 – 15,000 provides fast market entry in 3–5 weeks. For complex multi-sided ecosystems, The Advanced Platform at GH₵35,000 – 60,000+ delivers enterprise-grade performance.",
+                "To get started, simply reply to confirm your preferred tier or schedule your complimentary 30-minute architecture consultation."
+            ],
+            "signature": {
+                "name": "PRINCE KYEI",
+                "title": "Lead Mobile Solutions Architect, Web-App",
+                "phone": "+233247380924",
+                "email": "prince.kyei010@gmail.com"
+            }
+        }
+    ],
+    "footer": {
+        "left": "Web-App · Custom Mobile Application Development Proposal",
+        "right": "Prepared for discussion · Valid for 14 days"
+    },
+    "emailTemplates": [
+        {
+            "id": "custom-app-pitch",
+            "name": "Cold Pitch to Founder / Executive",
+            "subject": "Engineering a custom mobile application for [Client Name] (iOS & Android)",
+            "body": "Dear [Client Name] Leadership,\n\nI hope this email finds you well.\n\nWhile following [Client Name]'s growth in the market, it is clear that off-the-shelf software and basic templates cannot support the unique workflows, user accounts, and real-time operations your business demands.\n\nWe engineer bespoke, custom-built iOS & Android mobile applications backed by scalable cloud databases and secure payment integrations:\n• Tier 1: The MVP (Minimum Viable Product) · GH₵8,000 – 15,000 (3–5 weeks)\n• Tier 2: The Standard Business App · GH₵18,000 – 30,000 (6–9 weeks)\n• Tier 3: The Advanced Platform · GH₵35,000 – 60,000+ (10–16+ weeks)\n\nI have prepared a custom interactive proposal for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nKey Highlights for [Client Name]:\n• Cross-platform iOS & Android deployment\n• Direct Paystack, Flutterwave & Mobile Money integrations\n• 100% intellectual property and full source code transfer\n\nWould you be open to a 20-minute consultation this week to review technical architecture and feature requirements?\n\nWarm regards,\n\nPRINCE KYEI\nLead Mobile Architect, Web-App Solutions\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+        },
+        {
+            "id": "custom-app-delivery",
+            "name": "Executive Proposal Delivery",
+            "subject": "Custom Mobile Application Proposal for [Client Name] - Web-App",
+            "body": "Dear [Client Name] Executive Team,\n\nThank you for the opportunity to discuss your mobile product roadmap. Following our technical consultation, I have assembled our comprehensive Custom Mobile Application Development proposal.\n\n🔗 Access the Interactive Proposal:\n[Proposal Link]\n\nInside, the team will find:\n1. Detailed module breakdown across our three proven engineering tiers\n2. Side-by-side technical capability matrix\n3. 4-phase agile delivery roadmap with weekly sprint demos\n4. Transparent milestone schedule and 100% code ownership guarantees\n\nPlease share this document with your technical directors and investment committee. I am available to answer questions or deliver a live walkthrough at your convenience.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+        },
+        {
+            "id": "custom-app-audit",
+            "name": "Free App Architecture Consultation",
+            "subject": "Complimentary custom app architecture & tech review for [Client Name] (GH₵0)",
+            "body": "Dear [Client Name] Founders & Technical Leads,\n\nBefore allocating your quarterly software development budget, we invite [Client Name] to receive a complimentary App Architecture & Feasibility Consultation at GH₵0.\n\nDuring this session, we evaluate:\n• Recommended tech stack (Flutter vs. native) for maximum cost efficiency and speed\n• Database schema architecture and third-party API dependencies\n• Milestone scoping to launch an operational MVP in 3 to 5 weeks\n\nYou can review our proposal and schedule your session here:\n👉 [Proposal Link]\n\nSimply reply to this email or send a WhatsApp message to +233247380924 to connect.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Custom Software"
+        }
+    ]
+}

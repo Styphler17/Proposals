@@ -376,11 +376,15 @@ const components = {
 
   table(section, path) {
     const headers = section.headers.map(h => `<th>${this.esc(h)}</th>`).join('');
-    const rows = section.rows.map((row, i) =>
-      `<tr>${row.map((cell, j) =>
-        `<td contenteditable="true" data-path="${path}.rows.${i}.${j}">${this.esc(cell)}</td>`
-      ).join('')}</tr>`
-    ).join('');
+    const rows = section.rows.map((row, i) => {
+      if (row.length === 1) {
+        return `<tr class="table-subhead"><th colspan="${section.headers.length}">${this.esc(row[0])}</th></tr>`;
+      }
+      return `<tr>${row.map((cell, j) => {
+        const formatted = this.esc(cell).replace(/\n/g, '<br>');
+        return `<td contenteditable="true" data-path="${path}.rows.${i}.${j}">${formatted}</td>`;
+      }).join('')}</tr>`;
+    }).join('');
 
     return `
       <section id="${section.id || ''}">

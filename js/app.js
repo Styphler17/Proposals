@@ -66,6 +66,20 @@ const PROPOSAL_TEMPLATES = [
     title: 'Hotels & Hospitality',
     category: 'Direct Bookings & Concierge',
     icon: '<path d="M10 22v-6.57"></path><path d="M12 11h.01"></path><path d="M12 7h.01"></path><path d="M14 15.43V22"></path><path d="M15 11h.01"></path><path d="M15 7h.01"></path><path d="M16 16h3a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"></path><path d="M18 10h.01"></path><path d="M6 10h.01"></path><path d="M6 14h.01"></path><path d="M8 22v-6.57"></path><path d="M9 11h.01"></path><path d="M9 7h.01"></path><rect x="4" y="2" width="16" height="20" rx="2"></rect>'
+  },
+  {
+    json: 'website-to-mobile-app.json',
+    url: 'website-to-mobile-app.html',
+    title: 'Website to Mobile App',
+    category: 'WebView & Hybrid Conversion',
+    icon: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path>'
+  },
+  {
+    json: 'custom-app.json',
+    url: 'custom-app.html',
+    title: 'Custom Mobile App',
+    category: 'Bespoke iOS & Android',
+    icon: '<path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path>'
   }
 ];
 

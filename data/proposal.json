@@ -11,7 +11,7 @@
         "tagline": "Digital products · Mobile applications",
         "eyebrow": "Project proposal",
         "headline": "Mobile applications built around your business.",
-        "subheading": "A clear route from reviewing your existing website or idea to defining the right scope, investment, and delivery plan for a mobile app.",
+        "subheading": "A clear route from converting your existing website into an app or engineering a custom native application from scratch.",
         "preparedFor": "[Client / Business Name]",
         "preparedBy": "PRINCE KYEI",
         "dateValidity": "[Proposal Date] · Valid for 14 days"
@@ -81,102 +81,97 @@
             "num": "03",
             "type": "routes",
             "heading": "Choose the right development route",
-            "subheading": "Indicative one-time development fees, subject to the discovery findings and agreed scope.",
+            "subheading": "Indicative one-time development fees, subject to discovery findings and agreed scope.",
             "cards": [
                 {
                     "kicker": "Route A · Existing website",
                     "title": "Website to Mobile App",
-                    "price": "GH₵1,500–12,000+",
+                    "price": "GH₵1,500 – 12,000+",
                     "note": "Typical timeline: 1–8+ weeks, depending on features and review requirements.",
-                    "body": "Suitable when the existing website is mobile-friendly and can support the intended app experience.",
+                    "body": "Suitable when the existing website is mobile-friendly and you want to convert it into an Android and iOS app with native device features.",
                     "items": [
-                        "App shell, icon, and splash screen",
-                        "Navigation and back-button handling",
-                        "Website login and link handling where suitable",
-                        "Optional notifications, deep links, and device features",
-                        "Testing and release preparation as scoped"
+                        "Tier 1: The \"Wrapper\" (Starter) · GH₵1,500 – 2,500 (1–2 weeks): App icon, splash screen, WebView shell, navigation & back-button, store submission",
+                        "Tier 2: The \"Native Feel\" (Plus) · GH₵3,000 – 6,000 (2–4 weeks): Push notifications (backend setup), deep linking, improved login handling, basic analytics",
+                        "Tier 3: The \"Hybrid\" (Advanced) · GH₵6,000 – 12,000+ (3–8+ weeks): Custom native screens (camera, GPS, file upload), offline caching, API integrations, expanded QA"
                     ],
-                    "rangeNoteLabel": "Package ranges:",
-                    "rangeNoteBody": "Starter GH₵1,500–2,500 · Plus GH₵3,000–6,000 · Advanced GH₵6,000–12,000+"
+                    "rangeNoteLabel": "Package breakdown:",
+                    "rangeNoteBody": "The \"Wrapper\" GH₵1,500 – 2,500 · The \"Native Feel\" GH₵3,000 – 6,000 · The \"Hybrid\" GH₵6,000 – 12,000+"
                 },
                 {
                     "kicker": "Route B · New application",
                     "title": "Custom Mobile App",
-                    "price": "GH₵8,000–60,000+",
-                    "note": "Typical timeline: 3–16+ weeks, depending on complexity. MVP: 3–5 weeks; Standard Business App: 6–9 weeks; Advanced Platform: 10–16+ weeks.",
-                    "body": "Suitable when the business needs new customer journeys, staff workflows, or functionality beyond the current website.",
+                    "price": "GH₵8,000 – 60,000+",
+                    "note": "Typical timeline: 3–16+ weeks, depending on complexity. Built from the ground up for iOS and Android.",
+                    "body": "Suitable when the business needs bespoke user flows, member accounts, real-time services, or backend databases beyond a standard website.",
                     "items": [
-                        "Purpose-built screens and navigation",
-                        "Accounts and roles where required",
-                        "Backend or API integration as scoped",
-                        "Notifications and third-party services where included",
-                        "Testing, handover, and release support as scoped"
+                        "Tier 1: The MVP (Minimum Viable Product) · GH₵8,000 – 15,000 (3–5 weeks): Simple single-purpose app, 3–5 static screens, basic login, no complex backend",
+                        "Tier 2: The Standard Business App · GH₵18,000 – 30,000 (6–9 weeks): Solves specific problem, user profiles, push alerts, search/filter, existing DB/API connect",
+                        "Tier 3: The Advanced Platform · GH₵35,000 – 60,000+ (10–16+ weeks): Complex platform, high security, real-time GPS tracking, Paystack/Flutterwave, custom admin dashboards"
                     ],
-                    "rangeNoteLabel": "Package ranges:",
-                    "rangeNoteBody": "MVP GH₵8,000–15,000 · Standard Business App GH₵18,000–30,000 · Advanced Platform GH₵35,000–60,000+"
+                    "rangeNoteLabel": "Package breakdown:",
+                    "rangeNoteBody": "The MVP GH₵8,000 – 15,000 · Standard Business App GH₵18,000 – 30,000 · Advanced Platform GH₵35,000 – 60,000+"
                 }
             ],
             "calloutLabel": "Pricing approach:",
-            "calloutBody": "these ranges help with early budgeting. The final price will be based on the confirmed features, integrations, content, design complexity, security needs, and release requirements after discovery."
+            "calloutBody": "these ranges help with early budgeting. The final price will be based on confirmed features, integrations, design complexity, security requirements, and release milestones agreed in discovery."
         },
         {
             "id": "package-guide",
             "num": "04",
             "type": "table",
-            "heading": "Package guide",
-            "subheading": "Examples of what the budget ranges generally represent. Final inclusions are agreed in the quotation.",
+            "heading": "Package guide & deliverables matrix",
+            "subheading": "Detailed breakdown of tiers, deliverables, and estimated timeframes for both development routes.",
             "headers": [
-                "Package",
-                "Indicative fee",
-                "Typical fit",
-                "Scope examples",
+                "Tier",
+                "Price Range (GHS)",
+                "What the Client Gets (Deliverables)",
                 "Timeframe"
             ],
             "rows": [
                 [
-                    "Website to Mobile App Starter",
-                    "GH₵1,500–2,500",
-                    "Existing responsive website",
-                    "App shell, branding, navigation, basic testing",
-                    "1–3 weeks"
+                    "Route A: Website to Mobile App (WebView & Hybrid Conversion)"
                 ],
                 [
-                    "Website to Mobile App Plus",
-                    "GH₵3,000–6,000",
-                    "Website needing added convenience",
-                    "Starter features plus selected notifications, deep links, or sharing",
+                    "Tier 1: The \"Wrapper\" (Starter)",
+                    "GH₵ 1,500 – 2,500",
+                    "• App icon & splash screen\n• Basic WebView shell (loads the website)\n• Navigation & back-button handling\n• Basic device testing\n• Store submission assistance",
+                    "1–2 weeks"
+                ],
+                [
+                    "Tier 2: The \"Native Feel\" (Plus)",
+                    "GH₵ 3,000 – 6,000",
+                    "• Everything in Starter\n• Push notifications (requires backend setup)\n• Deep links (opens specific pages in app)\n• Improved login handling\n• Basic analytics setup",
+                    "2–4 weeks"
+                ],
+                [
+                    "Tier 3: The \"Hybrid\" (Advanced)",
+                    "GH₵ 6,000 – 12,000+",
+                    "• Everything in Plus\n• Custom native screens (e.g., camera, GPS, file upload)\n• Offline caching (works without internet)\n• Additional API integrations\n• Expanded QA & release support",
+                    "3–8+ weeks"
+                ],
+                [
+                    "Route B: Custom Mobile App (Bespoke Development)"
+                ],
+                [
+                    "Tier 1: The MVP (Minimum Viable Product)",
+                    "GH₵ 8,000 – 15,000",
+                    "A simple, single-purpose app. (e.g., A church app with sermons and announcements, or a basic business directory app).\nFeatures: 3–5 static screens, basic login, no complex backend.",
                     "3–5 weeks"
                 ],
                 [
-                    "Website to Mobile App Advanced",
-                    "GH₵6,000–12,000+",
-                    "Website needing custom mobile features",
-                    "Selected native screens, device features, or extra integrations",
-                    "5–8+ weeks"
-                ],
-                [
-                    "Mobile App MVP",
-                    "GH₵8,000–15,000",
-                    "Focused first release",
-                    "3–5 static screens, basic login, no complex backend",
-                    "3–5 weeks"
-                ],
-                [
-                    "Standard Business App",
-                    "GH₵18,000–30,000",
-                    "App solving a specific business problem",
-                    "User profiles, push notifications, search/filtering, and connection to an existing database or API",
+                    "Tier 2: The Standard Business App",
+                    "GH₵ 18,000 – 30,000",
+                    "An app that solves a specific problem. (e.g., A real estate listing app, a school portal, or a delivery app for a small fleet).\nFeatures: User profiles, push notifications, search/filtering, and connecting to an existing database/API.",
                     "6–9 weeks"
                 ],
                 [
-                    "Advanced Platform",
-                    "GH₵35,000–60,000+",
-                    "Complex, fully featured platform",
-                    "Advanced security, real-time GPS tracking, payment integrations (Paystack/Flutterwave), and custom admin dashboards",
+                    "Tier 3: The Advanced Platform",
+                    "GH₵ 35,000 – 60,000+",
+                    "A complex, fully-featured platform. (e.g., An e-commerce app with payment gateways, a fintech app, or a ride-hailing app).\nFeatures: Advanced security, real-time GPS tracking, payment integrations (Paystack/Flutterwave), and custom admin dashboards.",
                     "10–16+ weeks"
                 ]
             ],
-            "footer": "The same budget can deliver different outcomes depending on the requirements. No package includes unlimited features, revisions, or integrations."
+            "footer": "All pricing is stated in Ghanaian cedis (GHS). The final investment is confirmed based on approved feature scope, backend architecture, and design specifications following the discovery phase."
         },
         {
             "id": "delivery",
@@ -297,19 +292,19 @@
             "id": "web-cold-pitch",
             "name": "Cold Web & App Pitch",
             "subject": "Quick digital product concept for [Client Name]",
-            "body": "Dear [Client Name] Team,\n\nI hope this email finds you well.\n\nWhile reviewing [Client Name]'s current digital presence, I identified several high-impact opportunities to accelerate your digital growth, expand customer reach, and build dedicated iOS and Android mobile applications.\n\nWe put together a tailored digital proposal for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nInside, you will find:\n• Phased development approach starting with a low-risk Discovery session\n• Transparent pricing tiers (Website-to-App, Custom Flutter Native, and Platform tiers)\n• Milestone-based delivery guarantees and dedicated warranty support\n\nWould you have 10–15 minutes this week for a brief WhatsApp or phone call to discuss your roadmap?\n\nBest regards,\n\nPRINCE KYEI\nLead Developer, Web-App\nPhone / WhatsApp: +233247380924\nEmail: prince.kyei010@gmail.com"
+            "body": "Dear [Client Name] Team,\n\nI hope this email finds you well.\n\nWhile reviewing [Client Name]'s current digital presence, I identified several high-impact opportunities to accelerate your digital growth, expand customer reach, and build dedicated iOS and ·ndroid mobile applications.\n\nWe put together a tailored digital proposal for [Client Name]:\n🔗 View Interactive Proposal: [Proposal Link]\n\nInside, you will find:\n• Phased development approach starting with a low-risk Discovery session\n• Transparent pricing tiers (Website-to-·pp, Custom Flutter Native, and Platform tiers)\n• Milestone-based delivery guarantees and dedicated warranty support\n\nWould you have 10–15 minutes this week for a brief Whats·pp or phone call to discuss your roadmap?\n\nBest regards,\n\nPRINCE KYEI\nLead Developer, Web-·pp\nPhone / Whats·pp: +233247380924\nEmail: prince.kyei010@gmail.com"
         },
         {
             "id": "web-followup",
             "name": "Proposal Delivery Follow-up",
             "subject": "Website & Mobile App Proposal for [Client Name] - Web-App",
-            "body": "Dear [Client Name],\n\nThank you for taking the time to discuss your technology goals. As promised, I have compiled our full interactive Website & Mobile Application proposal for [Client Name].\n\n🔗 Access the Full Proposal:\n[Proposal Link]\n\nKey Highlights for [Client Name]:\n1. Transparent scope breakdown & deliverable timeline\n2. Cost options from MVP launch to enterprise native mobile apps\n3. Dedicated post-launch warranty and administrator handoff\n\nPlease let me know if you have questions about the packages or if you would like to begin with the Discovery Phase.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-App Solutions\n+233247380924 | prince.kyei010@gmail.com"
+            "body": "Dear [Client Name],\n\nThank you for taking the time to discuss your technology goals. ·s promised, I have compiled our full interactive Website & Mobile ·pplication proposal for [Client Name].\n\n🔗 ·ccess the Full Proposal:\n[Proposal Link]\n\nKey Highlights for [Client Name]:\n1. Transparent scope breakdown & deliverable timeline\n2. Cost options from MVP launch to enterprise native mobile apps\n3. Dedicated post-launch warranty and administrator handoff\n\nPlease let me know if you have questions about the packages or if you would like to begin with the Discovery Phase.\n\nWarm regards,\n\nPRINCE KYEI\nWeb-·pp Solutions\n+233247380924 | prince.kyei010@gmail.com"
         },
         {
             "id": "web-free-audit",
             "name": "Free Discovery & Feasibility Review",
             "subject": "Complimentary app feasibility check & website review for [Client Name]",
-            "body": "Hi [Client Name],\n\nBefore you invest in custom web or mobile software, we would like to offer [Client Name] a complimentary digital feasibility review at GH₵0.\n\nWe will assess:\n• Whether a fast Web-to-App shell or custom native Flutter app fits your current stage\n• Immediate performance & mobile conversion bottlenecks on your site\n• Recommended milestones and realistic development budgets\n\nExplore our proposal and package comparison here:\n👉 [Proposal Link]\n\nReply directly to this email or send a WhatsApp message to +233247380924 to book your free session.\n\nBest regards,\n\nPRINCE KYEI\nWeb-App"
+            "body": "Hi [Client Name],\n\nBefore you invest in custom web or mobile software, we would like to offer [Client Name] a complimentary digital feasibility review at GH₵0.\n\nWe will assess:\n• Whether a fast Web-to-·pp shell or custom native Flutter app fits your current stage\n• Immediate performance & mobile conversion bottlenecks on your site\n• Recommended milestones and realistic development budgets\n\nExplore our proposal and package comparison here:\n👉 [Proposal Link]\n\nReply directly to this email or send a Whats·pp message to +233247380924 to book your free session.\n\nBest regards,\n\nPRINCE KYEI\nWeb-·pp"
         }
     ]
 }

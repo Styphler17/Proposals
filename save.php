@@ -27,7 +27,9 @@ $allowed = [
     'ecommerce.json',
     'school-management.json',
     'church-ministry.json',
-    'hotel-hospitality.json'
+    'hotel-hospitality.json',
+    'website-to-mobile-app.json',
+    'custom-app.json'
 ];
 
 $file = $_GET['file'] ?? 'proposal.json';
