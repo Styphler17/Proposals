@@ -129,29 +129,48 @@ function setButtonText(btn, text) {
 
 /* ── Template Switcher Component ───────────────────────────────────────── */
 
+let currentTplSort = 'default';
+
 function renderToolbarSwitcher() {
   const container = document.getElementById('template-switcher-slot');
   if (!container) return;
 
   const currentTpl = PROPOSAL_TEMPLATES.find(t => t.json === currentJsonFile) || PROPOSAL_TEMPLATES[0];
 
-  const itemsHtml = PROPOSAL_TEMPLATES.map(t => {
-    const isActive = t.json === currentJsonFile;
-    const activeClass = isActive ? ' active' : '';
-    const checkIcon = isActive ? `
-      <svg class="lucide-icon item-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>` : '';
-    return `
-      <a href="${t.url}" class="template-menu-item${activeClass}">
-        <div class="item-icon">
-          <svg class="lucide-icon" viewBox="0 0 24 24">${t.icon}</svg>
-        </div>
-        <div class="item-info">
-          <span class="item-title">${thisEsc(t.title)}</span>
-          <span class="item-sub">${thisEsc(t.category)}</span>
-        </div>
-        ${checkIcon}
-      </a>`;
-  }).join('');
+  function getSortedTemplates(mode) {
+    const list = PROPOSAL_TEMPLATES.slice();
+    if (mode === 'az') {
+      return list.sort((a, b) => a.title.localeCompare(b.title));
+    }
+    if (mode === 'za') {
+      return list.sort((a, b) => b.title.localeCompare(a.title));
+    }
+    if (mode === 'type') {
+      return list.sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
+    }
+    return list;
+  }
+
+  function buildItemsHtml(mode) {
+    const sorted = getSortedTemplates(mode);
+    return sorted.map(t => {
+      const isActive = t.json === currentJsonFile;
+      const activeClass = isActive ? ' active' : '';
+      const checkIcon = isActive ? `
+        <svg class="lucide-icon item-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>` : '';
+      return `
+        <a href="${t.url}" class="template-menu-item${activeClass}">
+          <div class="item-icon">
+            <svg class="lucide-icon" viewBox="0 0 24 24">${t.icon}</svg>
+          </div>
+          <div class="item-info">
+            <span class="item-title">${thisEsc(t.title)}</span>
+            <span class="item-sub">${thisEsc(t.category)}</span>
+          </div>
+          ${checkIcon}
+        </a>`;
+    }).join('');
+  }
 
   container.innerHTML = `
     <div class="template-dropdown" id="template-dropdown">
@@ -163,11 +182,16 @@ function renderToolbarSwitcher() {
       </button>
       <div class="template-menu" id="template-menu">
         <div class="template-menu-head">
-          <span>All Templates</span>
-          <small>Select to switch</small>
+          <span>Templates (${PROPOSAL_TEMPLATES.length})</span>
+          <div class="tpl-sort-pills">
+            <button type="button" class="tpl-sort-pill${currentTplSort === 'default' ? ' active' : ''}" data-sort="default" title="Default order">Default</button>
+            <button type="button" class="tpl-sort-pill${currentTplSort === 'az' ? ' active' : ''}" data-sort="az" title="Sort A to Z">A–Z</button>
+            <button type="button" class="tpl-sort-pill${currentTplSort === 'za' ? ' active' : ''}" data-sort="za" title="Sort Z to A">Z–A</button>
+            <button type="button" class="tpl-sort-pill${currentTplSort === 'type' ? ' active' : ''}" data-sort="type" title="Sort by Category">Type</button>
+          </div>
         </div>
-        <div class="template-menu-list">
-          ${itemsHtml}
+        <div class="template-menu-list" id="template-menu-list">
+          ${buildItemsHtml(currentTplSort)}
         </div>
       </div>
     </div>`;
@@ -181,6 +205,21 @@ function renderToolbarSwitcher() {
       btn.setAttribute('aria-expanded', dropdown.classList.contains('open'));
     };
   }
+
+  const listEl = document.getElementById('template-menu-list');
+  const sortPills = container.querySelectorAll('.tpl-sort-pill');
+  sortPills.forEach(pill => {
+    pill.onclick = (e) => {
+      e.stopPropagation();
+      const sortMode = pill.dataset.sort;
+      currentTplSort = sortMode;
+      sortPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      if (listEl) {
+        listEl.innerHTML = buildItemsHtml(sortMode);
+      }
+    };
+  });
 }
 
 /* ── Lead Email Templates Component ───────────────────────────────────── */

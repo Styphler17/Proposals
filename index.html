@@ -21,10 +21,55 @@
       <p>Select any industry template below. Every proposal features the signature Web-App brand header, live in-browser editing, instant auto-save to JSON, and print-ready PDF export.</p>
     </header>
 
+    <!-- Hub Toolbar: Search, Filter by Type, Sort Alphabetically / by Type -->
+    <section class="hub-toolbar" aria-label="Template filters and sorting">
+      <div class="hub-toolbar-row">
+        
+        <div class="hub-search-box">
+          <svg class="lucide-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+          <input type="text" id="hub-search-input" class="hub-search-input" placeholder="Search templates, industries, features..." aria-label="Search templates" />
+        </div>
+
+        <div class="hub-sort-controls">
+          <label for="hub-sort-select" class="hub-control-label">Sort By:</label>
+          <select id="hub-sort-select" class="hub-select" aria-label="Sort templates">
+            <option value="default">Default Order</option>
+            <option value="title-asc">Alphabetical: A → Z</option>
+            <option value="title-desc">Alphabetical: Z → A</option>
+            <option value="type-asc">Type: A → Z</option>
+            <option value="type-desc">Type: Z → A</option>
+          </select>
+
+          <button type="button" id="hub-dir-btn" class="hub-dir-btn" title="Toggle Ascending / Descending order">
+            <svg class="lucide-icon" style="width:14px;height:14px" viewBox="0 0 24 24"><path d="m3 16 4 4 4-4"></path><path d="M7 20V4"></path><path d="m21 8-4-4-4 4"></path><path d="M17 4v16"></path></svg>
+            <span id="hub-dir-label">A → Z</span>
+          </button>
+
+          <span id="hub-count-badge" class="hub-count">Showing 11 templates</span>
+        </div>
+
+      </div>
+
+      <div class="hub-type-pills" id="hub-type-pills" role="tablist" aria-label="Filter by industry type">
+        <button type="button" class="hub-pill active" data-type="all">All (11)</button>
+        <button type="button" class="hub-pill" data-type="Digital Products &amp; Apps">Digital Products</button>
+        <button type="button" class="hub-pill" data-type="WebView &amp; Hybrid Conversion">WebView to App</button>
+        <button type="button" class="hub-pill" data-type="Bespoke iOS &amp; Android">Custom Mobile Apps</button>
+        <button type="button" class="hub-pill" data-type="Restaurants &amp; Hospitality">Restaurants</button>
+        <button type="button" class="hub-pill" data-type="Direct Bookings &amp; Concierge">Hotels</button>
+        <button type="button" class="hub-pill" data-type="Real Estate &amp; Lead Gen">Real Estate</button>
+        <button type="button" class="hub-pill" data-type="Healthcare &amp; Clinics">Healthcare</button>
+        <button type="button" class="hub-pill" data-type="Retail &amp; E-Commerce">E-Commerce</button>
+        <button type="button" class="hub-pill" data-type="EdTech &amp; Campus Portals">Schools</button>
+        <button type="button" class="hub-pill" data-type="Giving &amp; Congregation App">Churches</button>
+        <button type="button" class="hub-pill" data-type="Trades &amp; Home Services">Plumbing</button>
+      </div>
+    </section>
+
     <div class="hub-grid">
 
       <!-- Card 1: Website & Mobile App -->
-      <article class="hub-card">
+      <article class="hub-card" data-title="Custom Mobile App Development" data-type="Bespoke iOS &amp; Android" data-index="11">
         <span class="hub-badge blue">
           <svg class="lucide-icon" style="width:13px;height:13px" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
           Digital Products &amp; Apps
@@ -500,6 +545,147 @@
         localStorage.setItem('hub_brand_title', brandEl.innerHTML);
       });
     }
+
+    // Interactive Filter & Sort Engine
+    (function() {
+      var grid = document.querySelector('.hub-grid');
+      if (!grid) return;
+      var cards = Array.from(grid.querySelectorAll('.hub-card'));
+      var searchInput = document.getElementById('hub-search-input');
+      var sortSelect = document.getElementById('hub-sort-select');
+      var dirBtn = document.getElementById('hub-dir-btn');
+      var dirLabel = document.getElementById('hub-dir-label');
+      var countBadge = document.getElementById('hub-count-badge');
+      var pillButtons = Array.from(document.querySelectorAll('.hub-pill'));
+
+      var currentFilter = 'all';
+      var currentSort = 'default';
+      var currentDir = 'asc';
+
+      function applyFilterAndSort() {
+        var query = (searchInput ? searchInput.value : '').trim().toLowerCase();
+
+        // 1. Filter
+        var visibleCount = 0;
+        cards.forEach(function(card) {
+          var title = (card.getAttribute('data-title') || '').toLowerCase();
+          var type = (card.getAttribute('data-type') || '').toLowerCase();
+          var text = card.textContent.toLowerCase();
+
+          var matchesType = (currentFilter === 'all') || (type === currentFilter.toLowerCase());
+          var matchesQuery = !query || title.includes(query) || type.includes(query) || text.includes(query);
+
+          if (matchesType && matchesQuery) {
+            card.style.display = '';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // 2. Sort
+        var sorted = cards.slice().sort(function(a, b) {
+          var res = 0;
+          if (currentSort === 'title') {
+            var tA = (a.getAttribute('data-title') || '').toLowerCase();
+            var tB = (b.getAttribute('data-title') || '').toLowerCase();
+            res = tA.localeCompare(tB);
+          } else if (currentSort === 'type') {
+            var tyA = (a.getAttribute('data-type') || '').toLowerCase();
+            var tyB = (b.getAttribute('data-type') || '').toLowerCase();
+            res = tyA.localeCompare(tyB) || (a.getAttribute('data-title') || '').localeCompare(b.getAttribute('data-title') || '');
+          } else {
+            var idxA = parseInt(a.getAttribute('data-index') || '0', 10);
+            var idxB = parseInt(b.getAttribute('data-index') || '0', 10);
+            res = idxA - idxB;
+          }
+
+          if (currentDir === 'desc' && currentSort !== 'default') {
+            res = -res;
+          }
+          return res;
+        });
+
+        sorted.forEach(function(card) {
+          grid.appendChild(card);
+        });
+
+        // 3. Update count badge
+        if (countBadge) {
+          countBadge.textContent = 'Showing ' + visibleCount + ' of ' + cards.length + ' templates';
+        }
+      }
+
+      // Sort Select Event
+      if (sortSelect) {
+        sortSelect.addEventListener('change', function() {
+          var val = sortSelect.value;
+          if (val === 'title-asc') {
+            currentSort = 'title';
+            currentDir = 'asc';
+          } else if (val === 'title-desc') {
+            currentSort = 'title';
+            currentDir = 'desc';
+          } else if (val === 'type-asc') {
+            currentSort = 'type';
+            currentDir = 'asc';
+          } else if (val === 'type-desc') {
+            currentSort = 'type';
+            currentDir = 'desc';
+          } else {
+            currentSort = 'default';
+            currentDir = 'asc';
+          }
+          updateDirBtn();
+          applyFilterAndSort();
+        });
+      }
+
+      // Toggle Dir Button Event
+      if (dirBtn) {
+        dirBtn.addEventListener('click', function() {
+          if (currentSort === 'default') {
+            currentSort = 'title';
+            currentDir = 'asc';
+            if (sortSelect) sortSelect.value = 'title-asc';
+          } else {
+            currentDir = (currentDir === 'asc') ? 'desc' : 'asc';
+            if (sortSelect) {
+              if (currentSort === 'title') sortSelect.value = currentDir === 'asc' ? 'title-asc' : 'title-desc';
+              if (currentSort === 'type') sortSelect.value = currentDir === 'asc' ? 'type-asc' : 'type-desc';
+            }
+          }
+          updateDirBtn();
+          applyFilterAndSort();
+        });
+      }
+
+      function updateDirBtn() {
+        if (dirLabel) {
+          dirLabel.textContent = (currentDir === 'asc') ? 'A → Z (Asc)' : 'Z → A (Desc)';
+        }
+      }
+
+      // Filter Pills
+      pillButtons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          pillButtons.forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          currentFilter = btn.getAttribute('data-type') || 'all';
+          applyFilterAndSort();
+        });
+      });
+
+      // Search Input
+      if (searchInput) {
+        searchInput.addEventListener('input', function() {
+          applyFilterAndSort();
+        });
+      }
+
+      // Initial run
+      applyFilterAndSort();
+    })();
 
     window.addEventListener('scroll', function() {
       var btn = document.getElementById('back-to-top-btn');
