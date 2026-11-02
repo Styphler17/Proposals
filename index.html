@@ -15,7 +15,7 @@
     <header class="hub-hero">
       <div class="hub-brand">
         <svg class="lucide-icon" style="width:26px;height:26px;color:#f2cc80" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-        <div>web<span>-app</span> Proposals</div>
+        <div id="hub-brand-title" contenteditable="true" spellcheck="false" title="Click to edit brand title">web<span>-app</span> Proposals</div>
       </div>
       <h1>Client Proposal Templates</h1>
       <p>Select any industry template below. Every proposal features the signature Web-App brand header, live in-browser editing, instant auto-save to JSON, and print-ready PDF export.</p>
@@ -489,6 +489,18 @@
   </button>
 
   <script>
+    // Persist editable brand title across page reloads
+    var brandEl = document.getElementById('hub-brand-title');
+    if (brandEl) {
+      var savedBrand = localStorage.getItem('hub_brand_title');
+      if (savedBrand) {
+        brandEl.innerHTML = savedBrand;
+      }
+      brandEl.addEventListener('input', function() {
+        localStorage.setItem('hub_brand_title', brandEl.innerHTML);
+      });
+    }
+
     window.addEventListener('scroll', function() {
       var btn = document.getElementById('back-to-top-btn');
       if (!btn) return;

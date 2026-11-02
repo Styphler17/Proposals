@@ -74,7 +74,7 @@ const components = {
   hero(data) {
     const brandHtml = data.brand ? `
       <div class="brandline">
-        <div class="brand">${this.esc(data.brand.main)}<span>${this.esc(data.brand.accent)}</span></div>
+        <div class="brand"><span contenteditable="true" data-path="hero.brand.main" title="Click to edit">${this.esc(data.brand.main)}</span><span contenteditable="true" data-path="hero.brand.accent" title="Click to edit">${this.esc(data.brand.accent)}</span></div>
         <small contenteditable="true" data-path="hero.tagline">${this.esc(data.tagline)}</small>
       </div>` : '';
 
